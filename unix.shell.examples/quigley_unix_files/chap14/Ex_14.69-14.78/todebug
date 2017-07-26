@@ -1,0 +1,15 @@
+#!/bin/bash
+# Scriptname: todebug
+
+name="Joe Shmoe"
+if [[ $name == "Joe Blow" ]]
+then
+      printf "Hello $name\n"
+fi
+
+declare -i num=1
+while (( num < 5 ))
+do
+       let num+=1
+done
+printf "The total is %d\n", $num

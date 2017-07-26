@@ -1,0 +1,5 @@
+LIBRARY SHAREDLIB
+
+EXPORTS
+    shlib_function                    @1
+    shared_static_duplicate_function  @2

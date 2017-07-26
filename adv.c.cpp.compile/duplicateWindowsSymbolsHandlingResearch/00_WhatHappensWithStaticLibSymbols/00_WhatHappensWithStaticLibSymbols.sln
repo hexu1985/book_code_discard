@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StaticLib", "StaticLib\StaticLib.vcxproj", "{0C9FC9D8-2F6A-49E5-90F6-1486EB092E6A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClientShlib", "ClientShlib\ClientShlib.vcxproj", "{5A3BCD57-D251-49FE-A699-E95EA9F01ED6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0C9FC9D8-2F6A-49E5-90F6-1486EB092E6A} = {0C9FC9D8-2F6A-49E5-90F6-1486EB092E6A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClientApp_directStaticLibLinking", "ClientApp_directStaticLibLinking\ClientApp_directStaticLibLinking.vcxproj", "{A37AE645-809E-42F1-873D-BA7E354A1987}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0C9FC9D8-2F6A-49E5-90F6-1486EB092E6A} = {0C9FC9D8-2F6A-49E5-90F6-1486EB092E6A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "clientApp_linkingStaticLibThroughSharedLib", "clientApp_linkingStaticLibThroughSharedLib\clientApp_linkingStaticLibThroughSharedLib.vcxproj", "{CB53EDBC-FEBD-4987-B1EC-654B77D32A62}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5A3BCD57-D251-49FE-A699-E95EA9F01ED6} = {5A3BCD57-D251-49FE-A699-E95EA9F01ED6}
+		{0C9FC9D8-2F6A-49E5-90F6-1486EB092E6A} = {0C9FC9D8-2F6A-49E5-90F6-1486EB092E6A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C9FC9D8-2F6A-49E5-90F6-1486EB092E6A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0C9FC9D8-2F6A-49E5-90F6-1486EB092E6A}.Debug|Win32.Build.0 = Debug|Win32
+		{0C9FC9D8-2F6A-49E5-90F6-1486EB092E6A}.Release|Win32.ActiveCfg = Release|Win32
+		{0C9FC9D8-2F6A-49E5-90F6-1486EB092E6A}.Release|Win32.Build.0 = Release|Win32
+		{5A3BCD57-D251-49FE-A699-E95EA9F01ED6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5A3BCD57-D251-49FE-A699-E95EA9F01ED6}.Debug|Win32.Build.0 = Debug|Win32
+		{5A3BCD57-D251-49FE-A699-E95EA9F01ED6}.Release|Win32.ActiveCfg = Release|Win32
+		{5A3BCD57-D251-49FE-A699-E95EA9F01ED6}.Release|Win32.Build.0 = Release|Win32
+		{A37AE645-809E-42F1-873D-BA7E354A1987}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A37AE645-809E-42F1-873D-BA7E354A1987}.Debug|Win32.Build.0 = Debug|Win32
+		{A37AE645-809E-42F1-873D-BA7E354A1987}.Release|Win32.ActiveCfg = Release|Win32
+		{A37AE645-809E-42F1-873D-BA7E354A1987}.Release|Win32.Build.0 = Release|Win32
+		{CB53EDBC-FEBD-4987-B1EC-654B77D32A62}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CB53EDBC-FEBD-4987-B1EC-654B77D32A62}.Debug|Win32.Build.0 = Debug|Win32
+		{CB53EDBC-FEBD-4987-B1EC-654B77D32A62}.Release|Win32.ActiveCfg = Release|Win32
+		{CB53EDBC-FEBD-4987-B1EC-654B77D32A62}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

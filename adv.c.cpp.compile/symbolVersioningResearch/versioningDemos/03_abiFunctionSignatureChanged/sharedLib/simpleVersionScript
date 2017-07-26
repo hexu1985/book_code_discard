@@ -1,0 +1,27 @@
+LIBSIMPLE_1.0 {
+    global:
+         first_function; second_function;
+    local:
+         *;
+};
+
+LIBSIMPLE_1.1 {
+    global:
+         fourth_function;
+    local:
+         *;
+};
+
+LIBSIMPLE_2.0 {
+    global:
+         first_function;
+    local:
+         *;
+};
+
+LIBSIMPLE_3.0 {
+    global:
+         first_function;
+    local:
+         *;
+};

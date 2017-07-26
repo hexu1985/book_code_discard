@@ -1,0 +1,4 @@
+LIBRARY CLIENTSHLIB
+
+EXPORTS
+    shlib_function @1

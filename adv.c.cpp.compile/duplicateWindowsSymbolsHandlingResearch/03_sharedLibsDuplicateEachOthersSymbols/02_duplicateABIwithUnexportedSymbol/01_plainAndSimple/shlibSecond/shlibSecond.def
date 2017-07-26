@@ -1,0 +1,4 @@
+LIBRARY SHLIBSECOND
+
+EXPORTS
+    shlibsecond_function         @2

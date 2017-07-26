@@ -1,0 +1,13 @@
+#!/bin/csh -f
+# This script is called runit. 
+# It loops through a list of files passed as
+# arguments.
+
+foreach arg  ($*)
+	if ( -e $arg ) then
+	# ...         Program code continues here 
+		else
+	# ...         Program code continues here 
+	endif  
+end
+echo "Program continues here"

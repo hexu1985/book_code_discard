@@ -1,0 +1,12 @@
+go=1
+print Type q to quit.
+while let go or (( go ))
+do
+	print I love you.
+	read word
+	if [[ $word = [qQ]* ]]
+	then
+		print "I'll always love you"
+		go=0
+	fi
+done

@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include "staticlibexports.h"
+
+namespace staticlib_newer
+{
+	
+static int staticlib_unexported_static_function(int x)
+{
+    printf("%s\n", __FUNCTION__);
+    return (x+64);
+}
+
+int staticlib_unexported_function(int x)
+{
+    printf("%s\n", __FUNCTION__);
+    return staticlib_unexported_static_function(128);
+}
+
+int staticlib_first_function(int x)
+{
+    printf("%s\n", __FUNCTION__);
+    return (x+100);
+}
+
+int staticlib_second_function(int x)
+{
+    printf("%s\n", __FUNCTION__);
+    return (x+200);
+}
+
+}; // namespace staticlib_newer

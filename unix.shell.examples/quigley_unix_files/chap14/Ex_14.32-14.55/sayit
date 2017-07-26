@@ -1,0 +1,14 @@
+#!/bin/bash
+# Scriptname: sayit
+echo  Type q to quit.
+go=start
+while [ -n "$go" ]	   # Make sure to double quote the variable 
+do
+	echo -n I love you.
+	read word
+	if [[ $word == [Qq] ]] 		                   
+   then         # [ "$word" = q -o "$word" = Q ]  Old style
+		echo "I'll always love you!"
+		go=
+	fi
+done

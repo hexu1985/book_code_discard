@@ -1,0 +1,18 @@
+#!/bin/ksh
+# Scriptname: do_increment
+# Using the return Command)
+function increment {
+   typeset sum      # sum is a local variable.
+   (( sum = $1 + 1 ))
+   return $sum      # Return the value of sum to the script.
+} 
+
+print -n "The sum is "
+increment 5         # Call the function increment and pass 5 as a
+                    # parameter. 5 becomes $1 for the increment 
+                    # function.
+print $?            # The return value is stored in the ? variable
+print $sum          # The variable "sum" was local to the 
+                    # function, and is undefined in the main 
+                    # script. Nothing is printed.
+                    

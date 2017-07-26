@@ -1,0 +1,33 @@
+﻿Build started 12/21/2013 11:41:25 PM.
+Project "C:\Users\icelero\Desktop\DLLVersioningDemo\VersionedDLL\VersionedDLL.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "Debug\VersionedDLL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  All outputs are up-to-date.
+  All outputs are up-to-date.
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D VERSIONEDDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\VersionedDLL.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt VersionedDLL.cpp
+  VersionedDLL.cpp
+ResourceCompile:
+  All outputs are up-to-date.
+ManifestResourceCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\icelero\Desktop\DLLVersioningDemo\Debug\VersionedDLL.dll" /INCREMENTAL /NOLOGO version.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"VersionedDLL.def" /MANIFEST /ManifestFile:"Debug\VersionedDLL.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\icelero\Desktop\DLLVersioningDemo\Debug\VersionedDLL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\icelero\Desktop\DLLVersioningDemo\Debug\VersionedDLL.lib" /MACHINE:X86 /DLL Debug\VersionedDLL.res
+  Debug\VersionedDLL.dll.embed.manifest.res
+  Debug\dllmain.obj
+  Debug\stdafx.obj
+  Debug\VersionedDLL.obj
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\VersionedDLL.dll.embed.manifest" /manifest Debug\VersionedDLL.dll.intermediate.manifest
+  All outputs are up-to-date.
+LinkEmbedManifest:
+  All outputs are up-to-date.
+  VersionedDLL.vcxproj -> C:\Users\icelero\Desktop\DLLVersioningDemo\Debug\VersionedDLL.dll
+FinalizeBuildStatus:
+  Deleting file "Debug\VersionedDLL.unsuccessfulbuild".
+  Touching "Debug\VersionedDLL.lastbuildstate".
+Done Building Project "C:\Users\icelero\Desktop\DLLVersioningDemo\VersionedDLL\VersionedDLL.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.78

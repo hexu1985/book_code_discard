@@ -1,0 +1,4 @@
+LIBRARY DLL_LINKEDWITHNEWERVERSION
+
+EXPORTS
+   shlib_newer_function @1

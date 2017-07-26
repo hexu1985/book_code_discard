@@ -1,0 +1,11 @@
+#!/bin/bash
+# Scriptname: dater
+# Purpose: set positional parameters with the set command 
+# and shift through the parameters.
+
+set $(date)
+while (( $# > 0 )) # or  [ $# -gt 0 ]  Old style
+do
+	echo $1
+	shift 
+done

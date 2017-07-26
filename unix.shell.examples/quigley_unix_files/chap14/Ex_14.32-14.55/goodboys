@@ -1,0 +1,19 @@
+#!/bin/bash
+# Scriptname name: goodboys
+
+PS3="Please choose one of the three boys : "
+select choice in tom dan guy
+do 
+	case $choice in
+	tom)
+		echo Tom is a cool dude!
+		break;;		         # break out of the select loop
+	dan | guy )
+		echo Dan and Guy are both wonderful.
+		break;;
+	*) 
+		echo "$REPLY is not one of your choices" 1>&2
+		echo "Try again."
+		;;
+	esac
+done

@@ -1,0 +1,27 @@
+欢迎使用《UNIX shell范例精解（第4版）》配套关盘。
+
+环境要求：
+Linux或Unix操作系统。
+
+光盘内容：
+书中每个章节的代码范例和数据文件可在相应的目录中找到。目录如下：
+chap02
+chap03
+chap04
+chap05
+chap06
+chap07
+chap08
+chap09
+chap10
+chap11
+chap12
+chap13
+chap14
+chap15
+chap16
+
+使用方法：
+1.打开光驱。
+2.插入光盘。
+3.进入光盘所在的目录，运行shell脚本。

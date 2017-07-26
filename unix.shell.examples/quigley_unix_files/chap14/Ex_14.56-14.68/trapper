@@ -1,0 +1,15 @@
+#!/bin/bash
+function trapper () { 
+	echo "In trapper"
+	trap 'echo "Caught in a trap!"' INT 
+	# Once set, this trap affects the entire script. Anytime
+	# ^C is entered, the script will ignore it.
+}
+while :
+do
+	echo "In the main script"
+	trapper 
+	echo "Still in main"
+	echo "The pid is $$"
+	sleep 5
+done

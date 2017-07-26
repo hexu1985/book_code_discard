@@ -1,0 +1,17 @@
+#!/bin/ksh
+# Scriptname: nosy
+print -n "Are you happy? "
+read answer
+print "$answer is the right response."
+print -n "What is your full name? "
+
+read first middle last
+print "Hello $first"
+print -n "Where do you work? "
+read
+
+print I guess $REPLY keeps you busy!
+
+read place?"Where do you live? " 
+# New ksh read and print combined
+print Welcome to $place, $first $last

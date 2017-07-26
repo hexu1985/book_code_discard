@@ -1,0 +1,7 @@
+{
+	global: 
+		first_function;
+	local:
+        *;
+};
+

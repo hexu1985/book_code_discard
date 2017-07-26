@@ -1,0 +1,175 @@
+sharedLib1Function(3) is called
+sharedLib2Function(3) is called
+name= (9 segments) address=(nil)
+		 header  0: address= 0x8048034
+			 type=0x6 (Entry for header table itself),
+			 flags=0x5 (r-x)
+		 header  1: address= 0x8048154
+			 type=0x3 (Program interpreter),
+			 flags=0x4 (r--)
+		 header  2: address= 0x8048000
+			 type=0x1 (Loadable Program Segment),
+			 flags=0x5 (r-x)
+		 header  3: address= 0x8049efc
+			 type=0x1 (Loadable Program Segment),
+			 flags=0x6 (rw-)
+		 header  4: address= 0x8049f10
+			 type=0x2 (Dynamic linking information),
+			 flags=0x6 (rw-)
+		 header  5: address= 0x8048168
+			 type=0x4 (Auxiliary information),
+			 flags=0x4 (r--)
+		 header  6: address= 0x8048d44
+			 type=0x6474E550 (GCC .eh_frame_hdr segment),
+			 flags=0x4 (r--)
+		 header  7: address=     (nil)
+			 type=0x6474E551 (Indicates stack executability),
+			 flags=0x6 (rw-)
+		 header  8: address= 0x8049efc
+			 type=0x6474E552 (Read-only after relocation),
+			 flags=0x4 (r--)
+
+name= (4 segments) address=0xb76eb000
+		 header  0: address=0xb76e9000
+			 type=0x1 (Loadable Program Segment),
+			 flags=0x5 (r-x)
+		 header  1: address=0xb76e9350
+			 type=0x2 (Dynamic linking information),
+			 flags=0x4 (r--)
+		 header  2: address=0xb76e91c4
+			 type=0x4 (Auxiliary information),
+			 flags=0x4 (r--)
+		 header  3: address=0xb76e9224
+			 type=0x6474E550 (GCC .eh_frame_hdr segment),
+			 flags=0x4 (r--)
+
+name=/lib/i386-linux-gnu/libdl.so.2 (9 segments) address=0xb76d0000
+		 header  0: address=0xb76d0034
+			 type=0x6 (Entry for header table itself),
+			 flags=0x5 (r-x)
+		 header  1: address=0xb76d1ac7
+			 type=0x3 (Program interpreter),
+			 flags=0x4 (r--)
+		 header  2: address=0xb76d0000
+			 type=0x1 (Loadable Program Segment),
+			 flags=0x5 (r-x)
+		 header  3: address=0xb76d3ea4
+			 type=0x1 (Loadable Program Segment),
+			 flags=0x6 (rw-)
+		 header  4: address=0xb76d3ec0
+			 type=0x2 (Dynamic linking information),
+			 flags=0x6 (rw-)
+		 header  5: address=0xb76d0154
+			 type=0x4 (Auxiliary information),
+			 flags=0x4 (r--)
+		 header  6: address=0xb76d1adc
+			 type=0x6474E550 (GCC .eh_frame_hdr segment),
+			 flags=0x4 (r--)
+		 header  7: address=0xb76d0000
+			 type=0x6474E551 (Indicates stack executability),
+			 flags=0x6 (rw-)
+		 header  8: address=0xb76d3ea4
+			 type=0x6474E552 (Read-only after relocation),
+			 flags=0x4 (r--)
+
+name=../sharedLib1/libdemo1.so (7 segments) address=0xb76cd000
+		 header  0: address=0xb76cd000
+			 type=0x1 (Loadable Program Segment),
+			 flags=0x5 (r-x)
+		 header  1: address=0xb76cef0c
+			 type=0x1 (Loadable Program Segment),
+			 flags=0x6 (rw-)
+		 header  2: address=0xb76cef20
+			 type=0x2 (Dynamic linking information),
+			 flags=0x6 (rw-)
+		 header  3: address=0xb76cd114
+			 type=0x4 (Auxiliary information),
+			 flags=0x4 (r--)
+		 header  4: address=0xb76cd4f8
+			 type=0x6474E550 (GCC .eh_frame_hdr segment),
+			 flags=0x4 (r--)
+		 header  5: address=0xb76cd000
+			 type=0x6474E551 (Indicates stack executability),
+			 flags=0x6 (rw-)
+		 header  6: address=0xb76cef0c
+			 type=0x6474E552 (Read-only after relocation),
+			 flags=0x4 (r--)
+
+name=/lib/i386-linux-gnu/libc.so.6 (10 segments) address=0xb7522000
+		 header  0: address=0xb7522034
+			 type=0x6 (Entry for header table itself),
+			 flags=0x5 (r-x)
+		 header  1: address=0xb768e148
+			 type=0x3 (Program interpreter),
+			 flags=0x4 (r--)
+		 header  2: address=0xb7522000
+			 type=0x1 (Loadable Program Segment),
+			 flags=0x5 (r-x)
+		 header  3: address=0xb76c61c4
+			 type=0x1 (Loadable Program Segment),
+			 flags=0x6 (rw-)
+		 header  4: address=0xb76c7d7c
+			 type=0x2 (Dynamic linking information),
+			 flags=0x6 (rw-)
+		 header  5: address=0xb7522174
+			 type=0x4 (Auxiliary information),
+			 flags=0x4 (r--)
+		 header  6: address=0xb76c61c4
+			 type=0x7 (Thread-local storage segment),
+			 flags=0x4 (r--)
+		 header  7: address=0xb768e15c
+			 type=0x6474E550 (GCC .eh_frame_hdr segment),
+			 flags=0x4 (r--)
+		 header  8: address=0xb7522000
+			 type=0x6474E551 (Indicates stack executability),
+			 flags=0x6 (rw-)
+		 header  9: address=0xb76c61c4
+			 type=0x6474E552 (Read-only after relocation),
+			 flags=0x4 (r--)
+
+name=/lib/ld-linux.so.2 (7 segments) address=0xb76ea000
+		 header  0: address=0xb76ea000
+			 type=0x1 (Loadable Program Segment),
+			 flags=0x5 (r-x)
+		 header  1: address=0xb770aca0
+			 type=0x1 (Loadable Program Segment),
+			 flags=0x6 (rw-)
+		 header  2: address=0xb770af1c
+			 type=0x2 (Dynamic linking information),
+			 flags=0x6 (rw-)
+		 header  3: address=0xb76ea114
+			 type=0x4 (Auxiliary information),
+			 flags=0x4 (r--)
+		 header  4: address=0xb7706a60
+			 type=0x6474E550 (GCC .eh_frame_hdr segment),
+			 flags=0x4 (r--)
+		 header  5: address=0xb76ea000
+			 type=0x6474E551 (Indicates stack executability),
+			 flags=0x6 (rw-)
+		 header  6: address=0xb770aca0
+			 type=0x6474E552 (Read-only after relocation),
+			 flags=0x4 (r--)
+
+name=../sharedLib2/libdemo2.so (7 segments) address=0xb76e3000
+		 header  0: address=0xb76e3000
+			 type=0x1 (Loadable Program Segment),
+			 flags=0x5 (r-x)
+		 header  1: address=0xb76e4f0c
+			 type=0x1 (Loadable Program Segment),
+			 flags=0x6 (rw-)
+		 header  2: address=0xb76e4f20
+			 type=0x2 (Dynamic linking information),
+			 flags=0x6 (rw-)
+		 header  3: address=0xb76e3114
+			 type=0x4 (Auxiliary information),
+			 flags=0x4 (r--)
+		 header  4: address=0xb76e34f8
+			 type=0x6474E550 (GCC .eh_frame_hdr segment),
+			 flags=0x4 (r--)
+		 header  5: address=0xb76e3000
+			 type=0x6474E551 (Indicates stack executability),
+			 flags=0x6 (rw-)
+		 header  6: address=0xb76e4f0c
+			 type=0x6474E552 (Read-only after relocation),
+			 flags=0x4 (r--)
+

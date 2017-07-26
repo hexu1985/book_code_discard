@@ -1,0 +1,15 @@
+#!/bin/bash
+# Program: opts4
+# Using getopts -- Fourth try --
+while getopts xyz: arguments 2>/dev/null
+do
+	case $arguments  in
+	x) echo "you entered -x as an option .";;
+	y) echo "you entered -y as an option." ;;
+	z) echo "you entered -z as an option."
+	    echo "\$OPTARG is $OPTARG.";;
+	\?) echo "Usage opts4 [-xy] [-z  argument]"
+	    exit 1;;
+	esac
+done
+echo "	The number of arguments passed was $(( $OPTIND - 1 ))"

@@ -1,0 +1,8 @@
+#!/bin/ksh
+# Usage: doit [args]
+
+while (( $# > 0 ))
+do
+	print $*
+ 	shift
+done

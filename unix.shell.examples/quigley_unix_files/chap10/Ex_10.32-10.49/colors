@@ -1,0 +1,17 @@
+#!/bin/csh -f
+# This script is called colors
+echo -n "Which color do you like? "
+set color = $<
+switch ("$color")
+case bl*:
+	echo I feel $color
+	echo The sky is $color
+	breaksw 
+case red:          # Is is red or is it yellow?       
+case yellow:
+	echo The sun is sometimes $color.
+	breaksw
+default:
+	echo $color is not one of the categories.
+	breaksw                
+endsw

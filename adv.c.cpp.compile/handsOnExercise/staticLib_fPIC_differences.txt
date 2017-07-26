@@ -1,0 +1,18 @@
+symbols without -fPIC:
+=====================================================
+00000000 r _ZZ21printStaticLibMessageE12__FUNCTION__
+         U __printf_chk
+00000000 T printStaticLibMessage
+=====================================================
+
+
+symbols with -fPIC:
+=====================================================
+00000000 r .LC0
+         U _GLOBAL_OFFSET_TABLE_
+00000000 r _ZZ21printStaticLibMessageE12__FUNCTION__
+00000000 T __i686.get_pc_thunk.bx
+         U __printf_chk
+00000000 T printStaticLibMessage
+=====================================================
+

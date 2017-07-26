@@ -1,0 +1,5 @@
+LIBRARY LIBFIRST
+
+EXPORTS
+    shlib_function      @1
+    shlibfirst_function @2

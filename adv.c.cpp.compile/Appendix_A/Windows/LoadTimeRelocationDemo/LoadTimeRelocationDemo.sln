@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "driverApp", "driverApp\driverApp.vcxproj", "{1CACC3D2-007E-41F3-801E-F81DD8B4A479}"
+	ProjectSection(ProjectDependencies) = postProject
+		{18E596C3-EEAE-4C9C-9C68-2F925984AC4E} = {18E596C3-EEAE-4C9C-9C68-2F925984AC4E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dynamicLib", "dynamicLib\dynamicLib.vcxproj", "{18E596C3-EEAE-4C9C-9C68-2F925984AC4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CACC3D2-007E-41F3-801E-F81DD8B4A479}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1CACC3D2-007E-41F3-801E-F81DD8B4A479}.Debug|Win32.Build.0 = Debug|Win32
+		{1CACC3D2-007E-41F3-801E-F81DD8B4A479}.Release|Win32.ActiveCfg = Release|Win32
+		{1CACC3D2-007E-41F3-801E-F81DD8B4A479}.Release|Win32.Build.0 = Release|Win32
+		{18E596C3-EEAE-4C9C-9C68-2F925984AC4E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{18E596C3-EEAE-4C9C-9C68-2F925984AC4E}.Debug|Win32.Build.0 = Debug|Win32
+		{18E596C3-EEAE-4C9C-9C68-2F925984AC4E}.Release|Win32.ActiveCfg = Release|Win32
+		{18E596C3-EEAE-4C9C-9C68-2F925984AC4E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

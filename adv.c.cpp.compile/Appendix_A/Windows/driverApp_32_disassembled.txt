@@ -1,0 +1,3198 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.40219.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file driverApp.exe
+
+File Type: EXECUTABLE IMAGE
+
+  00411000: CC                 int         3
+  00411001: CC                 int         3
+  00411002: CC                 int         3
+  00411003: CC                 int         3
+  00411004: CC                 int         3
+@ILT+0(__setdefaultprecision):
+  00411005: E9 D6 16 00 00     jmp         __setdefaultprecision
+@ILT+5(__setargv):
+  0041100A: E9 71 17 00 00     jmp         __setargv
+@ILT+10(__RTC_GetErrDesc):
+  0041100F: E9 5C 15 00 00     jmp         __RTC_GetErrDesc
+@ILT+15(_shlib_abi_reinitialize):
+  00411014: E9 D1 04 00 00     jmp         _shlib_abi_reinitialize
+@ILT+20(@__security_check_cookie@4):
+  00411019: E9 32 25 00 00     jmp         @__security_check_cookie@4
+@ILT+25(_IsDebuggerPresent@0):
+  0041101E: E9 F9 26 00 00     jmp         _IsDebuggerPresent@0
+@ILT+30(__RTC_Terminate):
+  00411023: E9 98 17 00 00     jmp         __RTC_Terminate
+@ILT+35(_WideCharToMultiByte@32):
+  00411028: E9 E9 26 00 00     jmp         _WideCharToMultiByte@32
+@ILT+40(@_RTC_AllocaHelper@12):
+  0041102D: E9 8E 05 00 00     jmp         @_RTC_AllocaHelper@12
+@ILT+45(?_RTC_GetErrorFuncW@@YAP6AHHPB_WH00ZZPBX@Z):
+  00411032: E9 F9 15 00 00     jmp         ?_RTC_GetErrorFuncW@@YAP6AHHPB_WH00ZZPBX@Z
+@ILT+50(__RTC_NumErrors):
+  00411037: E9 24 15 00 00     jmp         __RTC_NumErrors
+@ILT+55(__wsplitpath_s):
+  0041103C: E9 57 25 00 00     jmp         __wsplitpath_s
+@ILT+60(___setusermatherr):
+  00411041: E9 1C 17 00 00     jmp         ___setusermatherr
+@ILT+65(_Sleep@4):
+  00411046: E9 B9 26 00 00     jmp         _Sleep@4
+@ILT+70(_GetModuleFileNameW@12):
+  0041104B: E9 2C 27 00 00     jmp         _GetModuleFileNameW@12
+@ILT+75(___security_init_cookie):
+  00411050: E9 0B 19 00 00     jmp         ___security_init_cookie
+@ILT+80(_SetUnhandledExceptionFilter@4):
+  00411055: E9 E6 26 00 00     jmp         _SetUnhandledExceptionFilter@4
+@ILT+85(__cexit):
+  0041105A: E9 25 1A 00 00     jmp         __cexit
+@ILT+90(__CrtDbgReportW):
+  0041105F: E9 B2 1C 00 00     jmp         __CrtDbgReportW
+@ILT+95(_VirtualQuery@12):
+  00411064: E9 19 27 00 00     jmp         _VirtualQuery@12
+@ILT+100(_atexit):
+  00411069: E9 B2 18 00 00     jmp         _atexit
+@ILT+105(_MultiByteToWideChar@24):
+  0041106E: E9 AF 26 00 00     jmp         _MultiByteToWideChar@24
+@ILT+110(__RTC_SetErrorType):
+  00411073: E9 18 15 00 00     jmp         __RTC_SetErrorType
+@ILT+115(__except_handler4):
+  00411078: E9 B3 1C 00 00     jmp         __except_handler4
+@ILT+120(__lock):
+  0041107D: E9 FE 24 00 00     jmp         __lock
+@ILT+125(_GetProcAddress@8):
+  00411082: E9 AD 26 00 00     jmp         _GetProcAddress@8
+@ILT+130(@_RTC_CheckStackVars@8):
+  00411087: E9 B4 04 00 00     jmp         @_RTC_CheckStackVars@8
+@ILT+135(_shlib_abi_initialize):
+  0041108C: E9 5F 04 00 00     jmp         _shlib_abi_initialize
+@ILT+140(___report_gsfailure):
+  00411091: E9 0A 25 00 00     jmp         ___report_gsfailure
+@ILT+145(?terminate@@YAXXZ):
+  00411096: E9 C7 24 00 00     jmp         ?terminate@@YAXXZ
+@ILT+150(__exit):
+  0041109B: E9 D8 19 00 00     jmp         __exit
+@ILT+155(_GetCurrentThreadId@0):
+  004110A0: E9 B3 26 00 00     jmp         _GetCurrentThreadId@0
+@ILT+160(__initterm):
+  004110A5: E9 72 1C 00 00     jmp         __initterm
+@ILT+165(_GetCurrentProcess@0):
+  004110AA: E9 EB 26 00 00     jmp         _GetCurrentProcess@0
+@ILT+170(__RTC_UninitUse):
+  004110AF: E9 7C 13 00 00     jmp         __RTC_UninitUse
+@ILT+175(__RTC_Shutdown):
+  004110B4: E9 97 06 00 00     jmp         __RTC_Shutdown
+@ILT+180(__FindPESection):
+  004110B9: E9 62 1A 00 00     jmp         __FindPESection
+@ILT+185(_LoadLibraryW@4):
+  004110BE: E9 77 26 00 00     jmp         _LoadLibraryW@4
+@ILT+190(_HeapSetInformation@16):
+  004110C3: E9 48 26 00 00     jmp         _HeapSetInformation@16
+@ILT+195(__configthreadlocale):
+  004110C8: E9 0D 16 00 00     jmp         __configthreadlocale
+@ILT+200(__RTC_InitBase):
+  004110CD: E9 3E 06 00 00     jmp         __RTC_InitBase
+@ILT+205(?_RTC_StackFailure@@YAXPAXPBD@Z):
+  004110D2: E9 09 10 00 00     jmp         ?_RTC_StackFailure@@YAXPAXPBD@Z
+@ILT+210(_RaiseException@16):
+  004110D7: E9 4C 26 00 00     jmp         _RaiseException@16
+@ILT+215(__crt_debugger_hook):
+  004110DC: E9 11 26 00 00     jmp         __crt_debugger_hook
+@ILT+220(__ValidateImageBase):
+  004110E1: E9 BA 19 00 00     jmp         __ValidateImageBase
+@ILT+225(_InterlockedCompareExchange@12):
+  004110E6: E9 1F 26 00 00     jmp         _InterlockedCompareExchange@12
+@ILT+230(_GetProcessHeap@0):
+  004110EB: E9 86 26 00 00     jmp         _GetProcessHeap@0
+@ILT+235(__RTC_SetErrorFuncW):
+  004110F0: E9 FB 14 00 00     jmp         __RTC_SetErrorFuncW
+@ILT+240(__onexit):
+  004110F5: E9 F6 16 00 00     jmp         __onexit
+@ILT+245(_NtCurrentTeb):
+  004110FA: E9 B1 0A 00 00     jmp         _NtCurrentTeb
+@ILT+250(_HeapFree@12):
+  004110FF: E9 66 26 00 00     jmp         _HeapFree@12
+@ILT+255(__RTC_SetErrorFunc):
+  00411104: E9 B7 14 00 00     jmp         __RTC_SetErrorFunc
+@ILT+260(__invoke_watson_if_error):
+  00411109: E9 22 16 00 00     jmp         __invoke_watson_if_error
+@ILT+265(_TerminateProcess@8):
+  0041110E: E9 81 26 00 00     jmp         _TerminateProcess@8
+@ILT+270(_mainCRTStartup):
+  00411113: E9 78 07 00 00     jmp         _mainCRTStartup
+@ILT+275(?__CxxUnhandledExceptionFilter@@YGJPAU_EXCEPTION_POINTERS@@@Z):
+  00411118: E9 23 15 00 00     jmp         ?__CxxUnhandledExceptionFilter@@YGJPAU_EXCEPTION_POINTERS@@@Z
+@ILT+280(___CxxSetUnhandledExceptionFilter):
+  0041111D: E9 9E 15 00 00     jmp         ___CxxSetUnhandledExceptionFilter
+@ILT+285(_QueryPerformanceCounter@4):
+  00411122: E9 25 26 00 00     jmp         _QueryPerformanceCounter@4
+@ILT+290(__unlock):
+  00411127: E9 48 24 00 00     jmp         __unlock
+@ILT+295(_GetCurrentProcessId@0):
+  0041112C: E9 2D 26 00 00     jmp         _GetCurrentProcessId@0
+@ILT+300(@_RTC_CheckStackVars2@12):
+  00411131: E9 CA 04 00 00     jmp         @_RTC_CheckStackVars2@12
+@ILT+305(___set_app_type):
+  00411136: E9 09 18 00 00     jmp         ___set_app_type
+@ILT+310(__RTC_CheckEsp):
+  0041113B: E9 D0 03 00 00     jmp         __RTC_CheckEsp
+@ILT+315(_main):
+  00411140: E9 8B 02 00 00     jmp         _main
+@ILT+320(_EncodePointer@4):
+  00411145: E9 AE 25 00 00     jmp         _EncodePointer@4
+@ILT+325(__RTC_Initialize):
+  0041114A: E9 41 16 00 00     jmp         __RTC_Initialize
+@ILT+330(__controlfp_s):
+  0041114F: E9 14 24 00 00     jmp         __controlfp_s
+@ILT+335(_GetSystemTimeAsFileTime@4):
+  00411154: E9 0B 26 00 00     jmp         _GetSystemTimeAsFileTime@4
+@ILT+340(_DecodePointer@4):
+  00411159: E9 E8 25 00 00     jmp         _DecodePointer@4
+@ILT+345(__invoke_watson):
+  0041115E: E9 0B 24 00 00     jmp         __invoke_watson
+@ILT+350(?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z):
+  00411163: E9 08 1C 00 00     jmp         ?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z
+@ILT+355(__wmakepath_s):
+  00411168: E9 1F 24 00 00     jmp         __wmakepath_s
+@ILT+360(__CRT_RTC_INITW):
+  0041116D: E9 C4 14 00 00     jmp         __CRT_RTC_INITW
+@ILT+365(_getchar):
+  00411172: E9 7F 03 00 00     jmp         _getchar
+@ILT+370(_GetTickCount@0):
+  00411177: E9 D6 25 00 00     jmp         _GetTickCount@0
+@ILT+375(__IsNonwritableInCurrentImage):
+  0041117C: E9 3F 1A 00 00     jmp         __IsNonwritableInCurrentImage
+@ILT+380(_HeapAlloc@12):
+  00411181: E9 EA 25 00 00     jmp         _HeapAlloc@12
+@ILT+385(__amsg_exit):
+  00411186: E9 BF 17 00 00     jmp         __amsg_exit
+@ILT+390(__XcptFilter):
+  0041118B: E9 EE 18 00 00     jmp         __XcptFilter
+@ILT+395(__CrtSetCheckCount):
+  00411190: E9 FB 18 00 00     jmp         __CrtSetCheckCount
+@ILT+400(_InterlockedExchange@8):
+  00411195: E9 64 25 00 00     jmp         _InterlockedExchange@8
+@ILT+405(_UnhandledExceptionFilter@4):
+  0041119A: E9 01 26 00 00     jmp         _UnhandledExceptionFilter@4
+@ILT+410(_printf):
+  0041119F: E9 58 03 00 00     jmp         _printf
+@ILT+415(__except_handler4_common):
+  004111A4: E9 DD 23 00 00     jmp         __except_handler4_common
+@ILT+420(_GetModuleHandleW@4):
+  004111A9: E9 DA 25 00 00     jmp         _GetModuleHandleW@4
+@ILT+425(__matherr):
+  004111AE: E9 BD 15 00 00     jmp         __matherr
+@ILT+430(___getmainargs):
+  004111B3: E9 98 17 00 00     jmp         ___getmainargs
+@ILT+435(_lstrlenA@4):
+  004111B8: E9 71 25 00 00     jmp         _lstrlenA@4
+@ILT+440(?_RTC_Failure@@YAXPAXH@Z):
+  004111BD: E9 8E 0A 00 00     jmp         ?_RTC_Failure@@YAXPAXH@Z
+@ILT+445(?_RTC_AllocaFailure@@YAXPAXPAU_RTC_ALLOCA_NODE@@H@Z):
+  004111C2: E9 59 10 00 00     jmp         ?_RTC_AllocaFailure@@YAXPAXPAU_RTC_ALLOCA_NODE@@H@Z
+@ILT+450(_exit):
+  004111C7: E9 BE 18 00 00     jmp         _exit
+@ILT+455(___dllonexit):
+  004111CC: E9 A9 23 00 00     jmp         ___dllonexit
+@ILT+460(_FreeLibrary@4):
+  004111D1: E9 B8 25 00 00     jmp         _FreeLibrary@4
+@ILT+465(__initterm_e):
+  004111D6: E9 47 1B 00 00     jmp         __initterm_e
+@ILT+470(?_RTC_GetErrorFunc@@YAP6AHHPBDH00ZZPBX@Z):
+  004111DB: E9 40 14 00 00     jmp         ?_RTC_GetErrorFunc@@YAP6AHHPBDH00ZZPBX@Z
+@ILT+475(_wcscpy_s):
+  004111E0: E9 AD 23 00 00     jmp         _wcscpy_s
+  004111E5: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004111F5: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411205: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411215: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411225: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411235: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411245: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411255: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411265: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411275: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411285: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411295: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004112A5: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004112B5: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004112C5: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004112D5: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004112E5: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004112F5: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411305: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411315: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411325: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411335: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411345: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411355: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411365: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411375: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411385: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411395: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004113A5: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004113B5: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004113C5: CC CC CC CC CC CC CC CC CC CC CC                 ллллллллллл
+_main:
+  004113D0: 55                 push        ebp
+  004113D1: 8B EC              mov         ebp,esp
+  004113D3: 81 EC E4 00 00 00  sub         esp,0E4h
+  004113D9: 53                 push        ebx
+  004113DA: 56                 push        esi
+  004113DB: 57                 push        edi
+  004113DC: 8D BD 1C FF FF FF  lea         edi,[ebp-0E4h]
+  004113E2: B9 39 00 00 00     mov         ecx,39h
+  004113E7: B8 CC CC CC CC     mov         eax,0CCCCCCCCh
+  004113EC: F3 AB              rep stos    dword ptr es:[edi]
+  004113EE: C7 45 F8 00 00 00  mov         dword ptr [ebp-8],0
+            00
+  004113F5: A1 38 71 41 00     mov         eax,dword ptr [_shlibNonStaticAccessedAsExternVariable]
+  004113FA: 83 C0 01           add         eax,1
+  004113FD: 89 45 EC           mov         dword ptr [ebp-14h],eax
+  00411400: 8B F4              mov         esi,esp
+  00411402: 8B 45 08           mov         eax,dword ptr [ebp+8]
+  00411405: 50                 push        eax
+  00411406: 8B 4D EC           mov         ecx,dword ptr [ebp-14h]
+  00411409: 51                 push        ecx
+  0041140A: FF 15 6C 83 41 00  call        dword ptr [__imp__shlib_abi_initialize]
+  00411410: 83 C4 08           add         esp,8
+  00411413: 3B F4              cmp         esi,esp
+  00411415: E8 21 FD FF FF     call        @ILT+310(__RTC_CheckEsp)
+  0041141A: 89 45 F8           mov         dword ptr [ebp-8],eax
+  0041141D: 8B F4              mov         esi,esp
+  0041141F: 8B 45 F8           mov         eax,dword ptr [ebp-8]
+  00411422: 50                 push        eax
+  00411423: 8B 4D 08           mov         ecx,dword ptr [ebp+8]
+  00411426: 51                 push        ecx
+  00411427: 8B 55 EC           mov         edx,dword ptr [ebp-14h]
+  0041142A: 52                 push        edx
+  0041142B: 68 88 57 41 00     push        offset ??_C@_0DL@LMPAONCF@?7The?5result?5of?5shlib_abi_functio@
+  00411430: FF 15 1C 83 41 00  call        dword ptr [__imp__printf]
+  00411436: 83 C4 10           add         esp,10h
+  00411439: 3B F4              cmp         esi,esp
+  0041143B: E8 FB FC FF FF     call        @ILT+310(__RTC_CheckEsp)
+  00411440: A1 38 71 41 00     mov         eax,dword ptr [_shlibNonStaticAccessedAsExternVariable]
+  00411445: 83 C0 02           add         eax,2
+  00411448: 89 45 E0           mov         dword ptr [ebp-20h],eax
+  0041144B: 8B F4              mov         esi,esp
+  0041144D: 8B 45 08           mov         eax,dword ptr [ebp+8]
+  00411450: 50                 push        eax
+  00411451: 8B 4D E0           mov         ecx,dword ptr [ebp-20h]
+  00411454: 51                 push        ecx
+  00411455: FF 15 70 83 41 00  call        dword ptr [__imp__shlib_abi_reinitialize]
+  0041145B: 83 C4 08           add         esp,8
+  0041145E: 3B F4              cmp         esi,esp
+  00411460: E8 D6 FC FF FF     call        @ILT+310(__RTC_CheckEsp)
+  00411465: 89 45 F8           mov         dword ptr [ebp-8],eax
+  00411468: 8B F4              mov         esi,esp
+  0041146A: 8B 45 F8           mov         eax,dword ptr [ebp-8]
+  0041146D: 50                 push        eax
+  0041146E: 8B 4D 08           mov         ecx,dword ptr [ebp+8]
+  00411471: 51                 push        ecx
+  00411472: 8B 55 E0           mov         edx,dword ptr [ebp-20h]
+  00411475: 52                 push        edx
+  00411476: 68 3C 57 41 00     push        offset ??_C@_0DN@NDMMJDJK@?7The?5result?5of?5shlib_abi_functio@
+  0041147B: FF 15 1C 83 41 00  call        dword ptr [__imp__printf]
+  00411481: 83 C4 10           add         esp,10h
+  00411484: 3B F4              cmp         esi,esp
+  00411486: E8 B0 FC FF FF     call        @ILT+310(__RTC_CheckEsp)
+  0041148B: 8B F4              mov         esi,esp
+  0041148D: FF 15 20 83 41 00  call        dword ptr [__imp__getchar]
+  00411493: 3B F4              cmp         esi,esp
+  00411495: E8 A1 FC FF FF     call        @ILT+310(__RTC_CheckEsp)
+  0041149A: 8B 45 F8           mov         eax,dword ptr [ebp-8]
+  0041149D: 5F                 pop         edi
+  0041149E: 5E                 pop         esi
+  0041149F: 5B                 pop         ebx
+  004114A0: 81 C4 E4 00 00 00  add         esp,0E4h
+  004114A6: 3B EC              cmp         ebp,esp
+  004114A8: E8 8E FC FF FF     call        @ILT+310(__RTC_CheckEsp)
+  004114AD: 8B E5              mov         esp,ebp
+  004114AF: 5D                 pop         ebp
+  004114B0: C3                 ret
+  004114B1: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004114C1: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004114D1: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004114E1: CC CC CC CC CC CC CC CC CC                       ллллллллл
+_shlib_abi_reinitialize:
+  004114EA: FF 25 70 83 41 00  jmp         dword ptr [__imp__shlib_abi_reinitialize]
+_shlib_abi_initialize:
+  004114F0: FF 25 6C 83 41 00  jmp         dword ptr [__imp__shlib_abi_initialize]
+_getchar:
+  004114F6: FF 25 20 83 41 00  jmp         dword ptr [__imp__getchar]
+_printf:
+  004114FC: FF 25 1C 83 41 00  jmp         dword ptr [__imp__printf]
+  00411502: CC CC CC CC CC CC CC CC CC CC CC CC CC CC        лллллллллллллл
+__RTC_CheckEsp:
+  00411510: 75 01              jne         00411513
+  00411512: C3                 ret
+  00411513: 55                 push        ebp
+  00411514: 8B EC              mov         ebp,esp
+  00411516: 83 EC 00           sub         esp,0
+  00411519: 50                 push        eax
+  0041151A: 52                 push        edx
+  0041151B: 53                 push        ebx
+  0041151C: 56                 push        esi
+  0041151D: 57                 push        edi
+  0041151E: 8B 45 04           mov         eax,dword ptr [ebp+4]
+  00411521: 6A 00              push        0
+  00411523: 50                 push        eax
+  00411524: E8 94 FC FF FF     call        @ILT+440(?_RTC_Failure@@YAXPAXH@Z)
+  00411529: 83 C4 08           add         esp,8
+  0041152C: 5F                 pop         edi
+  0041152D: 5E                 pop         esi
+  0041152E: 5B                 pop         ebx
+  0041152F: 5A                 pop         edx
+  00411530: 58                 pop         eax
+  00411531: 8B E5              mov         esp,ebp
+  00411533: 5D                 pop         ebp
+  00411534: C3                 ret
+  00411535: CC CC CC CC CC CC CC CC CC CC CC                 ллллллллллл
+@_RTC_CheckStackVars@8:
+  00411540: 8B FF              mov         edi,edi
+  00411542: 55                 push        ebp
+  00411543: 8B EC              mov         ebp,esp
+  00411545: 51                 push        ecx
+  00411546: 53                 push        ebx
+  00411547: 56                 push        esi
+  00411548: 57                 push        edi
+  00411549: 33 FF              xor         edi,edi
+  0041154B: 8B F2              mov         esi,edx
+  0041154D: 8B D9              mov         ebx,ecx
+  0041154F: 89 7D FC           mov         dword ptr [ebp-4],edi
+  00411552: 39 3E              cmp         dword ptr [esi],edi
+  00411554: 7E 48              jle         0041159E
+  00411556: EB 08              jmp         00411560
+  00411558: 8D A4 24 00 00 00  lea         esp,[esp]
+            00
+  0041155F: 90                 nop
+  00411560: 8B 46 04           mov         eax,dword ptr [esi+4]
+  00411563: 8B 0C 38           mov         ecx,dword ptr [eax+edi]
+  00411566: 81 7C 19 FC CC CC  cmp         dword ptr [ecx+ebx-4],0CCCCCCCCh
+            CC CC
+  0041156E: 75 0F              jne         0041157F
+  00411570: 8B 54 38 04        mov         edx,dword ptr [eax+edi+4]
+  00411574: 03 D1              add         edx,ecx
+  00411576: 81 3C 1A CC CC CC  cmp         dword ptr [edx+ebx],0CCCCCCCCh
+            CC
+  0041157D: 74 11              je          00411590
+  0041157F: 8B 4C 38 08        mov         ecx,dword ptr [eax+edi+8]
+  00411583: 8B 55 04           mov         edx,dword ptr [ebp+4]
+  00411586: 51                 push        ecx
+  00411587: 52                 push        edx
+  00411588: E8 45 FB FF FF     call        @ILT+205(?_RTC_StackFailure@@YAXPAXPBD@Z)
+  0041158D: 83 C4 08           add         esp,8
+  00411590: 8B 45 FC           mov         eax,dword ptr [ebp-4]
+  00411593: 40                 inc         eax
+  00411594: 83 C7 0C           add         edi,0Ch
+  00411597: 89 45 FC           mov         dword ptr [ebp-4],eax
+  0041159A: 3B 06              cmp         eax,dword ptr [esi]
+  0041159C: 7C C2              jl          00411560
+  0041159E: 5F                 pop         edi
+  0041159F: 5E                 pop         esi
+  004115A0: 5B                 pop         ebx
+  004115A1: 8B E5              mov         esp,ebp
+  004115A3: 5D                 pop         ebp
+  004115A4: C3                 ret
+  004115A5: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004115B5: CC CC CC CC CC CC CC CC CC CC CC                 ллллллллллл
+@_RTC_AllocaHelper@12:
+  004115C0: 8B FF              mov         edi,edi
+  004115C2: 55                 push        ebp
+  004115C3: 8B EC              mov         ebp,esp
+  004115C5: 56                 push        esi
+  004115C6: 8B F1              mov         esi,ecx
+  004115C8: 85 F6              test        esi,esi
+  004115CA: 74 21              je          004115ED
+  004115CC: 85 D2              test        edx,edx
+  004115CE: 74 1D              je          004115ED
+  004115D0: 53                 push        ebx
+  004115D1: 8B 5D 08           mov         ebx,dword ptr [ebp+8]
+  004115D4: 85 DB              test        ebx,ebx
+  004115D6: 74 14              je          004115EC
+  004115D8: 57                 push        edi
+  004115D9: B0 CC              mov         al,0CCh
+  004115DB: 8B FE              mov         edi,esi
+  004115DD: 8B CA              mov         ecx,edx
+  004115DF: F3 AA              rep stos    byte ptr es:[edi]
+  004115E1: 8B 03              mov         eax,dword ptr [ebx]
+  004115E3: 89 46 04           mov         dword ptr [esi+4],eax
+  004115E6: 89 56 0C           mov         dword ptr [esi+0Ch],edx
+  004115E9: 89 33              mov         dword ptr [ebx],esi
+  004115EB: 5F                 pop         edi
+  004115EC: 5B                 pop         ebx
+  004115ED: 5E                 pop         esi
+  004115EE: 5D                 pop         ebp
+  004115EF: C2 04 00           ret         4
+  004115F2: CC CC CC CC CC CC CC CC CC CC CC CC CC CC        лллллллллллллл
+@_RTC_CheckStackVars2@12:
+  00411600: 8B FF              mov         edi,edi
+  00411602: 55                 push        ebp
+  00411603: 8B EC              mov         ebp,esp
+  00411605: 51                 push        ecx
+  00411606: 53                 push        ebx
+  00411607: 56                 push        esi
+  00411608: 57                 push        edi
+  00411609: 8B F2              mov         esi,edx
+  0041160B: 33 FF              xor         edi,edi
+  0041160D: 8B D9              mov         ebx,ecx
+  0041160F: 3B F7              cmp         esi,edi
+  00411611: 74 52              je          00411665
+  00411613: 89 7D FC           mov         dword ptr [ebp-4],edi
+  00411616: 39 3E              cmp         dword ptr [esi],edi
+  00411618: 7E 4B              jle         00411665
+  0041161A: 8D 9B 00 00 00 00  lea         ebx,[ebx]
+  00411620: 8B 46 04           mov         eax,dword ptr [esi+4]
+  00411623: 8B 0C 38           mov         ecx,dword ptr [eax+edi]
+  00411626: BA CC CC CC CC     mov         edx,0CCCCCCCCh
+  0041162B: 39 54 19 FC        cmp         dword ptr [ecx+ebx-4],edx
+  0041162F: 75 0B              jne         0041163C
+  00411631: 8B 44 38 04        mov         eax,dword ptr [eax+edi+4]
+  00411635: 03 C1              add         eax,ecx
+  00411637: 39 14 18           cmp         dword ptr [eax+ebx],edx
+  0041163A: 74 19              je          00411655
+  0041163C: 8B 4E 04           mov         ecx,dword ptr [esi+4]
+  0041163F: 8B 54 0F 08        mov         edx,dword ptr [edi+ecx+8]
+  00411643: 8B 45 04           mov         eax,dword ptr [ebp+4]
+  00411646: 52                 push        edx
+  00411647: 50                 push        eax
+  00411648: E8 85 FA FF FF     call        @ILT+205(?_RTC_StackFailure@@YAXPAXPBD@Z)
+  0041164D: 83 C4 08           add         esp,8
+  00411650: BA CC CC CC CC     mov         edx,0CCCCCCCCh
+  00411655: 8B 45 FC           mov         eax,dword ptr [ebp-4]
+  00411658: 40                 inc         eax
+  00411659: 83 C7 0C           add         edi,0Ch
+  0041165C: 89 45 FC           mov         dword ptr [ebp-4],eax
+  0041165F: 3B 06              cmp         eax,dword ptr [esi]
+  00411661: 7C BD              jl          00411620
+  00411663: EB 05              jmp         0041166A
+  00411665: BA CC CC CC CC     mov         edx,0CCCCCCCCh
+  0041166A: 8B 75 08           mov         esi,dword ptr [ebp+8]
+  0041166D: 33 FF              xor         edi,edi
+  0041166F: 8B C6              mov         eax,esi
+  00411671: 85 F6              test        esi,esi
+  00411673: 74 56              je          004116CB
+  00411675: 8B 40 04           mov         eax,dword ptr [eax+4]
+  00411678: 47                 inc         edi
+  00411679: 85 C0              test        eax,eax
+  0041167B: 75 F8              jne         00411675
+  0041167D: 85 F6              test        esi,esi
+  0041167F: 74 4A              je          004116CB
+  00411681: 39 16              cmp         dword ptr [esi],edx
+  00411683: 75 0F              jne         00411694
+  00411685: 39 56 14           cmp         dword ptr [esi+14h],edx
+  00411688: 75 0A              jne         00411694
+  0041168A: 39 56 18           cmp         dword ptr [esi+18h],edx
+  0041168D: 75 05              jne         00411694
+  0041168F: 39 56 1C           cmp         dword ptr [esi+1Ch],edx
+  00411692: 74 13              je          004116A7
+  00411694: 8B 4D 04           mov         ecx,dword ptr [ebp+4]
+  00411697: 57                 push        edi
+  00411698: 56                 push        esi
+  00411699: 51                 push        ecx
+  0041169A: E8 23 FB FF FF     call        @ILT+445(?_RTC_AllocaFailure@@YAXPAXPAU_RTC_ALLOCA_NODE@@H@Z)
+  0041169F: 83 C4 0C           add         esp,0Ch
+  004116A2: BA CC CC CC CC     mov         edx,0CCCCCCCCh
+  004116A7: 8B 46 0C           mov         eax,dword ptr [esi+0Ch]
+  004116AA: 39 54 30 FC        cmp         dword ptr [eax+esi-4],edx
+  004116AE: 74 13              je          004116C3
+  004116B0: 8B 4D 04           mov         ecx,dword ptr [ebp+4]
+  004116B3: 57                 push        edi
+  004116B4: 56                 push        esi
+  004116B5: 51                 push        ecx
+  004116B6: E8 07 FB FF FF     call        @ILT+445(?_RTC_AllocaFailure@@YAXPAXPAU_RTC_ALLOCA_NODE@@H@Z)
+  004116BB: 83 C4 0C           add         esp,0Ch
+  004116BE: BA CC CC CC CC     mov         edx,0CCCCCCCCh
+  004116C3: 8B 76 04           mov         esi,dword ptr [esi+4]
+  004116C6: 4F                 dec         edi
+  004116C7: 85 F6              test        esi,esi
+  004116C9: 75 B6              jne         00411681
+  004116CB: 5F                 pop         edi
+  004116CC: 5E                 pop         esi
+  004116CD: 5B                 pop         ebx
+  004116CE: 8B E5              mov         esp,ebp
+  004116D0: 5D                 pop         ebp
+  004116D1: C2 04 00           ret         4
+  004116D4: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004116E4: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004116F4: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411704: CC CC CC CC CC CC CC CC CC CC CC CC              лллллллллллл
+__RTC_InitBase:
+  00411710: 80 3D 3C 71 41 00  cmp         byte ptr ds:[41713Ch],0
+            00
+  00411717: 75 1F              jne         00411738
+  00411719: 6A 00              push        0
+  0041171B: 6A 01              push        1
+  0041171D: 6A 00              push        0
+  0041171F: 6A 00              push        0
+  00411721: 6A 00              push        0
+  00411723: C6 05 3C 71 41 00  mov         byte ptr ds:[41713Ch],1
+            01
+  0041172A: E8 3E FA FF FF     call        @ILT+360(__CRT_RTC_INITW)
+  0041172F: 50                 push        eax
+  00411730: E8 BB F9 FF FF     call        @ILT+235(__RTC_SetErrorFuncW)
+  00411735: 83 C4 18           add         esp,18h
+  00411738: C3                 ret
+  00411739: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411749: CC CC CC CC CC CC CC                             ллллллл
+__RTC_Shutdown:
+  00411750: 6A 01              push        1
+  00411752: 6A 01              push        1
+  00411754: 6A 00              push        0
+  00411756: 6A 00              push        0
+  00411758: 6A 00              push        0
+  0041175A: E8 0E FA FF FF     call        @ILT+360(__CRT_RTC_INITW)
+  0041175F: 83 C4 14           add         esp,14h
+  00411762: C3                 ret
+  00411763: CC CC CC CC CC CC CC CC CC CC CC CC CC           ллллллллллллл
+  00411770: 8B FF              mov         edi,edi
+  00411772: 55                 push        ebp
+  00411773: 8B EC              mov         ebp,esp
+  00411775: E8 46 04 00 00     call        00411BC0
+  0041177A: A3 4C 71 41 00     mov         dword ptr ds:[0041714Ch],eax
+  0041177F: 6A 01              push        1
+  00411781: FF 15 04 83 41 00  call        dword ptr [__imp____set_app_type]
+  00411787: 83 C4 04           add         esp,4
+  0041178A: 6A FF              push        0FFFFFFFFh
+  0041178C: FF 15 64 82 41 00  call        dword ptr [__imp__EncodePointer@4]
+  00411792: A3 68 75 41 00     mov         dword ptr [___onexitend],eax
+  00411797: A1 68 75 41 00     mov         eax,dword ptr [___onexitend]
+  0041179C: A3 78 75 41 00     mov         dword ptr [___onexitbegin],eax
+  004117A1: 8B 0D 08 83 41 00  mov         ecx,dword ptr [__imp___fmode]
+  004117A7: 8B 15 7C 71 41 00  mov         edx,dword ptr [__fmode]
+  004117AD: 89 11              mov         dword ptr [ecx],edx
+  004117AF: A1 0C 83 41 00     mov         eax,dword ptr [__imp___commode]
+  004117B4: 8B 0D 78 71 41 00  mov         ecx,dword ptr [__commode]
+  004117BA: 89 08              mov         dword ptr [eax],ecx
+  004117BC: E8 89 F9 FF FF     call        @ILT+325(__RTC_Initialize)
+  004117C1: E8 44 F8 FF FF     call        @ILT+5(__setargv)
+  004117C6: 83 3D 1C 70 41 00  cmp         dword ptr [___defaultmatherr],0
+            00
+  004117CD: 75 0E              jne         004117DD
+  004117CF: 68 AE 11 41 00     push        offset @ILT+425(__matherr)
+  004117D4: FF 15 10 83 41 00  call        dword ptr [__imp____setusermatherr]
+  004117DA: 83 C4 04           add         esp,4
+  004117DD: E8 23 F8 FF FF     call        @ILT+0(__setdefaultprecision)
+  004117E2: 83 3D 18 70 41 00  cmp         dword ptr [___globallocalestatus],0FFFFFFFFh
+            FF
+  004117E9: 75 0B              jne         004117F6
+  004117EB: 6A FF              push        0FFFFFFFFh
+  004117ED: FF 15 14 83 41 00  call        dword ptr [__imp___configthreadlocale]
+  004117F3: 83 C4 04           add         esp,4
+  004117F6: 33 C0              xor         eax,eax
+  004117F8: 5D                 pop         ebp
+  004117F9: C3                 ret
+  004117FA: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  0041180A: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  0041181A: CC CC CC CC CC CC                                лллллл
+  00411820: 8B FF              mov         edi,edi
+  00411822: 55                 push        ebp
+  00411823: 8B EC              mov         ebp,esp
+  00411825: 68 23 10 41 00     push        offset @ILT+30(__RTC_Terminate)
+  0041182A: E8 3A F8 FF FF     call        @ILT+100(_atexit)
+  0041182F: 83 C4 04           add         esp,4
+  00411832: A1 84 71 41 00     mov         eax,dword ptr [__newmode]
+  00411837: A3 54 71 41 00     mov         dword ptr ds:[00417154h],eax
+  0041183C: 68 54 71 41 00     push        417154h
+  00411841: 8B 0D 80 71 41 00  mov         ecx,dword ptr [__dowildcard]
+  00411847: 51                 push        ecx
+  00411848: 68 44 71 41 00     push        417144h
+  0041184D: 68 48 71 41 00     push        417148h
+  00411852: 68 40 71 41 00     push        417140h
+  00411857: FF 15 FC 82 41 00  call        dword ptr [__imp____getmainargs]
+  0041185D: 83 C4 14           add         esp,14h
+  00411860: A3 50 71 41 00     mov         dword ptr ds:[00417150h],eax
+  00411865: 83 3D 50 71 41 00  cmp         dword ptr ds:[417150h],0
+            00
+  0041186C: 7D 0A              jge         00411878
+  0041186E: 6A 08              push        8
+  00411870: E8 11 F9 FF FF     call        @ILT+385(__amsg_exit)
+  00411875: 83 C4 04           add         esp,4
+  00411878: 5D                 pop         ebp
+  00411879: C3                 ret
+  0041187A: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  0041188A: CC CC CC CC CC CC                                лллллл
+_mainCRTStartup:
+  00411890: 8B FF              mov         edi,edi
+  00411892: 55                 push        ebp
+  00411893: 8B EC              mov         ebp,esp
+  00411895: E8 B6 F7 FF FF     call        @ILT+75(___security_init_cookie)
+  0041189A: E8 11 00 00 00     call        004118B0
+  0041189F: 5D                 pop         ebp
+  004118A0: C3                 ret
+  004118A1: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC     ллллллллллллллл
+  004118B0: 8B FF              mov         edi,edi
+  004118B2: 55                 push        ebp
+  004118B3: 8B EC              mov         ebp,esp
+  004118B5: 6A FE              push        0FFFFFFFEh
+  004118B7: 68 08 6C 41 00     push        416C08h
+  004118BC: 68 78 10 41 00     push        offset @ILT+115(__except_handler4)
+  004118C1: 64 A1 00 00 00 00  mov         eax,dword ptr fs:[00000000h]
+  004118C7: 50                 push        eax
+  004118C8: 83 C4 E4           add         esp,0FFFFFFE4h
+  004118CB: 53                 push        ebx
+  004118CC: 56                 push        esi
+  004118CD: 57                 push        edi
+  004118CE: A1 2C 70 41 00     mov         eax,dword ptr [___security_cookie]
+  004118D3: 31 45 F8           xor         dword ptr [ebp-8],eax
+  004118D6: 33 C5              xor         eax,ebp
+  004118D8: 50                 push        eax
+  004118D9: 8D 45 F0           lea         eax,[ebp-10h]
+  004118DC: 64 A3 00 00 00 00  mov         dword ptr fs:[00000000h],eax
+  004118E2: 89 65 E8           mov         dword ptr [ebp-18h],esp
+  004118E5: 83 3D 7C 75 41 00  cmp         dword ptr [__NoHeapEnableTerminationOnCorruption],0
+            00
+  004118EC: 75 0E              jne         004118FC
+  004118EE: 6A 00              push        0
+  004118F0: 6A 00              push        0
+  004118F2: 6A 01              push        1
+  004118F4: 6A 00              push        0
+  004118F6: FF 15 54 82 41 00  call        dword ptr [__imp__HeapSetInformation@16]
+  004118FC: C7 45 FC 00 00 00  mov         dword ptr [ebp-4],0
+            00
+  00411903: C7 45 DC 00 00 00  mov         dword ptr [ebp-24h],0
+            00
+  0041190A: E8 EB F7 FF FF     call        @ILT+245(_NtCurrentTeb)
+  0041190F: 8B 40 04           mov         eax,dword ptr [eax+4]
+  00411912: 89 45 E0           mov         dword ptr [ebp-20h],eax
+  00411915: C7 45 E4 00 00 00  mov         dword ptr [ebp-1Ch],0
+            00
+  0041191C: 6A 00              push        0
+  0041191E: 8B 4D E0           mov         ecx,dword ptr [ebp-20h]
+  00411921: 51                 push        ecx
+  00411922: 68 64 75 41 00     push        offset ___native_startup_lock
+  00411927: FF 15 58 82 41 00  call        dword ptr [__imp__InterlockedCompareExchange@12]
+  0041192D: 89 45 DC           mov         dword ptr [ebp-24h],eax
+  00411930: 83 7D DC 00        cmp         dword ptr [ebp-24h],0
+  00411934: 74 1E              je          00411954
+  00411936: 8B 55 DC           mov         edx,dword ptr [ebp-24h]
+  00411939: 3B 55 E0           cmp         edx,dword ptr [ebp-20h]
+  0041193C: 75 09              jne         00411947
+  0041193E: C7 45 E4 01 00 00  mov         dword ptr [ebp-1Ch],1
+            00
+  00411945: EB 0D              jmp         00411954
+  00411947: 68 E8 03 00 00     push        3E8h
+  0041194C: FF 15 5C 82 41 00  call        dword ptr [__imp__Sleep@4]
+  00411952: EB C8              jmp         0041191C
+  00411954: 83 3D 54 75 41 00  cmp         dword ptr [___native_startup_state],1
+            01
+  0041195B: 75 0C              jne         00411969
+  0041195D: 6A 1F              push        1Fh
+  0041195F: E8 22 F8 FF FF     call        @ILT+385(__amsg_exit)
+  00411964: 83 C4 04           add         esp,4
+  00411967: EB 4B              jmp         004119B4
+  00411969: 83 3D 54 75 41 00  cmp         dword ptr [___native_startup_state],0
+            00
+  00411970: 75 38              jne         004119AA
+  00411972: C7 05 54 75 41 00  mov         dword ptr [___native_startup_state],1
+            01 00 00 00
+  0041197C: 68 18 56 41 00     push        offset ___xi_z
+  00411981: 68 0C 53 41 00     push        offset ___xi_a
+  00411986: E8 4B F8 FF FF     call        @ILT+465(__initterm_e)
+  0041198B: 83 C4 08           add         esp,8
+  0041198E: 85 C0              test        eax,eax
+  00411990: 74 16              je          004119A8
+  00411992: C7 45 D4 FF 00 00  mov         dword ptr [ebp-2Ch],0FFh
+            00
+  00411999: C7 45 FC FE FF FF  mov         dword ptr [ebp-4],0FFFFFFFEh
+            FF
+  004119A0: 8B 45 D4           mov         eax,dword ptr [ebp-2Ch]
+  004119A3: E9 53 01 00 00     jmp         00411AFB
+  004119A8: EB 0A              jmp         004119B4
+  004119AA: C7 05 5C 71 41 00  mov         dword ptr ds:[41715Ch],1
+            01 00 00 00
+  004119B4: 83 3D 54 75 41 00  cmp         dword ptr [___native_startup_state],1
+            01
+  004119BB: 75 1C              jne         004119D9
+  004119BD: 68 08 52 41 00     push        offset ___xc_z
+  004119C2: 68 00 50 41 00     push        offset ___xc_a
+  004119C7: E8 D9 F6 FF FF     call        @ILT+160(__initterm)
+  004119CC: 83 C4 08           add         esp,8
+  004119CF: C7 05 54 75 41 00  mov         dword ptr [___native_startup_state],2
+            02 00 00 00
+  004119D9: 83 3D 54 75 41 00  cmp         dword ptr [___native_startup_state],2
+            02
+  004119E0: 74 22              je          00411A04
+  004119E2: 68 48 58 41 00     push        offset ??_C@_1FA@DALEHHGL@?$AA_?$AA_?$AAn?$AAa?$AAt?$AAi?$AAv?$AAe?$AA_?$AAs?$AAt?$AAa?$AAr?$AAt?$AAu?$AAp?$AA_?$AAs?$AAt?$AAa?$AAt?$AAe?$AA?5?$AA?$DN?$AA?$DN?$AA?5?$AA_?$AA_?$AAi?$AAn?$AAi?$AAt@
+  004119E7: 6A 00              push        0
+  004119E9: 68 DC 01 00 00     push        1DCh
+  004119EE: 68 D0 57 41 00     push        offset ??_C@_1GA@EHAKPACL@?$AAf?$AA?3?$AA?2?$AAd?$AAd?$AA?2?$AAv?$AAc?$AAt?$AAo?$AAo?$AAl?$AAs?$AA?2?$AAc?$AAr?$AAt?$AA_?$AAb?$AAl?$AAd?$AA?2?$AAs?$AAe?$AAl?$AAf?$AA_?$AAx?$AA8?$AA6?$AA?2?$AAc@
+  004119F3: 6A 02              push        2
+  004119F5: FF 15 E0 82 41 00  call        dword ptr [__imp___CrtDbgReportW]
+  004119FB: 83 C4 14           add         esp,14h
+  004119FE: 83 F8 01           cmp         eax,1
+  00411A01: 75 01              jne         00411A04
+  00411A03: CC                 int         3
+  00411A04: 83 7D E4 00        cmp         dword ptr [ebp-1Ch],0
+  00411A08: 75 0D              jne         00411A17
+  00411A0A: 6A 00              push        0
+  00411A0C: 68 64 75 41 00     push        offset ___native_startup_lock
+  00411A11: FF 15 60 82 41 00  call        dword ptr [__imp__InterlockedExchange@8]
+  00411A17: 83 3D 80 75 41 00  cmp         dword ptr [___dyn_tls_init_callback],0
+            00
+  00411A1E: 74 1D              je          00411A3D
+  00411A20: 68 80 75 41 00     push        offset ___dyn_tls_init_callback
+  00411A25: E8 52 F7 FF FF     call        @ILT+375(__IsNonwritableInCurrentImage)
+  00411A2A: 83 C4 04           add         esp,4
+  00411A2D: 85 C0              test        eax,eax
+  00411A2F: 74 0C              je          00411A3D
+  00411A31: 6A 00              push        0
+  00411A33: 6A 02              push        2
+  00411A35: 6A 00              push        0
+  00411A37: FF 15 80 75 41 00  call        dword ptr [___dyn_tls_init_callback]
+  00411A3D: 6A 01              push        1
+  00411A3F: FF 15 E4 82 41 00  call        dword ptr [__imp___CrtSetCheckCount]
+  00411A45: 83 C4 04           add         esp,4
+  00411A48: 8B 0D E8 82 41 00  mov         ecx,dword ptr [__imp____initenv]
+  00411A4E: 8B 15 44 71 41 00  mov         edx,dword ptr ds:[417144h]
+  00411A54: 89 11              mov         dword ptr [ecx],edx
+  00411A56: A1 44 71 41 00     mov         eax,dword ptr ds:[00417144h]
+  00411A5B: 50                 push        eax
+  00411A5C: 8B 0D 48 71 41 00  mov         ecx,dword ptr ds:[417148h]
+  00411A62: 51                 push        ecx
+  00411A63: 8B 15 40 71 41 00  mov         edx,dword ptr ds:[417140h]
+  00411A69: 52                 push        edx
+  00411A6A: E8 D1 F6 FF FF     call        @ILT+315(_main)
+  00411A6F: 83 C4 0C           add         esp,0Ch
+  00411A72: A3 58 71 41 00     mov         dword ptr ds:[00417158h],eax
+  00411A77: 83 3D 4C 71 41 00  cmp         dword ptr ds:[41714Ch],0
+            00
+  00411A7E: 75 0C              jne         00411A8C
+  00411A80: A1 58 71 41 00     mov         eax,dword ptr ds:[00417158h]
+  00411A85: 50                 push        eax
+  00411A86: FF 15 EC 82 41 00  call        dword ptr [__imp__exit]
+  00411A8C: 83 3D 5C 71 41 00  cmp         dword ptr ds:[41715Ch],0
+            00
+  00411A93: 75 06              jne         00411A9B
+  00411A95: FF 15 F0 82 41 00  call        dword ptr [__imp___cexit]
+  00411A9B: C7 45 FC FE FF FF  mov         dword ptr [ebp-4],0FFFFFFFEh
+            FF
+  00411AA2: EB 52              jmp         00411AF6
+  00411AA4: 8B 4D EC           mov         ecx,dword ptr [ebp-14h]
+  00411AA7: 8B 11              mov         edx,dword ptr [ecx]
+  00411AA9: 8B 02              mov         eax,dword ptr [edx]
+  00411AAB: 89 45 D8           mov         dword ptr [ebp-28h],eax
+  00411AAE: 8B 4D EC           mov         ecx,dword ptr [ebp-14h]
+  00411AB1: 51                 push        ecx
+  00411AB2: 8B 55 D8           mov         edx,dword ptr [ebp-28h]
+  00411AB5: 52                 push        edx
+  00411AB6: E8 D0 F6 FF FF     call        @ILT+390(__XcptFilter)
+  00411ABB: 83 C4 08           add         esp,8
+  00411ABE: C3                 ret
+  00411ABF: 8B 65 E8           mov         esp,dword ptr [ebp-18h]
+  00411AC2: 8B 45 D8           mov         eax,dword ptr [ebp-28h]
+  00411AC5: A3 58 71 41 00     mov         dword ptr ds:[00417158h],eax
+  00411ACA: 83 3D 4C 71 41 00  cmp         dword ptr ds:[41714Ch],0
+            00
+  00411AD1: 75 0D              jne         00411AE0
+  00411AD3: 8B 0D 58 71 41 00  mov         ecx,dword ptr ds:[417158h]
+  00411AD9: 51                 push        ecx
+  00411ADA: FF 15 F8 82 41 00  call        dword ptr [__imp___exit]
+  00411AE0: 83 3D 5C 71 41 00  cmp         dword ptr ds:[41715Ch],0
+            00
+  00411AE7: 75 06              jne         00411AEF
+  00411AE9: FF 15 F0 82 41 00  call        dword ptr [__imp___cexit]
+  00411AEF: C7 45 FC FE FF FF  mov         dword ptr [ebp-4],0FFFFFFFEh
+            FF
+  00411AF6: A1 58 71 41 00     mov         eax,dword ptr ds:[00417158h]
+  00411AFB: 8B 4D F0           mov         ecx,dword ptr [ebp-10h]
+  00411AFE: 64 89 0D 00 00 00  mov         dword ptr fs:[0],ecx
+            00
+  00411B05: 59                 pop         ecx
+  00411B06: 5F                 pop         edi
+  00411B07: 5E                 pop         esi
+  00411B08: 5B                 pop         ebx
+  00411B09: 8B E5              mov         esp,ebp
+  00411B0B: 5D                 pop         ebp
+  00411B0C: C3                 ret
+  00411B0D: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411B1D: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411B2D: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411B3D: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411B4D: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411B5D: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411B6D: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411B7D: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411B8D: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411B9D: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411BAD: CC CC CC                                         ллл
+_NtCurrentTeb:
+  00411BB0: 8B FF              mov         edi,edi
+  00411BB2: 55                 push        ebp
+  00411BB3: 8B EC              mov         ebp,esp
+  00411BB5: 64 A1 18 00 00 00  mov         eax,dword ptr fs:[00000018h]
+  00411BBB: 5D                 pop         ebp
+  00411BBC: C3                 ret
+  00411BBD: CC CC CC                                         ллл
+  00411BC0: 8B FF              mov         edi,edi
+  00411BC2: 55                 push        ebp
+  00411BC3: 8B EC              mov         ebp,esp
+  00411BC5: 83 EC 08           sub         esp,8
+  00411BC8: C7 45 FC 00 00 40  mov         dword ptr [ebp-4],400000h
+            00
+  00411BCF: 8B 45 FC           mov         eax,dword ptr [ebp-4]
+  00411BD2: 0F B7 08           movzx       ecx,word ptr [eax]
+  00411BD5: 81 F9 4D 5A 00 00  cmp         ecx,5A4Dh
+  00411BDB: 74 04              je          00411BE1
+  00411BDD: 33 C0              xor         eax,eax
+  00411BDF: EB 49              jmp         00411C2A
+  00411BE1: 8B 55 FC           mov         edx,dword ptr [ebp-4]
+  00411BE4: 8B 45 FC           mov         eax,dword ptr [ebp-4]
+  00411BE7: 03 42 3C           add         eax,dword ptr [edx+3Ch]
+  00411BEA: 89 45 F8           mov         dword ptr [ebp-8],eax
+  00411BED: 8B 4D F8           mov         ecx,dword ptr [ebp-8]
+  00411BF0: 81 39 50 45 00 00  cmp         dword ptr [ecx],4550h
+  00411BF6: 74 04              je          00411BFC
+  00411BF8: 33 C0              xor         eax,eax
+  00411BFA: EB 2E              jmp         00411C2A
+  00411BFC: 8B 55 F8           mov         edx,dword ptr [ebp-8]
+  00411BFF: 0F B7 42 18        movzx       eax,word ptr [edx+18h]
+  00411C03: 3D 0B 01 00 00     cmp         eax,10Bh
+  00411C08: 74 04              je          00411C0E
+  00411C0A: 33 C0              xor         eax,eax
+  00411C0C: EB 1C              jmp         00411C2A
+  00411C0E: 8B 4D F8           mov         ecx,dword ptr [ebp-8]
+  00411C11: 83 79 74 0E        cmp         dword ptr [ecx+74h],0Eh
+  00411C15: 77 04              ja          00411C1B
+  00411C17: 33 C0              xor         eax,eax
+  00411C19: EB 0F              jmp         00411C2A
+  00411C1B: 8B 55 F8           mov         edx,dword ptr [ebp-8]
+  00411C1E: 33 C0              xor         eax,eax
+  00411C20: 83 BA E8 00 00 00  cmp         dword ptr [edx+0E8h],0
+            00
+  00411C27: 0F 95 C0           setne       al
+  00411C2A: 8B E5              mov         esp,ebp
+  00411C2C: 5D                 pop         ebp
+  00411C2D: C3                 ret
+  00411C2E: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411C3E: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411C4E: CC CC                                            лл
+?_RTC_Failure@@YAXPAXH@Z:
+  00411C50: 8B FF              mov         edi,edi
+  00411C52: 55                 push        ebp
+  00411C53: 8B EC              mov         ebp,esp
+  00411C55: 8B 45 0C           mov         eax,dword ptr [ebp+0Ch]
+  00411C58: 83 F8 04           cmp         eax,4
+  00411C5B: 77 24              ja          00411C81
+  00411C5D: 8B 0C 85 00 70 41  mov         ecx,dword ptr ?_RTC_ErrorLevels@@3PAHA[eax*4]
+            00
+  00411C64: 8B 14 85 CC 5B 41  mov         edx,dword ptr [eax*4+415BCCh]
+            00
+  00411C6B: 83 F9 FF           cmp         ecx,0FFFFFFFFh
+  00411C6E: 74 0F              je          00411C7F
+  00411C70: 52                 push        edx
+  00411C71: 50                 push        eax
+  00411C72: 8B 45 08           mov         eax,dword ptr [ebp+8]
+  00411C75: 51                 push        ecx
+  00411C76: 50                 push        eax
+  00411C77: E8 44 00 00 00     call        00411CC0
+  00411C7C: 83 C4 10           add         esp,10h
+  00411C7F: 5D                 pop         ebp
+  00411C80: C3                 ret
+  00411C81: BA A8 58 41 00     mov         edx,offset ??_C@_0BO@GNIAFIKK@Unknown?5Runtime?5Check?5Error?6?$AN?$AA@
+  00411C86: 52                 push        edx
+  00411C87: B8 05 00 00 00     mov         eax,5
+  00411C8C: 50                 push        eax
+  00411C8D: 8B 45 08           mov         eax,dword ptr [ebp+8]
+  00411C90: B9 01 00 00 00     mov         ecx,1
+  00411C95: 51                 push        ecx
+  00411C96: 50                 push        eax
+  00411C97: E8 24 00 00 00     call        00411CC0
+  00411C9C: 83 C4 10           add         esp,10h
+  00411C9F: 5D                 pop         ebp
+  00411CA0: C3                 ret
+  00411CA1: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411CB1: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC     ллллллллллллллл
+  00411CC0: 8B FF              mov         edi,edi
+  00411CC2: 55                 push        ebp
+  00411CC3: 8B EC              mov         ebp,esp
+  00411CC5: 81 EC 40 0E 00 00  sub         esp,0E40h
+  00411CCB: A1 2C 70 41 00     mov         eax,dword ptr [___security_cookie]
+  00411CD0: 33 C5              xor         eax,ebp
+  00411CD2: 89 45 FC           mov         dword ptr [ebp-4],eax
+  00411CD5: 8B 45 10           mov         eax,dword ptr [ebp+10h]
+  00411CD8: 53                 push        ebx
+  00411CD9: 8B 5D 08           mov         ebx,dword ptr [ebp+8]
+  00411CDC: 56                 push        esi
+  00411CDD: 57                 push        edi
+  00411CDE: 8B 7D 14           mov         edi,dword ptr [ebp+14h]
+  00411CE1: 53                 push        ebx
+  00411CE2: 89 85 C8 F1 FF FF  mov         dword ptr [ebp-0E38h],eax
+  00411CE8: 89 BD C0 F1 FF FF  mov         dword ptr [ebp-0E40h],edi
+  00411CEE: C7 85 C4 F1 FF FF  mov         dword ptr [ebp-0E3Ch],0
+            00 00 00 00
+  00411CF8: E8 35 F3 FF FF     call        @ILT+45(?_RTC_GetErrorFuncW@@YAP6AHHPB_WH00ZZPBX@Z)
+  00411CFD: 83 C4 04           add         esp,4
+  00411D00: 89 85 D0 F1 FF FF  mov         dword ptr [ebp-0E30h],eax
+  00411D06: 85 C0              test        eax,eax
+  00411D08: 75 0F              jne         00411D19
+  00411D0A: 53                 push        ebx
+  00411D0B: E8 CB F4 FF FF     call        @ILT+470(?_RTC_GetErrorFunc@@YAP6AHHPBDH00ZZPBX@Z)
+  00411D10: 83 C4 04           add         esp,4
+  00411D13: 89 85 C4 F1 FF FF  mov         dword ptr [ebp-0E3Ch],eax
+  00411D19: 8B 35 48 82 41 00  mov         esi,dword ptr [__imp__MultiByteToWideChar@24]
+  00411D1F: 6A 00              push        0
+  00411D21: 6A 00              push        0
+  00411D23: 6A FF              push        0FFFFFFFFh
+  00411D25: 57                 push        edi
+  00411D26: 6A 00              push        0
+  00411D28: 68 E9 FD 00 00     push        0FDE9h
+  00411D2D: FF D6              call        esi
+  00411D2F: 3D 00 02 00 00     cmp         eax,200h
+  00411D34: 73 26              jae         00411D5C
+  00411D36: 50                 push        eax
+  00411D37: 8D 8D D4 F1 FF FF  lea         ecx,[ebp-0E2Ch]
+  00411D3D: 51                 push        ecx
+  00411D3E: 6A FF              push        0FFFFFFFFh
+  00411D40: 57                 push        edi
+  00411D41: 6A 00              push        0
+  00411D43: 68 E9 FD 00 00     push        0FDE9h
+  00411D48: FF D6              call        esi
+  00411D4A: 85 C0              test        eax,eax
+  00411D4C: 74 0E              je          00411D5C
+  00411D4E: 8D 95 D4 F1 FF FF  lea         edx,[ebp-0E2Ch]
+  00411D54: 89 95 CC F1 FF FF  mov         dword ptr [ebp-0E34h],edx
+  00411D5A: EB 0A              jmp         00411D66
+  00411D5C: C7 85 CC F1 FF FF  mov         dword ptr [ebp-0E34h],offset ??_C@_1GM@OLMCBDMB@?$AAR?$AAu?$AAn?$AAt?$AAi?$AAm?$AAe?$AA?5?$AAC?$AAh?$AAe?$AAc?$AAk?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?4?$AA?6?$AA?$AN?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo@
+            30 5D 41 00
+  00411D66: 68 02 10 00 00     push        1002h
+  00411D6B: E8 F0 01 00 00     call        00411F60
+  00411D70: 8B BD C8 F1 FF FF  mov         edi,dword ptr [ebp-0E38h]
+  00411D76: 83 C4 04           add         esp,4
+  00411D79: 85 C0              test        eax,eax
+  00411D7B: 74 25              je          00411DA2
+  00411D7D: 8B 85 CC F1 FF FF  mov         eax,dword ptr [ebp-0E34h]
+  00411D83: 8B 0C BD E4 5B 41  mov         ecx,dword ptr [edi*4+415BE4h]
+            00
+  00411D8A: 50                 push        eax
+  00411D8B: 53                 push        ebx
+  00411D8C: 51                 push        ecx
+  00411D8D: 57                 push        edi
+  00411D8E: E8 7D 02 00 00     call        00412010
+  00411D93: 83 C4 10           add         esp,10h
+  00411D96: 85 C0              test        eax,eax
+  00411D98: 0F 85 22 01 00 00  jne         00411EC0
+  00411D9E: 32 C0              xor         al,al
+  00411DA0: EB 02              jmp         00411DA4
+  00411DA2: B0 01              mov         al,1
+  00411DA4: 83 BD C4 F1 FF FF  cmp         dword ptr [ebp-0E3Ch],0
+            00
+  00411DAB: 8B B5 D0 F1 FF FF  mov         esi,dword ptr [ebp-0E30h]
+  00411DB1: 75 08              jne         00411DBB
+  00411DB3: 85 F6              test        esi,esi
+  00411DB5: 0F 84 04 01 00 00  je          00411EBF
+  00411DBB: 84 C0              test        al,al
+  00411DBD: 74 0E              je          00411DCD
+  00411DBF: FF 15 4C 82 41 00  call        dword ptr [__imp__IsDebuggerPresent@0]
+  00411DC5: 85 C0              test        eax,eax
+  00411DC7: 0F 85 F2 00 00 00  jne         00411EBF
+  00411DCD: 68 04 01 00 00     push        104h
+  00411DD2: 8D 95 F4 FD FF FF  lea         edx,[ebp-20Ch]
+  00411DD8: 52                 push        edx
+  00411DD9: 8D 85 D0 F1 FF FF  lea         eax,[ebp-0E30h]
+  00411DDF: 50                 push        eax
+  00411DE0: 68 04 01 00 00     push        104h
+  00411DE5: 8D 8D EC FB FF FF  lea         ecx,[ebp-414h]
+  00411DEB: 51                 push        ecx
+  00411DEC: 83 C3 FB           add         ebx,0FFFFFFFBh
+  00411DEF: 53                 push        ebx
+  00411DF0: E8 6E F3 FF FF     call        @ILT+350(?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z)
+  00411DF5: 83 C4 18           add         esp,18h
+  00411DF8: 85 F6              test        esi,esi
+  00411DFA: 74 2D              je          00411E29
+  00411DFC: 8B 95 CC F1 FF FF  mov         edx,dword ptr [ebp-0E34h]
+  00411E02: 8B 8D D0 F1 FF FF  mov         ecx,dword ptr [ebp-0E30h]
+  00411E08: 52                 push        edx
+  00411E09: 57                 push        edi
+  00411E0A: 68 E0 5C 41 00     push        offset ??_C@_1EA@NFKNIFJP@?$AAR?$AAu?$AAn?$AA?9?$AAT?$AAi?$AAm?$AAe?$AA?5?$AAC?$AAh?$AAe?$AAc?$AAk?$AA?5?$AAF?$AAa?$AAi?$AAl?$AAu?$AAr?$AAe?$AA?5?$AA?$CD?$AA?$CF?$AAd?$AA?5?$AA?9?$AA?5?$AA?$CF?$AAs?$AA?$AA@
+  00411E0F: 8D 85 F4 FD FF FF  lea         eax,[ebp-20Ch]
+  00411E15: 50                 push        eax
+  00411E16: 8B 45 0C           mov         eax,dword ptr [ebp+0Ch]
+  00411E19: 51                 push        ecx
+  00411E1A: 8D 95 EC FB FF FF  lea         edx,[ebp-414h]
+  00411E20: 52                 push        edx
+  00411E21: 50                 push        eax
+  00411E22: FF D6              call        esi
+  00411E24: E9 8E 00 00 00     jmp         00411EB7
+  00411E29: 8B 3D 50 82 41 00  mov         edi,dword ptr [__imp__WideCharToMultiByte@32]
+  00411E2F: 6A 00              push        0
+  00411E31: 6A 00              push        0
+  00411E33: 68 0A 03 00 00     push        30Ah
+  00411E38: 8D 8D D4 F5 FF FF  lea         ecx,[ebp-0A2Ch]
+  00411E3E: 51                 push        ecx
+  00411E3F: 6A FF              push        0FFFFFFFFh
+  00411E41: 8D 95 EC FB FF FF  lea         edx,[ebp-414h]
+  00411E47: 52                 push        edx
+  00411E48: 6A 00              push        0
+  00411E4A: 68 E9 FD 00 00     push        0FDE9h
+  00411E4F: BB C8 5C 41 00     mov         ebx,offset ??_C@_0BB@PFFGGCJP@Unknown?5Filename?$AA@
+  00411E54: FF D7              call        edi
+  00411E56: 85 C0              test        eax,eax
+  00411E58: 74 06              je          00411E60
+  00411E5A: 8D 9D D4 F5 FF FF  lea         ebx,[ebp-0A2Ch]
+  00411E60: 6A 00              push        0
+  00411E62: 6A 00              push        0
+  00411E64: 68 0A 03 00 00     push        30Ah
+  00411E69: 8D 85 E0 F8 FF FF  lea         eax,[ebp-720h]
+  00411E6F: 50                 push        eax
+  00411E70: 6A FF              push        0FFFFFFFFh
+  00411E72: 8D 8D F4 FD FF FF  lea         ecx,[ebp-20Ch]
+  00411E78: 51                 push        ecx
+  00411E79: 6A 00              push        0
+  00411E7B: 68 E9 FD 00 00     push        0FDE9h
+  00411E80: BE B0 5C 41 00     mov         esi,offset ??_C@_0BE@GNBOBNCK@Unknown?5Module?5Name?$AA@
+  00411E85: FF D7              call        edi
+  00411E87: 85 C0              test        eax,eax
+  00411E89: 74 06              je          00411E91
+  00411E8B: 8D B5 E0 F8 FF FF  lea         esi,[ebp-720h]
+  00411E91: 8B 95 C0 F1 FF FF  mov         edx,dword ptr [ebp-0E40h]
+  00411E97: 8B 85 C8 F1 FF FF  mov         eax,dword ptr [ebp-0E38h]
+  00411E9D: 8B 8D D0 F1 FF FF  mov         ecx,dword ptr [ebp-0E30h]
+  00411EA3: 52                 push        edx
+  00411EA4: 8B 55 0C           mov         edx,dword ptr [ebp+0Ch]
+  00411EA7: 50                 push        eax
+  00411EA8: 68 88 5C 41 00     push        offset ??_C@_0CA@IODNCDPG@Run?9Time?5Check?5Failure?5?$CD?$CFd?5?9?5?$CFs?$AA@
+  00411EAD: 56                 push        esi
+  00411EAE: 51                 push        ecx
+  00411EAF: 53                 push        ebx
+  00411EB0: 52                 push        edx
+  00411EB1: FF 95 C4 F1 FF FF  call        dword ptr [ebp-0E3Ch]
+  00411EB7: 83 C4 1C           add         esp,1Ch
+  00411EBA: 83 F8 01           cmp         eax,1
+  00411EBD: 75 01              jne         00411EC0
+  00411EBF: CC                 int         3
+  00411EC0: 8B 4D FC           mov         ecx,dword ptr [ebp-4]
+  00411EC3: 5F                 pop         edi
+  00411EC4: 5E                 pop         esi
+  00411EC5: 33 CD              xor         ecx,ebp
+  00411EC7: 5B                 pop         ebx
+  00411EC8: E8 4C F1 FF FF     call        @ILT+20(@__security_check_cookie@4)
+  00411ECD: 8B E5              mov         esp,ebp
+  00411ECF: 5D                 pop         ebp
+  00411ED0: C3                 ret
+  00411ED1: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411EE1: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411EF1: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411F01: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411F11: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411F21: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411F31: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411F41: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411F51: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC     ллллллллллллллл
+  00411F60: 8B FF              mov         edi,edi
+  00411F62: 55                 push        ebp
+  00411F63: 8B EC              mov         ebp,esp
+  00411F65: 6A FE              push        0FFFFFFFEh
+  00411F67: 68 28 6C 41 00     push        416C28h
+  00411F6C: 68 78 10 41 00     push        offset @ILT+115(__except_handler4)
+  00411F71: 64 A1 00 00 00 00  mov         eax,dword ptr fs:[00000000h]
+  00411F77: 50                 push        eax
+  00411F78: 83 EC 24           sub         esp,24h
+  00411F7B: 53                 push        ebx
+  00411F7C: 56                 push        esi
+  00411F7D: 57                 push        edi
+  00411F7E: A1 2C 70 41 00     mov         eax,dword ptr [___security_cookie]
+  00411F83: 31 45 F8           xor         dword ptr [ebp-8],eax
+  00411F86: 33 C5              xor         eax,ebp
+  00411F88: 50                 push        eax
+  00411F89: 8D 45 F0           lea         eax,[ebp-10h]
+  00411F8C: 64 A3 00 00 00 00  mov         dword ptr fs:[00000000h],eax
+  00411F92: 89 65 E8           mov         dword ptr [ebp-18h],esp
+  00411F95: 33 C0              xor         eax,eax
+  00411F97: 88 45 E7           mov         byte ptr [ebp-19h],al
+  00411F9A: C7 45 CC 01 10 00  mov         dword ptr [ebp-34h],1001h
+            00
+  00411FA1: 8B 4D 08           mov         ecx,dword ptr [ebp+8]
+  00411FA4: 89 4D D0           mov         dword ptr [ebp-30h],ecx
+  00411FA7: 8D 55 E7           lea         edx,[ebp-19h]
+  00411FAA: 89 55 D4           mov         dword ptr [ebp-2Ch],edx
+  00411FAD: 89 45 FC           mov         dword ptr [ebp-4],eax
+  00411FB0: 8D 4D CC           lea         ecx,[ebp-34h]
+  00411FB3: 51                 push        ecx
+  00411FB4: 6A 06              push        6
+  00411FB6: 50                 push        eax
+  00411FB7: 68 88 13 6D 40     push        406D1388h
+  00411FBC: FF 15 44 82 41 00  call        dword ptr [__imp__RaiseException@16]
+  00411FC2: EB 09              jmp         00411FCD
+  00411FC4: B8 01 00 00 00     mov         eax,1
+  00411FC9: C3                 ret
+  00411FCA: 8B 65 E8           mov         esp,dword ptr [ebp-18h]
+  00411FCD: C7 45 FC FE FF FF  mov         dword ptr [ebp-4],0FFFFFFFEh
+            FF
+  00411FD4: 0F B6 45 E7        movzx       eax,byte ptr [ebp-19h]
+  00411FD8: 8B 4D F0           mov         ecx,dword ptr [ebp-10h]
+  00411FDB: 64 89 0D 00 00 00  mov         dword ptr fs:[0],ecx
+            00
+  00411FE2: 59                 pop         ecx
+  00411FE3: 5F                 pop         edi
+  00411FE4: 5E                 pop         esi
+  00411FE5: 5B                 pop         ebx
+  00411FE6: 8B E5              mov         esp,ebp
+  00411FE8: 5D                 pop         ebp
+  00411FE9: C3                 ret
+  00411FEA: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00411FFA: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  0041200A: CC CC CC CC CC CC                                лллллл
+  00412010: 8B FF              mov         edi,edi
+  00412012: 55                 push        ebp
+  00412013: 8B EC              mov         ebp,esp
+  00412015: 6A FE              push        0FFFFFFFEh
+  00412017: 68 48 6C 41 00     push        416C48h
+  0041201C: 68 78 10 41 00     push        offset @ILT+115(__except_handler4)
+  00412021: 64 A1 00 00 00 00  mov         eax,dword ptr fs:[00000000h]
+  00412027: 50                 push        eax
+  00412028: 83 EC 24           sub         esp,24h
+  0041202B: 53                 push        ebx
+  0041202C: 56                 push        esi
+  0041202D: 57                 push        edi
+  0041202E: A1 2C 70 41 00     mov         eax,dword ptr [___security_cookie]
+  00412033: 31 45 F8           xor         dword ptr [ebp-8],eax
+  00412036: 33 C5              xor         eax,ebp
+  00412038: 50                 push        eax
+  00412039: 8D 45 F0           lea         eax,[ebp-10h]
+  0041203C: 64 A3 00 00 00 00  mov         dword ptr fs:[00000000h],eax
+  00412042: 89 65 E8           mov         dword ptr [ebp-18h],esp
+  00412045: 33 C0              xor         eax,eax
+  00412047: 88 45 E7           mov         byte ptr [ebp-19h],al
+  0041204A: C7 45 CC 02 10 00  mov         dword ptr [ebp-34h],1002h
+            00
+  00412051: 8B 4D 08           mov         ecx,dword ptr [ebp+8]
+  00412054: 89 4D D0           mov         dword ptr [ebp-30h],ecx
+  00412057: 8B 55 0C           mov         edx,dword ptr [ebp+0Ch]
+  0041205A: 89 55 D4           mov         dword ptr [ebp-2Ch],edx
+  0041205D: 8B 4D 10           mov         ecx,dword ptr [ebp+10h]
+  00412060: 89 4D D8           mov         dword ptr [ebp-28h],ecx
+  00412063: 8D 55 E7           lea         edx,[ebp-19h]
+  00412066: 89 55 DC           mov         dword ptr [ebp-24h],edx
+  00412069: 8B 4D 14           mov         ecx,dword ptr [ebp+14h]
+  0041206C: 89 4D E0           mov         dword ptr [ebp-20h],ecx
+  0041206F: 89 45 FC           mov         dword ptr [ebp-4],eax
+  00412072: 8D 55 CC           lea         edx,[ebp-34h]
+  00412075: 52                 push        edx
+  00412076: 6A 06              push        6
+  00412078: 50                 push        eax
+  00412079: 68 88 13 6D 40     push        406D1388h
+  0041207E: FF 15 44 82 41 00  call        dword ptr [__imp__RaiseException@16]
+  00412084: EB 09              jmp         0041208F
+  00412086: B8 01 00 00 00     mov         eax,1
+  0041208B: C3                 ret
+  0041208C: 8B 65 E8           mov         esp,dword ptr [ebp-18h]
+  0041208F: C7 45 FC FE FF FF  mov         dword ptr [ebp-4],0FFFFFFFEh
+            FF
+  00412096: 0F B6 45 E7        movzx       eax,byte ptr [ebp-19h]
+  0041209A: 8B 4D F0           mov         ecx,dword ptr [ebp-10h]
+  0041209D: 64 89 0D 00 00 00  mov         dword ptr fs:[0],ecx
+            00
+  004120A4: 59                 pop         ecx
+  004120A5: 5F                 pop         edi
+  004120A6: 5E                 pop         esi
+  004120A7: 5B                 pop         ebx
+  004120A8: 8B E5              mov         esp,ebp
+  004120AA: 5D                 pop         ebp
+  004120AB: C3                 ret
+  004120AC: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004120BC: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004120CC: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004120DC: CC CC CC CC                                      лллл
+?_RTC_StackFailure@@YAXPAXPBD@Z:
+  004120E0: 8B FF              mov         edi,edi
+  004120E2: 55                 push        ebp
+  004120E3: 8B EC              mov         ebp,esp
+  004120E5: 81 EC 08 04 00 00  sub         esp,408h
+  004120EB: A1 2C 70 41 00     mov         eax,dword ptr [___security_cookie]
+  004120F0: 33 C5              xor         eax,ebp
+  004120F2: 89 45 FC           mov         dword ptr [ebp-4],eax
+  004120F5: 83 3D 08 70 41 00  cmp         dword ptr ds:[417008h],0FFFFFFFFh
+            FF
+  004120FC: 8B 45 08           mov         eax,dword ptr [ebp+8]
+  004120FF: 89 85 F8 FB FF FF  mov         dword ptr [ebp-408h],eax
+  00412105: 8B 45 0C           mov         eax,dword ptr [ebp+0Ch]
+  00412108: 0F 84 C0 00 00 00  je          004121CE
+  0041210E: 80 38 00           cmp         byte ptr [eax],0
+  00412111: 53                 push        ebx
+  00412112: 56                 push        esi
+  00412113: 0F 84 96 00 00 00  je          004121AF
+  00412119: 8B C8              mov         ecx,eax
+  0041211B: 8D 71 01           lea         esi,[ecx+1]
+  0041211E: 8B FF              mov         edi,edi
+  00412120: 8A 11              mov         dl,byte ptr [ecx]
+  00412122: 41                 inc         ecx
+  00412123: 84 D2              test        dl,dl
+  00412125: 75 F9              jne         00412120
+  00412127: 2B CE              sub         ecx,esi
+  00412129: 83 C1 2D           add         ecx,2Dh
+  0041212C: 81 F9 00 04 00 00  cmp         ecx,400h
+  00412132: 77 7B              ja          004121AF
+  00412134: 8D 9D FC FB FF FF  lea         ebx,[ebp-404h]
+  0041213A: 33 C9              xor         ecx,ecx
+  0041213C: 8D 64 24 00        lea         esp,[esp]
+  00412140: 8A 91 FC 5B 41 00  mov         dl,byte ptr [ecx+415BFCh]
+  00412146: 88 94 0D FC FB FF  mov         byte ptr [ebp+ecx-404h],dl
+            FF
+  0041214D: 41                 inc         ecx
+  0041214E: 84 D2              test        dl,dl
+  00412150: 75 EE              jne         00412140
+  00412152: 8B D0              mov         edx,eax
+  00412154: 8A 08              mov         cl,byte ptr [eax]
+  00412156: 40                 inc         eax
+  00412157: 84 C9              test        cl,cl
+  00412159: 75 F9              jne         00412154
+  0041215B: 57                 push        edi
+  0041215C: 8D BD FC FB FF FF  lea         edi,[ebp-404h]
+  00412162: 2B C2              sub         eax,edx
+  00412164: 4F                 dec         edi
+  00412165: 8A 4F 01           mov         cl,byte ptr [edi+1]
+  00412168: 47                 inc         edi
+  00412169: 84 C9              test        cl,cl
+  0041216B: 75 F8              jne         00412165
+  0041216D: 8B C8              mov         ecx,eax
+  0041216F: C1 E9 02           shr         ecx,2
+  00412172: 8B F2              mov         esi,edx
+  00412174: F3 A5              rep movs    dword ptr es:[edi],dword ptr [esi]
+  00412176: 8B C8              mov         ecx,eax
+  00412178: 83 E1 03           and         ecx,3
+  0041217B: B8 18 5C 41 00     mov         eax,415C18h
+  00412180: F3 A4              rep movs    byte ptr es:[edi],byte ptr [esi]
+  00412182: 8B C8              mov         ecx,eax
+  00412184: 8A 10              mov         dl,byte ptr [eax]
+  00412186: 40                 inc         eax
+  00412187: 84 D2              test        dl,dl
+  00412189: 75 F9              jne         00412184
+  0041218B: 8D BD FC FB FF FF  lea         edi,[ebp-404h]
+  00412191: 2B C1              sub         eax,ecx
+  00412193: 8B F1              mov         esi,ecx
+  00412195: 4F                 dec         edi
+  00412196: 8A 4F 01           mov         cl,byte ptr [edi+1]
+  00412199: 47                 inc         edi
+  0041219A: 84 C9              test        cl,cl
+  0041219C: 75 F8              jne         00412196
+  0041219E: 8B C8              mov         ecx,eax
+  004121A0: C1 E9 02           shr         ecx,2
+  004121A3: F3 A5              rep movs    dword ptr es:[edi],dword ptr [esi]
+  004121A5: 8B C8              mov         ecx,eax
+  004121A7: 83 E1 03           and         ecx,3
+  004121AA: F3 A4              rep movs    byte ptr es:[edi],byte ptr [esi]
+  004121AC: 5F                 pop         edi
+  004121AD: EB 05              jmp         004121B4
+  004121AF: BB B4 5D 41 00     mov         ebx,offset ??_C@_0CG@IAFNJNEE@Stack?5corrupted?5near?5unknown?5var@
+  004121B4: A1 08 70 41 00     mov         eax,dword ptr ds:[00417008h]
+  004121B9: 8B 8D F8 FB FF FF  mov         ecx,dword ptr [ebp-408h]
+  004121BF: 53                 push        ebx
+  004121C0: 6A 02              push        2
+  004121C2: 50                 push        eax
+  004121C3: 51                 push        ecx
+  004121C4: E8 F7 FA FF FF     call        00411CC0
+  004121C9: 83 C4 10           add         esp,10h
+  004121CC: 5E                 pop         esi
+  004121CD: 5B                 pop         ebx
+  004121CE: 8B 4D FC           mov         ecx,dword ptr [ebp-4]
+  004121D1: 33 CD              xor         ecx,ebp
+  004121D3: E8 41 EE FF FF     call        @ILT+20(@__security_check_cookie@4)
+  004121D8: 8B E5              mov         esp,ebp
+  004121DA: 5D                 pop         ebp
+  004121DB: C3                 ret
+  004121DC: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004121EC: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004121FC: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  0041220C: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  0041221C: CC CC CC CC                                      лллл
+?_RTC_AllocaFailure@@YAXPAXPAU_RTC_ALLOCA_NODE@@H@Z:
+  00412220: 8B FF              mov         edi,edi
+  00412222: 55                 push        ebp
+  00412223: 8B EC              mov         ebp,esp
+  00412225: 81 EC 44 01 00 00  sub         esp,144h
+  0041222B: A1 2C 70 41 00     mov         eax,dword ptr [___security_cookie]
+  00412230: 33 C5              xor         eax,ebp
+  00412232: 89 45 FC           mov         dword ptr [ebp-4],eax
+  00412235: 53                 push        ebx
+  00412236: 8B 1D 10 70 41 00  mov         ebx,dword ptr ds:[417010h]
+  0041223C: 56                 push        esi
+  0041223D: 8B 75 0C           mov         esi,dword ptr [ebp+0Ch]
+  00412240: 57                 push        edi
+  00412241: 8B 7D 08           mov         edi,dword ptr [ebp+8]
+  00412244: 89 BD BC FE FF FF  mov         dword ptr [ebp-144h],edi
+  0041224A: 83 FB FF           cmp         ebx,0FFFFFFFFh
+  0041224D: 0F 84 EF 00 00 00  je          00412342
+  00412253: 68 30 5F 41 00     push        offset ??_C@_1BG@OILDLIOJ@?$AAu?$AAs?$AAe?$AAr?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@
+  00412258: FF 15 38 82 41 00  call        dword ptr [__imp__LoadLibraryW@4]
+  0041225E: 85 C0              test        eax,eax
+  00412260: 0F 84 CB 00 00 00  je          00412331
+  00412266: 68 24 5F 41 00     push        offset ??_C@_09FOPFMPEJ@wsprintfA?$AA@
+  0041226B: 50                 push        eax
+  0041226C: FF 15 3C 82 41 00  call        dword ptr [__imp__GetProcAddress@8]
+  00412272: A3 68 71 41 00     mov         dword ptr [?wsprintffp@@3P6AHPADPBDZZA],eax
+  00412277: 85 F6              test        esi,esi
+  00412279: 0F 84 B2 00 00 00  je          00412331
+  0041227F: 85 C0              test        eax,eax
+  00412281: 0F 84 AA 00 00 00  je          00412331
+  00412287: 8B 4D 10           mov         ecx,dword ptr [ebp+10h]
+  0041228A: 8B 56 0C           mov         edx,dword ptr [esi+0Ch]
+  0041228D: 68 18 5F 41 00     push        offset ??_C@_08OMAHNMHJ@?6Data?3?5?$DM?$AA@
+  00412292: 51                 push        ecx
+  00412293: 68 E4 5E 41 00     push        offset ??_C@_0CK@DKGBICFE@?6Allocation?5number?5within?5this?5f@
+  00412298: 83 EA 24           sub         edx,24h
+  0041229B: 52                 push        edx
+  0041229C: 68 D8 5E 41 00     push        offset ??_C@_07DFDJCKFN@?6Size?3?5?$AA@
+  004122A1: 8D 7E 20           lea         edi,[esi+20h]
+  004122A4: 57                 push        edi
+  004122A5: 68 C8 5E 41 00     push        offset ??_C@_0N@MHFFIMFG@?6Address?3?50x?$AA@
+  004122AA: 68 70 5E 41 00     push        offset ??_C@_0EI@CLEPFNGI@Stack?5area?5around?5_alloca?5memory@
+  004122AF: 8D 8D C0 FE FF FF  lea         ecx,[ebp-140h]
+  004122B5: 68 54 5E 41 00     push        offset ??_C@_0BC@KIBAILCI@?$CFs?$CFs?$CFp?$CFs?$CFld?$CFs?$CFd?$CFs?$AA@
+  004122BA: 51                 push        ecx
+  004122BB: FF D0              call        eax
+  004122BD: 8B 56 0C           mov         edx,dword ptr [esi+0Ch]
+  004122C0: 83 EA 24           sub         edx,24h
+  004122C3: 52                 push        edx
+  004122C4: 57                 push        edi
+  004122C5: 8D 45 B4           lea         eax,[ebp-4Ch]
+  004122C8: 50                 push        eax
+  004122C9: 8D 4D E8           lea         ecx,[ebp-18h]
+  004122CC: 51                 push        ecx
+  004122CD: E8 CE 00 00 00     call        004123A0
+  004122D2: 83 C4 38           add         esp,38h
+  004122D5: 68 50 5E 41 00     push        offset ??_C@_01EEMJAFIK@?6?$AA@
+  004122DA: 8D 55 B4           lea         edx,[ebp-4Ch]
+  004122DD: 52                 push        edx
+  004122DE: 68 4C 5E 41 00     push        offset ??_C@_02LLMPMKNF@?$DO?5?$AA@
+  004122E3: 8D 45 E8           lea         eax,[ebp-18h]
+  004122E6: 50                 push        eax
+  004122E7: 68 40 5E 41 00     push        offset ??_C@_08KJEDNCKC@?$CFs?$CFs?$CFs?$CFs?$AA@
+  004122EC: 8D 8D C0 FE FF FF  lea         ecx,[ebp-140h]
+  004122F2: 51                 push        ecx
+  004122F3: FF 15 40 82 41 00  call        dword ptr [__imp__lstrlenA@4]
+  004122F9: 8D 94 05 C0 FE FF  lea         edx,[ebp+eax-140h]
+            FF
+  00412300: 52                 push        edx
+  00412301: FF 15 68 71 41 00  call        dword ptr [?wsprintffp@@3P6AHPADPBDZZA]
+  00412307: 8B 8D BC FE FF FF  mov         ecx,dword ptr [ebp-144h]
+  0041230D: 8D 85 C0 FE FF FF  lea         eax,[ebp-140h]
+  00412313: 50                 push        eax
+  00412314: 6A 04              push        4
+  00412316: 53                 push        ebx
+  00412317: 51                 push        ecx
+  00412318: E8 A3 F9 FF FF     call        00411CC0
+  0041231D: 83 C4 28           add         esp,28h
+  00412320: 5F                 pop         edi
+  00412321: 5E                 pop         esi
+  00412322: 5B                 pop         ebx
+  00412323: 8B 4D FC           mov         ecx,dword ptr [ebp-4]
+  00412326: 33 CD              xor         ecx,ebp
+  00412328: E8 EC EC FF FF     call        @ILT+20(@__security_check_cookie@4)
+  0041232D: 8B E5              mov         esp,ebp
+  0041232F: 5D                 pop         ebp
+  00412330: C3                 ret
+  00412331: 68 E8 5D 41 00     push        offset ??_C@_0EJ@LJKNEOLN@Stack?5area?5around?5_alloca?5memory@
+  00412336: 6A 04              push        4
+  00412338: 53                 push        ebx
+  00412339: 57                 push        edi
+  0041233A: E8 81 F9 FF FF     call        00411CC0
+  0041233F: 83 C4 10           add         esp,10h
+  00412342: 8B 4D FC           mov         ecx,dword ptr [ebp-4]
+  00412345: 5F                 pop         edi
+  00412346: 5E                 pop         esi
+  00412347: 33 CD              xor         ecx,ebp
+  00412349: 5B                 pop         ebx
+  0041234A: E8 CA EC FF FF     call        @ILT+20(@__security_check_cookie@4)
+  0041234F: 8B E5              mov         esp,ebp
+  00412351: 5D                 pop         ebp
+  00412352: C3                 ret
+  00412353: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412363: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412373: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412383: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412393: CC CC CC CC CC CC CC CC CC CC CC CC CC           ллллллллллллл
+  004123A0: 8B FF              mov         edi,edi
+  004123A2: 55                 push        ebp
+  004123A3: 8B EC              mov         ebp,esp
+  004123A5: 83 EC 08           sub         esp,8
+  004123A8: 8B 45 0C           mov         eax,dword ptr [ebp+0Ch]
+  004123AB: 53                 push        ebx
+  004123AC: 56                 push        esi
+  004123AD: 8B 75 08           mov         esi,dword ptr [ebp+8]
+  004123B0: 89 45 FC           mov         dword ptr [ebp-4],eax
+  004123B3: 8B 45 10           mov         eax,dword ptr [ebp+10h]
+  004123B6: 57                 push        edi
+  004123B7: 33 FF              xor         edi,edi
+  004123B9: 2B C6              sub         eax,esi
+  004123BB: 89 45 F8           mov         dword ptr [ebp-8],eax
+  004123BE: 8B FF              mov         edi,edi
+  004123C0: 8B 4D 14           mov         ecx,dword ptr [ebp+14h]
+  004123C3: 83 F9 10           cmp         ecx,10h
+  004123C6: 72 05              jb          004123CD
+  004123C8: B9 10 00 00 00     mov         ecx,10h
+  004123CD: 3B F9              cmp         edi,ecx
+  004123CF: 73 26              jae         004123F7
+  004123D1: 8A 1C 30           mov         bl,byte ptr [eax+esi]
+  004123D4: 8B 55 FC           mov         edx,dword ptr [ebp-4]
+  004123D7: 0F B6 CB           movzx       ecx,bl
+  004123DA: 51                 push        ecx
+  004123DB: 68 4C 5F 41 00     push        offset ??_C@_05MKKEDADM@?$CF?42X?5?$AA@
+  004123E0: 52                 push        edx
+  004123E1: FF 15 68 71 41 00  call        dword ptr [?wsprintffp@@3P6AHPADPBDZZA]
+  004123E7: 83 45 FC 03        add         dword ptr [ebp-4],3
+  004123EB: 8B 45 F8           mov         eax,dword ptr [ebp-8]
+  004123EE: 83 C4 0C           add         esp,0Ch
+  004123F1: 88 1E              mov         byte ptr [esi],bl
+  004123F3: 47                 inc         edi
+  004123F4: 46                 inc         esi
+  004123F5: EB C9              jmp         004123C0
+  004123F7: 8B 4D 0C           mov         ecx,dword ptr [ebp+0Ch]
+  004123FA: 8B 45 08           mov         eax,dword ptr [ebp+8]
+  004123FD: 8D 14 79           lea         edx,[ecx+edi*2]
+  00412400: C6 04 07 00        mov         byte ptr [edi+eax],0
+  00412404: C6 04 17 00        mov         byte ptr [edi+edx],0
+  00412408: 5F                 pop         edi
+  00412409: 5E                 pop         esi
+  0041240A: 5B                 pop         ebx
+  0041240B: 8B E5              mov         esp,ebp
+  0041240D: 5D                 pop         ebp
+  0041240E: C3                 ret
+  0041240F: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  0041241F: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  0041242F: CC                                               л
+__RTC_UninitUse:
+  00412430: 8B FF              mov         edi,edi
+  00412432: 55                 push        ebp
+  00412433: 8B EC              mov         ebp,esp
+  00412435: 81 EC 04 04 00 00  sub         esp,404h
+  0041243B: A1 2C 70 41 00     mov         eax,dword ptr [___security_cookie]
+  00412440: 33 C5              xor         eax,ebp
+  00412442: 89 45 FC           mov         dword ptr [ebp-4],eax
+  00412445: 83 3D 0C 70 41 00  cmp         dword ptr ds:[41700Ch],0FFFFFFFFh
+            FF
+  0041244C: 8B 45 08           mov         eax,dword ptr [ebp+8]
+  0041244F: 0F 84 B6 00 00 00  je          0041250B
+  00412455: 53                 push        ebx
+  00412456: 56                 push        esi
+  00412457: 85 C0              test        eax,eax
+  00412459: 0F 84 90 00 00 00  je          004124EF
+  0041245F: 8B C8              mov         ecx,eax
+  00412461: 8D 71 01           lea         esi,[ecx+1]
+  00412464: 8A 11              mov         dl,byte ptr [ecx]
+  00412466: 41                 inc         ecx
+  00412467: 84 D2              test        dl,dl
+  00412469: 75 F9              jne         00412464
+  0041246B: 2B CE              sub         ecx,esi
+  0041246D: 83 C1 3A           add         ecx,3Ah
+  00412470: 81 F9 00 04 00 00  cmp         ecx,400h
+  00412476: 77 77              ja          004124EF
+  00412478: 8D 9D FC FB FF FF  lea         ebx,[ebp-404h]
+  0041247E: 33 C9              xor         ecx,ecx
+  00412480: 8A 91 2C 5C 41 00  mov         dl,byte ptr [ecx+415C2Ch]
+  00412486: 88 94 0D FC FB FF  mov         byte ptr [ebp+ecx-404h],dl
+            FF
+  0041248D: 41                 inc         ecx
+  0041248E: 84 D2              test        dl,dl
+  00412490: 75 EE              jne         00412480
+  00412492: 8B D0              mov         edx,eax
+  00412494: 8A 08              mov         cl,byte ptr [eax]
+  00412496: 40                 inc         eax
+  00412497: 84 C9              test        cl,cl
+  00412499: 75 F9              jne         00412494
+  0041249B: 57                 push        edi
+  0041249C: 8D BD FC FB FF FF  lea         edi,[ebp-404h]
+  004124A2: 2B C2              sub         eax,edx
+  004124A4: 4F                 dec         edi
+  004124A5: 8A 4F 01           mov         cl,byte ptr [edi+1]
+  004124A8: 47                 inc         edi
+  004124A9: 84 C9              test        cl,cl
+  004124AB: 75 F8              jne         004124A5
+  004124AD: 8B C8              mov         ecx,eax
+  004124AF: C1 E9 02           shr         ecx,2
+  004124B2: 8B F2              mov         esi,edx
+  004124B4: F3 A5              rep movs    dword ptr es:[edi],dword ptr [esi]
+  004124B6: 8B C8              mov         ecx,eax
+  004124B8: 83 E1 03           and         ecx,3
+  004124BB: B8 3C 5C 41 00     mov         eax,415C3Ch
+  004124C0: F3 A4              rep movs    byte ptr es:[edi],byte ptr [esi]
+  004124C2: 8B C8              mov         ecx,eax
+  004124C4: 8A 10              mov         dl,byte ptr [eax]
+  004124C6: 40                 inc         eax
+  004124C7: 84 D2              test        dl,dl
+  004124C9: 75 F9              jne         004124C4
+  004124CB: 8D BD FC FB FF FF  lea         edi,[ebp-404h]
+  004124D1: 2B C1              sub         eax,ecx
+  004124D3: 8B F1              mov         esi,ecx
+  004124D5: 4F                 dec         edi
+  004124D6: 8A 4F 01           mov         cl,byte ptr [edi+1]
+  004124D9: 47                 inc         edi
+  004124DA: 84 C9              test        cl,cl
+  004124DC: 75 F8              jne         004124D6
+  004124DE: 8B C8              mov         ecx,eax
+  004124E0: C1 E9 02           shr         ecx,2
+  004124E3: F3 A5              rep movs    dword ptr es:[edi],dword ptr [esi]
+  004124E5: 8B C8              mov         ecx,eax
+  004124E7: 83 E1 03           and         ecx,3
+  004124EA: F3 A4              rep movs    byte ptr es:[edi],byte ptr [esi]
+  004124EC: 5F                 pop         edi
+  004124ED: EB 05              jmp         004124F4
+  004124EF: BB 54 5F 41 00     mov         ebx,offset ??_C@_0DE@OHJBPMBP@A?5variable?5is?5being?5used?5without@
+  004124F4: A1 0C 70 41 00     mov         eax,dword ptr ds:[0041700Ch]
+  004124F9: 53                 push        ebx
+  004124FA: 6A 03              push        3
+  004124FC: 50                 push        eax
+  004124FD: 8B 45 04           mov         eax,dword ptr [ebp+4]
+  00412500: 50                 push        eax
+  00412501: E8 BA F7 FF FF     call        00411CC0
+  00412506: 83 C4 10           add         esp,10h
+  00412509: 5E                 pop         esi
+  0041250A: 5B                 pop         ebx
+  0041250B: 8B 4D FC           mov         ecx,dword ptr [ebp-4]
+  0041250E: 33 CD              xor         ecx,ebp
+  00412510: E8 04 EB FF FF     call        @ILT+20(@__security_check_cookie@4)
+  00412515: 8B E5              mov         esp,ebp
+  00412517: 5D                 pop         ebp
+  00412518: C3                 ret
+  00412519: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412529: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412539: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412549: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412559: CC CC CC CC CC CC CC                             ллллллл
+__RTC_NumErrors:
+  00412560: B8 05 00 00 00     mov         eax,5
+  00412565: C3                 ret
+  00412566: CC CC CC CC CC CC CC CC CC CC                    лллллллллл
+__RTC_GetErrDesc:
+  00412570: 8B FF              mov         edi,edi
+  00412572: 55                 push        ebp
+  00412573: 8B EC              mov         ebp,esp
+  00412575: 8B 45 08           mov         eax,dword ptr [ebp+8]
+  00412578: 83 F8 04           cmp         eax,4
+  0041257B: 77 09              ja          00412586
+  0041257D: 8B 04 85 60 60 41  mov         eax,dword ptr [eax*4+416060h]
+            00
+  00412584: 5D                 pop         ebp
+  00412585: C3                 ret
+  00412586: 33 C0              xor         eax,eax
+  00412588: 5D                 pop         ebp
+  00412589: C3                 ret
+  0041258A: CC CC CC CC CC CC                                лллллл
+__RTC_SetErrorType:
+  00412590: 8B FF              mov         edi,edi
+  00412592: 55                 push        ebp
+  00412593: 8B EC              mov         ebp,esp
+  00412595: 8B 4D 08           mov         ecx,dword ptr [ebp+8]
+  00412598: 83 F9 04           cmp         ecx,4
+  0041259B: 77 13              ja          004125B0
+  0041259D: 8B 55 0C           mov         edx,dword ptr [ebp+0Ch]
+  004125A0: 8B 04 8D 00 70 41  mov         eax,dword ptr ?_RTC_ErrorLevels@@3PAHA[ecx*4]
+            00
+  004125A7: 89 14 8D 00 70 41  mov         dword ptr ?_RTC_ErrorLevels@@3PAHA[ecx*4],edx
+            00
+  004125AE: 5D                 pop         ebp
+  004125AF: C3                 ret
+  004125B0: 83 C8 FF           or          eax,0FFFFFFFFh
+  004125B3: 5D                 pop         ebp
+  004125B4: C3                 ret
+  004125B5: CC CC CC CC CC CC CC CC CC CC CC                 ллллллллллл
+__RTC_SetErrorFunc:
+  004125C0: 8B FF              mov         edi,edi
+  004125C2: 55                 push        ebp
+  004125C3: 8B EC              mov         ebp,esp
+  004125C5: 8B 4D 08           mov         ecx,dword ptr [ebp+8]
+  004125C8: A1 6C 71 41 00     mov         eax,dword ptr ds:[0041716Ch]
+  004125CD: 89 0D 6C 71 41 00  mov         dword ptr ds:[41716Ch],ecx
+  004125D3: C7 05 70 71 41 00  mov         dword ptr ds:[417170h],0
+            00 00 00 00
+  004125DD: 5D                 pop         ebp
+  004125DE: C3                 ret
+  004125DF: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004125EF: CC                                               л
+__RTC_SetErrorFuncW:
+  004125F0: 8B FF              mov         edi,edi
+  004125F2: 55                 push        ebp
+  004125F3: 8B EC              mov         ebp,esp
+  004125F5: 8B 4D 08           mov         ecx,dword ptr [ebp+8]
+  004125F8: A1 70 71 41 00     mov         eax,dword ptr ds:[00417170h]
+  004125FD: 89 0D 70 71 41 00  mov         dword ptr ds:[417170h],ecx
+  00412603: C7 05 6C 71 41 00  mov         dword ptr ds:[41716Ch],0
+            00 00 00 00
+  0041260D: 5D                 pop         ebp
+  0041260E: C3                 ret
+  0041260F: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  0041261F: CC                                               л
+?_RTC_GetErrorFunc@@YAP6AHHPBDH00ZZPBX@Z:
+  00412620: A1 6C 71 41 00     mov         eax,dword ptr ds:[0041716Ch]
+  00412625: C3                 ret
+  00412626: CC CC CC CC CC CC CC CC CC CC                    лллллллллл
+?_RTC_GetErrorFuncW@@YAP6AHHPB_WH00ZZPBX@Z:
+  00412630: A1 70 71 41 00     mov         eax,dword ptr ds:[00417170h]
+  00412635: C3                 ret
+__CRT_RTC_INITW:
+  00412636: FF 25 18 83 41 00  jmp         dword ptr [__imp___CRT_RTC_INITW]
+  0041263C: CC CC CC CC                                      лллл
+?__CxxUnhandledExceptionFilter@@YGJPAU_EXCEPTION_POINTERS@@@Z:
+  00412640: 8B FF              mov         edi,edi
+  00412642: 55                 push        ebp
+  00412643: 8B EC              mov         ebp,esp
+  00412645: 8B 45 08           mov         eax,dword ptr [ebp+8]
+  00412648: 8B 08              mov         ecx,dword ptr [eax]
+  0041264A: 81 39 63 73 6D E0  cmp         dword ptr [ecx],0E06D7363h
+  00412650: 75 4F              jne         004126A1
+  00412652: 8B 55 08           mov         edx,dword ptr [ebp+8]
+  00412655: 8B 02              mov         eax,dword ptr [edx]
+  00412657: 83 78 10 03        cmp         dword ptr [eax+10h],3
+  0041265B: 75 44              jne         004126A1
+  0041265D: 8B 4D 08           mov         ecx,dword ptr [ebp+8]
+  00412660: 8B 11              mov         edx,dword ptr [ecx]
+  00412662: 81 7A 14 20 05 93  cmp         dword ptr [edx+14h],19930520h
+            19
+  00412669: 74 2A              je          00412695
+  0041266B: 8B 45 08           mov         eax,dword ptr [ebp+8]
+  0041266E: 8B 08              mov         ecx,dword ptr [eax]
+  00412670: 81 79 14 21 05 93  cmp         dword ptr [ecx+14h],19930521h
+            19
+  00412677: 74 1C              je          00412695
+  00412679: 8B 55 08           mov         edx,dword ptr [ebp+8]
+  0041267C: 8B 02              mov         eax,dword ptr [edx]
+  0041267E: 81 78 14 22 05 93  cmp         dword ptr [eax+14h],19930522h
+            19
+  00412685: 74 0E              je          00412695
+  00412687: 8B 4D 08           mov         ecx,dword ptr [ebp+8]
+  0041268A: 8B 11              mov         edx,dword ptr [ecx]
+  0041268C: 81 7A 14 00 40 99  cmp         dword ptr [edx+14h],1994000h
+            01
+  00412693: 75 0C              jne         004126A1
+  00412695: E8 FC E9 FF FF     call        @ILT+145(?terminate@@YAXXZ)
+  0041269A: B8 01 00 00 00     mov         eax,1
+  0041269F: EB 02              jmp         004126A3
+  004126A1: 33 C0              xor         eax,eax
+  004126A3: 5D                 pop         ebp
+  004126A4: C2 04 00           ret         4
+  004126A7: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004126B7: CC CC CC CC CC CC CC CC CC                       ллллллллл
+___CxxSetUnhandledExceptionFilter:
+  004126C0: 8B FF              mov         edi,edi
+  004126C2: 55                 push        ebp
+  004126C3: 8B EC              mov         ebp,esp
+  004126C5: 68 18 11 41 00     push        offset @ILT+275(?__CxxUnhandledExceptionFilter@@YGJPAU_EXCEPTION_POINTERS@@@Z)
+  004126CA: FF 15 34 82 41 00  call        dword ptr [__imp__SetUnhandledExceptionFilter@4]
+  004126D0: 33 C0              xor         eax,eax
+  004126D2: 5D                 pop         ebp
+  004126D3: C3                 ret
+  004126D4: CC CC CC CC CC CC                                лллллл
+__configthreadlocale:
+  004126DA: FF 25 14 83 41 00  jmp         dword ptr [__imp___configthreadlocale]
+__setdefaultprecision:
+  004126E0: 8B FF              mov         edi,edi
+  004126E2: 55                 push        ebp
+  004126E3: 8B EC              mov         ebp,esp
+  004126E5: 6A 00              push        0
+  004126E7: 6A 1F              push        1Fh
+  004126E9: 68 40 61 41 00     push        offset ??_C@_1GG@PHGJJHBC@?$AAf?$AA?3?$AA?2?$AAd?$AAd?$AA?2?$AAv?$AAc?$AAt?$AAo?$AAo?$AAl?$AAs?$AA?2?$AAc?$AAr?$AAt?$AA_?$AAb?$AAl?$AAd?$AA?2?$AAs?$AAe?$AAl?$AAf?$AA_?$AAx?$AA8?$AA6?$AA?2?$AAc@
+  004126EE: 68 08 61 41 00     push        offset ??_C@_1CK@JMKHCBEI@?$AA_?$AAs?$AAe?$AAt?$AAd?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAp?$AAr?$AAe?$AAc?$AAi?$AAs?$AAi?$AAo?$AAn?$AA?$AA@
+  004126F3: 68 90 60 41 00     push        offset ??_C@_1GE@KOCFNGPB@?$AA_?$AAc?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAf?$AAp?$AA_?$AAs?$AA?$CI?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?0?$AA?5?$AA0?$AAx?$AA0?$AA0?$AA0?$AA1@
+  004126F8: 68 00 00 03 00     push        30000h
+  004126FD: 68 00 00 01 00     push        10000h
+  00412702: 6A 00              push        0
+  00412704: E8 46 EA FF FF     call        @ILT+330(__controlfp_s)
+  00412709: 83 C4 0C           add         esp,0Ch
+  0041270C: 50                 push        eax
+  0041270D: E8 F7 E9 FF FF     call        @ILT+260(__invoke_watson_if_error)
+  00412712: 83 C4 18           add         esp,18h
+  00412715: 5D                 pop         ebp
+  00412716: C3                 ret
+  00412717: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412727: CC CC CC CC CC CC CC CC CC                       ллллллллл
+__invoke_watson_if_error:
+  00412730: 8B FF              mov         edi,edi
+  00412732: 55                 push        ebp
+  00412733: 8B EC              mov         ebp,esp
+  00412735: 83 7D 08 00        cmp         dword ptr [ebp+8],0
+  00412739: 75 02              jne         0041273D
+  0041273B: EB 19              jmp         00412756
+  0041273D: 8B 45 1C           mov         eax,dword ptr [ebp+1Ch]
+  00412740: 50                 push        eax
+  00412741: 8B 4D 18           mov         ecx,dword ptr [ebp+18h]
+  00412744: 51                 push        ecx
+  00412745: 8B 55 14           mov         edx,dword ptr [ebp+14h]
+  00412748: 52                 push        edx
+  00412749: 8B 45 10           mov         eax,dword ptr [ebp+10h]
+  0041274C: 50                 push        eax
+  0041274D: 8B 4D 0C           mov         ecx,dword ptr [ebp+0Ch]
+  00412750: 51                 push        ecx
+  00412751: E8 08 EA FF FF     call        @ILT+345(__invoke_watson)
+  00412756: 5D                 pop         ebp
+  00412757: C3                 ret
+  00412758: CC CC CC CC CC CC CC CC CC CC                    лллллллллл
+___setusermatherr:
+  00412762: FF 25 10 83 41 00  jmp         dword ptr [__imp____setusermatherr]
+  00412768: CC CC CC CC CC CC CC CC                          лллллллл
+__matherr:
+  00412770: 8B FF              mov         edi,edi
+  00412772: 55                 push        ebp
+  00412773: 8B EC              mov         ebp,esp
+  00412775: 33 C0              xor         eax,eax
+  00412777: 5D                 pop         ebp
+  00412778: C3                 ret
+  00412779: CC CC CC CC CC CC CC                             ллллллл
+__setargv:
+  00412780: 8B FF              mov         edi,edi
+  00412782: 55                 push        ebp
+  00412783: 8B EC              mov         ebp,esp
+  00412785: 33 C0              xor         eax,eax
+  00412787: 5D                 pop         ebp
+  00412788: C3                 ret
+  00412789: CC CC CC CC CC CC CC                             ллллллл
+__RTC_Initialize:
+  00412790: 8B FF              mov         edi,edi
+  00412792: 56                 push        esi
+  00412793: BE F4 65 41 00     mov         esi,4165F4h
+  00412798: 8B C6              mov         eax,esi
+  0041279A: 3D F8 67 41 00     cmp         eax,offset ___rtc_izz
+  0041279F: 73 13              jae         004127B4
+  004127A1: 8B 06              mov         eax,dword ptr [esi]
+  004127A3: 85 C0              test        eax,eax
+  004127A5: 74 02              je          004127A9
+  004127A7: FF D0              call        eax
+  004127A9: 83 C6 04           add         esi,4
+  004127AC: 81 FE F8 67 41 00  cmp         esi,offset ___rtc_izz
+  004127B2: 72 ED              jb          004127A1
+  004127B4: 5E                 pop         esi
+  004127B5: C3                 ret
+  004127B6: CC CC CC CC CC CC CC CC CC CC                    лллллллллл
+__RTC_Terminate:
+  004127C0: 8B FF              mov         edi,edi
+  004127C2: 56                 push        esi
+  004127C3: BE 00 69 41 00     mov         esi,416900h
+  004127C8: 8B C6              mov         eax,esi
+  004127CA: 3D 04 6B 41 00     cmp         eax,offset ___rtc_tzz
+  004127CF: 73 13              jae         004127E4
+  004127D1: 8B 06              mov         eax,dword ptr [esi]
+  004127D3: 85 C0              test        eax,eax
+  004127D5: 74 02              je          004127D9
+  004127D7: FF D0              call        eax
+  004127D9: 83 C6 04           add         esi,4
+  004127DC: 81 FE 04 6B 41 00  cmp         esi,offset ___rtc_tzz
+  004127E2: 72 ED              jb          004127D1
+  004127E4: 5E                 pop         esi
+  004127E5: C3                 ret
+  004127E6: CC CC CC CC CC CC CC CC CC CC                    лллллллллл
+__onexit:
+  004127F0: 8B FF              mov         edi,edi
+  004127F2: 55                 push        ebp
+  004127F3: 8B EC              mov         ebp,esp
+  004127F5: 6A FE              push        0FFFFFFFEh
+  004127F7: 68 68 6C 41 00     push        416C68h
+  004127FC: 68 78 10 41 00     push        offset @ILT+115(__except_handler4)
+  00412801: 64 A1 00 00 00 00  mov         eax,dword ptr fs:[00000000h]
+  00412807: 50                 push        eax
+  00412808: 83 C4 EC           add         esp,0FFFFFFECh
+  0041280B: 53                 push        ebx
+  0041280C: 56                 push        esi
+  0041280D: 57                 push        edi
+  0041280E: A1 2C 70 41 00     mov         eax,dword ptr [___security_cookie]
+  00412813: 31 45 F8           xor         dword ptr [ebp-8],eax
+  00412816: 33 C5              xor         eax,ebp
+  00412818: 50                 push        eax
+  00412819: 8D 45 F0           lea         eax,[ebp-10h]
+  0041281C: 64 A3 00 00 00 00  mov         dword ptr fs:[00000000h],eax
+  00412822: A1 78 75 41 00     mov         eax,dword ptr [___onexitbegin]
+  00412827: 50                 push        eax
+  00412828: FF 15 30 82 41 00  call        dword ptr [__imp__DecodePointer@4]
+  0041282E: 89 45 E4           mov         dword ptr [ebp-1Ch],eax
+  00412831: 83 7D E4 FF        cmp         dword ptr [ebp-1Ch],0FFFFFFFFh
+  00412835: 75 12              jne         00412849
+  00412837: 8B 4D 08           mov         ecx,dword ptr [ebp+8]
+  0041283A: 51                 push        ecx
+  0041283B: FF 15 B0 82 41 00  call        dword ptr [__imp___onexit]
+  00412841: 83 C4 04           add         esp,4
+  00412844: E9 88 00 00 00     jmp         004128D1
+  00412849: 6A 08              push        8
+  0041284B: E8 2D E8 FF FF     call        @ILT+120(__lock)
+  00412850: 83 C4 04           add         esp,4
+  00412853: C7 45 FC 00 00 00  mov         dword ptr [ebp-4],0
+            00
+  0041285A: 8B 15 78 75 41 00  mov         edx,dword ptr [___onexitbegin]
+  00412860: 52                 push        edx
+  00412861: FF 15 30 82 41 00  call        dword ptr [__imp__DecodePointer@4]
+  00412867: 89 45 E4           mov         dword ptr [ebp-1Ch],eax
+  0041286A: A1 68 75 41 00     mov         eax,dword ptr [___onexitend]
+  0041286F: 50                 push        eax
+  00412870: FF 15 30 82 41 00  call        dword ptr [__imp__DecodePointer@4]
+  00412876: 89 45 DC           mov         dword ptr [ebp-24h],eax
+  00412879: 8D 4D DC           lea         ecx,[ebp-24h]
+  0041287C: 51                 push        ecx
+  0041287D: 8D 55 E4           lea         edx,[ebp-1Ch]
+  00412880: 52                 push        edx
+  00412881: 8B 45 08           mov         eax,dword ptr [ebp+8]
+  00412884: 50                 push        eax
+  00412885: FF 15 64 82 41 00  call        dword ptr [__imp__EncodePointer@4]
+  0041288B: 50                 push        eax
+  0041288C: E8 3B E9 FF FF     call        @ILT+455(___dllonexit)
+  00412891: 83 C4 0C           add         esp,0Ch
+  00412894: 89 45 E0           mov         dword ptr [ebp-20h],eax
+  00412897: 8B 4D E4           mov         ecx,dword ptr [ebp-1Ch]
+  0041289A: 51                 push        ecx
+  0041289B: FF 15 64 82 41 00  call        dword ptr [__imp__EncodePointer@4]
+  004128A1: A3 78 75 41 00     mov         dword ptr [___onexitbegin],eax
+  004128A6: 8B 55 DC           mov         edx,dword ptr [ebp-24h]
+  004128A9: 52                 push        edx
+  004128AA: FF 15 64 82 41 00  call        dword ptr [__imp__EncodePointer@4]
+  004128B0: A3 68 75 41 00     mov         dword ptr [___onexitend],eax
+  004128B5: C7 45 FC FE FF FF  mov         dword ptr [ebp-4],0FFFFFFFEh
+            FF
+  004128BC: E8 02 00 00 00     call        004128C3
+  004128C1: EB 0B              jmp         004128CE
+  004128C3: 6A 08              push        8
+  004128C5: E8 5D E8 FF FF     call        @ILT+290(__unlock)
+  004128CA: 83 C4 04           add         esp,4
+  004128CD: C3                 ret
+  004128CE: 8B 45 E0           mov         eax,dword ptr [ebp-20h]
+  004128D1: 8B 4D F0           mov         ecx,dword ptr [ebp-10h]
+  004128D4: 64 89 0D 00 00 00  mov         dword ptr fs:[0],ecx
+            00
+  004128DB: 59                 pop         ecx
+  004128DC: 5F                 pop         edi
+  004128DD: 5E                 pop         esi
+  004128DE: 5B                 pop         ebx
+  004128DF: 8B E5              mov         esp,ebp
+  004128E1: 5D                 pop         ebp
+  004128E2: C3                 ret
+  004128E3: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004128F3: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412903: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412913: CC CC CC CC CC CC CC CC CC CC CC CC CC           ллллллллллллл
+_atexit:
+  00412920: 8B FF              mov         edi,edi
+  00412922: 55                 push        ebp
+  00412923: 8B EC              mov         ebp,esp
+  00412925: 8B 45 08           mov         eax,dword ptr [ebp+8]
+  00412928: 50                 push        eax
+  00412929: E8 C7 E7 FF FF     call        @ILT+240(__onexit)
+  0041292E: 83 C4 04           add         esp,4
+  00412931: F7 D8              neg         eax
+  00412933: 1B C0              sbb         eax,eax
+  00412935: F7 D8              neg         eax
+  00412937: 83 E8 01           sub         eax,1
+  0041293A: 5D                 pop         ebp
+  0041293B: C3                 ret
+  0041293C: CC CC CC CC CC CC CC CC                          лллллллл
+___set_app_type:
+  00412944: FF 25 04 83 41 00  jmp         dword ptr [__imp____set_app_type]
+__amsg_exit:
+  0041294A: FF 25 00 83 41 00  jmp         dword ptr [__imp___amsg_exit]
+___getmainargs:
+  00412950: FF 25 FC 82 41 00  jmp         dword ptr [__imp____getmainargs]
+  00412956: CC CC CC CC CC CC CC CC CC CC                    лллллллллл
+___security_init_cookie:
+  00412960: 8B FF              mov         edi,edi
+  00412962: 55                 push        ebp
+  00412963: 8B EC              mov         ebp,esp
+  00412965: 83 EC 18           sub         esp,18h
+  00412968: C7 45 F8 00 00 00  mov         dword ptr [ebp-8],0
+            00
+  0041296F: C7 45 FC 00 00 00  mov         dword ptr [ebp-4],0
+            00
+  00412976: 81 3D 2C 70 41 00  cmp         dword ptr [___security_cookie],0BB40E64Eh
+            4E E6 40 BB
+  00412980: 74 1F              je          004129A1
+  00412982: A1 2C 70 41 00     mov         eax,dword ptr [___security_cookie]
+  00412987: 25 00 00 FF FF     and         eax,0FFFF0000h
+  0041298C: 74 13              je          004129A1
+  0041298E: 8B 0D 2C 70 41 00  mov         ecx,dword ptr [___security_cookie]
+  00412994: F7 D1              not         ecx
+  00412996: 89 0D 30 70 41 00  mov         dword ptr [___security_cookie_complement],ecx
+  0041299C: E9 9B 00 00 00     jmp         00412A3C
+  004129A1: 8D 55 F8           lea         edx,[ebp-8]
+  004129A4: 52                 push        edx
+  004129A5: FF 15 1C 82 41 00  call        dword ptr [__imp__GetSystemTimeAsFileTime@4]
+  004129AB: 8B 45 F8           mov         eax,dword ptr [ebp-8]
+  004129AE: 89 45 F4           mov         dword ptr [ebp-0Ch],eax
+  004129B1: 8B 4D F4           mov         ecx,dword ptr [ebp-0Ch]
+  004129B4: 33 4D FC           xor         ecx,dword ptr [ebp-4]
+  004129B7: 89 4D F4           mov         dword ptr [ebp-0Ch],ecx
+  004129BA: FF 15 20 82 41 00  call        dword ptr [__imp__GetCurrentProcessId@0]
+  004129C0: 33 45 F4           xor         eax,dword ptr [ebp-0Ch]
+  004129C3: 89 45 F4           mov         dword ptr [ebp-0Ch],eax
+  004129C6: FF 15 24 82 41 00  call        dword ptr [__imp__GetCurrentThreadId@0]
+  004129CC: 33 45 F4           xor         eax,dword ptr [ebp-0Ch]
+  004129CF: 89 45 F4           mov         dword ptr [ebp-0Ch],eax
+  004129D2: FF 15 28 82 41 00  call        dword ptr [__imp__GetTickCount@0]
+  004129D8: 33 45 F4           xor         eax,dword ptr [ebp-0Ch]
+  004129DB: 89 45 F4           mov         dword ptr [ebp-0Ch],eax
+  004129DE: 8D 55 E8           lea         edx,[ebp-18h]
+  004129E1: 52                 push        edx
+  004129E2: FF 15 2C 82 41 00  call        dword ptr [__imp__QueryPerformanceCounter@4]
+  004129E8: 8B 45 F4           mov         eax,dword ptr [ebp-0Ch]
+  004129EB: 33 45 E8           xor         eax,dword ptr [ebp-18h]
+  004129EE: 89 45 F4           mov         dword ptr [ebp-0Ch],eax
+  004129F1: 8B 4D F4           mov         ecx,dword ptr [ebp-0Ch]
+  004129F4: 33 4D EC           xor         ecx,dword ptr [ebp-14h]
+  004129F7: 89 4D F4           mov         dword ptr [ebp-0Ch],ecx
+  004129FA: 81 7D F4 4E E6 40  cmp         dword ptr [ebp-0Ch],0BB40E64Eh
+            BB
+  00412A01: 75 09              jne         00412A0C
+  00412A03: C7 45 F4 4F E6 40  mov         dword ptr [ebp-0Ch],0BB40E64Fh
+            BB
+  00412A0A: EB 1C              jmp         00412A28
+  00412A0C: 8B 55 F4           mov         edx,dword ptr [ebp-0Ch]
+  00412A0F: 81 E2 00 00 FF FF  and         edx,0FFFF0000h
+  00412A15: 75 11              jne         00412A28
+  00412A17: 8B 45 F4           mov         eax,dword ptr [ebp-0Ch]
+  00412A1A: 0D 11 47 00 00     or          eax,4711h
+  00412A1F: C1 E0 10           shl         eax,10h
+  00412A22: 0B 45 F4           or          eax,dword ptr [ebp-0Ch]
+  00412A25: 89 45 F4           mov         dword ptr [ebp-0Ch],eax
+  00412A28: 8B 4D F4           mov         ecx,dword ptr [ebp-0Ch]
+  00412A2B: 89 0D 2C 70 41 00  mov         dword ptr [___security_cookie],ecx
+  00412A31: 8B 55 F4           mov         edx,dword ptr [ebp-0Ch]
+  00412A34: F7 D2              not         edx
+  00412A36: 89 15 30 70 41 00  mov         dword ptr [___security_cookie_complement],edx
+  00412A3C: 8B E5              mov         esp,ebp
+  00412A3E: 5D                 pop         ebp
+  00412A3F: C3                 ret
+  00412A40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412A50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412A60: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412A70: CC CC CC CC CC CC CC CC                          лллллллл
+__exit:
+  00412A78: FF 25 F8 82 41 00  jmp         dword ptr [__imp___exit]
+__XcptFilter:
+  00412A7E: FF 25 F4 82 41 00  jmp         dword ptr [__imp___XcptFilter]
+__cexit:
+  00412A84: FF 25 F0 82 41 00  jmp         dword ptr [__imp___cexit]
+_exit:
+  00412A8A: FF 25 EC 82 41 00  jmp         dword ptr [__imp__exit]
+__CrtSetCheckCount:
+  00412A90: FF 25 E4 82 41 00  jmp         dword ptr [__imp___CrtSetCheckCount]
+  00412A96: CC CC CC CC CC CC CC CC CC CC                    лллллллллл
+__ValidateImageBase:
+  00412AA0: 8B FF              mov         edi,edi
+  00412AA2: 55                 push        ebp
+  00412AA3: 8B EC              mov         ebp,esp
+  00412AA5: 83 EC 0C           sub         esp,0Ch
+  00412AA8: 8B 45 08           mov         eax,dword ptr [ebp+8]
+  00412AAB: 89 45 F8           mov         dword ptr [ebp-8],eax
+  00412AAE: 8B 4D F8           mov         ecx,dword ptr [ebp-8]
+  00412AB1: 0F B7 11           movzx       edx,word ptr [ecx]
+  00412AB4: 81 FA 4D 5A 00 00  cmp         edx,5A4Dh
+  00412ABA: 74 04              je          00412AC0
+  00412ABC: 33 C0              xor         eax,eax
+  00412ABE: EB 3B              jmp         00412AFB
+  00412AC0: 8B 45 F8           mov         eax,dword ptr [ebp-8]
+  00412AC3: 8B 4D F8           mov         ecx,dword ptr [ebp-8]
+  00412AC6: 03 48 3C           add         ecx,dword ptr [eax+3Ch]
+  00412AC9: 89 4D F4           mov         dword ptr [ebp-0Ch],ecx
+  00412ACC: 8B 55 F4           mov         edx,dword ptr [ebp-0Ch]
+  00412ACF: 81 3A 50 45 00 00  cmp         dword ptr [edx],4550h
+  00412AD5: 74 04              je          00412ADB
+  00412AD7: 33 C0              xor         eax,eax
+  00412AD9: EB 20              jmp         00412AFB
+  00412ADB: 8B 45 F4           mov         eax,dword ptr [ebp-0Ch]
+  00412ADE: 83 C0 18           add         eax,18h
+  00412AE1: 89 45 FC           mov         dword ptr [ebp-4],eax
+  00412AE4: 8B 4D FC           mov         ecx,dword ptr [ebp-4]
+  00412AE7: 0F B7 11           movzx       edx,word ptr [ecx]
+  00412AEA: 81 FA 0B 01 00 00  cmp         edx,10Bh
+  00412AF0: 74 04              je          00412AF6
+  00412AF2: 33 C0              xor         eax,eax
+  00412AF4: EB 05              jmp         00412AFB
+  00412AF6: B8 01 00 00 00     mov         eax,1
+  00412AFB: 8B E5              mov         esp,ebp
+  00412AFD: 5D                 pop         ebp
+  00412AFE: C3                 ret
+  00412AFF: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412B0F: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412B1F: CC                                               л
+__FindPESection:
+  00412B20: 8B FF              mov         edi,edi
+  00412B22: 55                 push        ebp
+  00412B23: 8B EC              mov         ebp,esp
+  00412B25: 83 EC 0C           sub         esp,0Ch
+  00412B28: 8B 45 08           mov         eax,dword ptr [ebp+8]
+  00412B2B: 8B 4D 08           mov         ecx,dword ptr [ebp+8]
+  00412B2E: 03 48 3C           add         ecx,dword ptr [eax+3Ch]
+  00412B31: 89 4D FC           mov         dword ptr [ebp-4],ecx
+  00412B34: C7 45 F8 00 00 00  mov         dword ptr [ebp-8],0
+            00
+  00412B3B: 8B 55 FC           mov         edx,dword ptr [ebp-4]
+  00412B3E: 0F B7 42 14        movzx       eax,word ptr [edx+14h]
+  00412B42: 8B 4D FC           mov         ecx,dword ptr [ebp-4]
+  00412B45: 8D 54 01 18        lea         edx,[ecx+eax+18h]
+  00412B49: 89 55 F4           mov         dword ptr [ebp-0Ch],edx
+  00412B4C: EB 12              jmp         00412B60
+  00412B4E: 8B 45 F8           mov         eax,dword ptr [ebp-8]
+  00412B51: 83 C0 01           add         eax,1
+  00412B54: 89 45 F8           mov         dword ptr [ebp-8],eax
+  00412B57: 8B 4D F4           mov         ecx,dword ptr [ebp-0Ch]
+  00412B5A: 83 C1 28           add         ecx,28h
+  00412B5D: 89 4D F4           mov         dword ptr [ebp-0Ch],ecx
+  00412B60: 8B 55 FC           mov         edx,dword ptr [ebp-4]
+  00412B63: 0F B7 42 06        movzx       eax,word ptr [edx+6]
+  00412B67: 39 45 F8           cmp         dword ptr [ebp-8],eax
+  00412B6A: 73 23              jae         00412B8F
+  00412B6C: 8B 4D F4           mov         ecx,dword ptr [ebp-0Ch]
+  00412B6F: 8B 55 0C           mov         edx,dword ptr [ebp+0Ch]
+  00412B72: 3B 51 0C           cmp         edx,dword ptr [ecx+0Ch]
+  00412B75: 72 16              jb          00412B8D
+  00412B77: 8B 45 F4           mov         eax,dword ptr [ebp-0Ch]
+  00412B7A: 8B 48 0C           mov         ecx,dword ptr [eax+0Ch]
+  00412B7D: 8B 55 F4           mov         edx,dword ptr [ebp-0Ch]
+  00412B80: 03 4A 08           add         ecx,dword ptr [edx+8]
+  00412B83: 39 4D 0C           cmp         dword ptr [ebp+0Ch],ecx
+  00412B86: 73 05              jae         00412B8D
+  00412B88: 8B 45 F4           mov         eax,dword ptr [ebp-0Ch]
+  00412B8B: EB 04              jmp         00412B91
+  00412B8D: EB BF              jmp         00412B4E
+  00412B8F: 33 C0              xor         eax,eax
+  00412B91: 8B E5              mov         esp,ebp
+  00412B93: 5D                 pop         ebp
+  00412B94: C3                 ret
+  00412B95: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412BA5: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412BB5: CC CC CC CC CC CC CC CC CC CC CC                 ллллллллллл
+__IsNonwritableInCurrentImage:
+  00412BC0: 8B FF              mov         edi,edi
+  00412BC2: 55                 push        ebp
+  00412BC3: 8B EC              mov         ebp,esp
+  00412BC5: 6A FE              push        0FFFFFFFEh
+  00412BC7: 68 88 6C 41 00     push        416C88h
+  00412BCC: 68 78 10 41 00     push        offset @ILT+115(__except_handler4)
+  00412BD1: 64 A1 00 00 00 00  mov         eax,dword ptr fs:[00000000h]
+  00412BD7: 50                 push        eax
+  00412BD8: 83 C4 D8           add         esp,0FFFFFFD8h
+  00412BDB: 53                 push        ebx
+  00412BDC: 56                 push        esi
+  00412BDD: 57                 push        edi
+  00412BDE: A1 2C 70 41 00     mov         eax,dword ptr [___security_cookie]
+  00412BE3: 31 45 F8           xor         dword ptr [ebp-8],eax
+  00412BE6: 33 C5              xor         eax,ebp
+  00412BE8: 50                 push        eax
+  00412BE9: 8D 45 F0           lea         eax,[ebp-10h]
+  00412BEC: 64 A3 00 00 00 00  mov         dword ptr fs:[00000000h],eax
+  00412BF2: 89 65 E8           mov         dword ptr [ebp-18h],esp
+  00412BF5: C7 45 E4 00 00 40  mov         dword ptr [ebp-1Ch],400000h
+            00
+  00412BFC: C7 45 FC 00 00 00  mov         dword ptr [ebp-4],0
+            00
+  00412C03: 8B 45 E4           mov         eax,dword ptr [ebp-1Ch]
+  00412C06: 50                 push        eax
+  00412C07: E8 D5 E4 FF FF     call        @ILT+220(__ValidateImageBase)
+  00412C0C: 83 C4 04           add         esp,4
+  00412C0F: 85 C0              test        eax,eax
+  00412C11: 75 16              jne         00412C29
+  00412C13: C7 45 D4 00 00 00  mov         dword ptr [ebp-2Ch],0
+            00
+  00412C1A: C7 45 FC FE FF FF  mov         dword ptr [ebp-4],0FFFFFFFEh
+            FF
+  00412C21: 8B 45 D4           mov         eax,dword ptr [ebp-2Ch]
+  00412C24: E9 97 00 00 00     jmp         00412CC0
+  00412C29: 8B 4D 08           mov         ecx,dword ptr [ebp+8]
+  00412C2C: 2B 4D E4           sub         ecx,dword ptr [ebp-1Ch]
+  00412C2F: 89 4D DC           mov         dword ptr [ebp-24h],ecx
+  00412C32: 8B 55 DC           mov         edx,dword ptr [ebp-24h]
+  00412C35: 52                 push        edx
+  00412C36: 8B 45 E4           mov         eax,dword ptr [ebp-1Ch]
+  00412C39: 50                 push        eax
+  00412C3A: E8 7A E4 FF FF     call        @ILT+180(__FindPESection)
+  00412C3F: 83 C4 08           add         esp,8
+  00412C42: 89 45 E0           mov         dword ptr [ebp-20h],eax
+  00412C45: 83 7D E0 00        cmp         dword ptr [ebp-20h],0
+  00412C49: 75 13              jne         00412C5E
+  00412C4B: C7 45 D0 00 00 00  mov         dword ptr [ebp-30h],0
+            00
+  00412C52: C7 45 FC FE FF FF  mov         dword ptr [ebp-4],0FFFFFFFEh
+            FF
+  00412C59: 8B 45 D0           mov         eax,dword ptr [ebp-30h]
+  00412C5C: EB 62              jmp         00412CC0
+  00412C5E: 8B 4D E0           mov         ecx,dword ptr [ebp-20h]
+  00412C61: 8B 51 24           mov         edx,dword ptr [ecx+24h]
+  00412C64: 81 E2 00 00 00 80  and         edx,80000000h
+  00412C6A: F7 DA              neg         edx
+  00412C6C: 1B D2              sbb         edx,edx
+  00412C6E: 83 C2 01           add         edx,1
+  00412C71: 89 55 CC           mov         dword ptr [ebp-34h],edx
+  00412C74: C7 45 FC FE FF FF  mov         dword ptr [ebp-4],0FFFFFFFEh
+            FF
+  00412C7B: 8B 45 CC           mov         eax,dword ptr [ebp-34h]
+  00412C7E: EB 40              jmp         00412CC0
+  00412C80: C7 45 FC FE FF FF  mov         dword ptr [ebp-4],0FFFFFFFEh
+            FF
+  00412C87: EB 37              jmp         00412CC0
+  00412C89: 8B 45 EC           mov         eax,dword ptr [ebp-14h]
+  00412C8C: 8B 08              mov         ecx,dword ptr [eax]
+  00412C8E: 8B 11              mov         edx,dword ptr [ecx]
+  00412C90: 89 55 D8           mov         dword ptr [ebp-28h],edx
+  00412C93: 8B 45 D8           mov         eax,dword ptr [ebp-28h]
+  00412C96: 33 C9              xor         ecx,ecx
+  00412C98: 3D 05 00 00 C0     cmp         eax,0C0000005h
+  00412C9D: 0F 94 C1           sete        cl
+  00412CA0: 8B C1              mov         eax,ecx
+  00412CA2: C3                 ret
+  00412CA3: 8B 65 E8           mov         esp,dword ptr [ebp-18h]
+  00412CA6: C7 45 C8 00 00 00  mov         dword ptr [ebp-38h],0
+            00
+  00412CAD: C7 45 FC FE FF FF  mov         dword ptr [ebp-4],0FFFFFFFEh
+            FF
+  00412CB4: 8B 45 C8           mov         eax,dword ptr [ebp-38h]
+  00412CB7: EB 07              jmp         00412CC0
+  00412CB9: C7 45 FC FE FF FF  mov         dword ptr [ebp-4],0FFFFFFFEh
+            FF
+  00412CC0: 8B 4D F0           mov         ecx,dword ptr [ebp-10h]
+  00412CC3: 64 89 0D 00 00 00  mov         dword ptr fs:[0],ecx
+            00
+  00412CCA: 59                 pop         ecx
+  00412CCB: 5F                 pop         edi
+  00412CCC: 5E                 pop         esi
+  00412CCD: 5B                 pop         ebx
+  00412CCE: 8B E5              mov         esp,ebp
+  00412CD0: 5D                 pop         ebp
+  00412CD1: C3                 ret
+  00412CD2: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412CE2: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412CF2: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412D02: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412D12: CC CC CC CC                                      лллл
+__CrtDbgReportW:
+  00412D16: FF 25 E0 82 41 00  jmp         dword ptr [__imp___CrtDbgReportW]
+__initterm:
+  00412D1C: FF 25 DC 82 41 00  jmp         dword ptr [__imp___initterm]
+__initterm_e:
+  00412D22: FF 25 D8 82 41 00  jmp         dword ptr [__imp___initterm_e]
+  00412D28: CC CC CC CC CC CC CC CC                          лллллллл
+__except_handler4:
+  00412D30: 8B FF              mov         edi,edi
+  00412D32: 55                 push        ebp
+  00412D33: 8B EC              mov         ebp,esp
+  00412D35: 8B 45 14           mov         eax,dword ptr [ebp+14h]
+  00412D38: 50                 push        eax
+  00412D39: 8B 4D 10           mov         ecx,dword ptr [ebp+10h]
+  00412D3C: 51                 push        ecx
+  00412D3D: 8B 55 0C           mov         edx,dword ptr [ebp+0Ch]
+  00412D40: 52                 push        edx
+  00412D41: 8B 45 08           mov         eax,dword ptr [ebp+8]
+  00412D44: 50                 push        eax
+  00412D45: 68 19 10 41 00     push        offset @ILT+20(@__security_check_cookie@4)
+  00412D4A: 68 2C 70 41 00     push        offset ___security_cookie
+  00412D4F: E8 50 E4 FF FF     call        @ILT+415(__except_handler4_common)
+  00412D54: 83 C4 18           add         esp,18h
+  00412D57: 5D                 pop         ebp
+  00412D58: C3                 ret
+  00412D59: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00412D69: CC CC CC CC CC CC CC                             ллллллл
+?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z:
+  00412D70: 8B FF              mov         edi,edi
+  00412D72: 55                 push        ebp
+  00412D73: 8B EC              mov         ebp,esp
+  00412D75: 8B 45 14           mov         eax,dword ptr [ebp+14h]
+  00412D78: 8B 55 0C           mov         edx,dword ptr [ebp+0Ch]
+  00412D7B: 83 EC 44           sub         esp,44h
+  00412D7E: 56                 push        esi
+  00412D7F: 8B 75 08           mov         esi,dword ptr [ebp+8]
+  00412D82: C7 00 00 00 00 00  mov         dword ptr [eax],0
+  00412D88: 6A 1C              push        1Ch
+  00412D8A: 8D 45 BC           lea         eax,[ebp-44h]
+  00412D8D: 50                 push        eax
+  00412D8E: 33 C9              xor         ecx,ecx
+  00412D90: 4E                 dec         esi
+  00412D91: 56                 push        esi
+  00412D92: 66 89 0A           mov         word ptr [edx],cx
+  00412D95: FF 15 08 82 41 00  call        dword ptr [__imp__VirtualQuery@12]
+  00412D9B: 85 C0              test        eax,eax
+  00412D9D: 75 07              jne         00412DA6
+  00412D9F: 33 C0              xor         eax,eax
+  00412DA1: 5E                 pop         esi
+  00412DA2: 8B E5              mov         esp,ebp
+  00412DA4: 5D                 pop         ebp
+  00412DA5: C3                 ret
+  00412DA6: 8B 4D 1C           mov         ecx,dword ptr [ebp+1Ch]
+  00412DA9: 8B 55 18           mov         edx,dword ptr [ebp+18h]
+  00412DAC: 8B 45 C0           mov         eax,dword ptr [ebp-40h]
+  00412DAF: 51                 push        ecx
+  00412DB0: 52                 push        edx
+  00412DB1: 50                 push        eax
+  00412DB2: FF 15 0C 82 41 00  call        dword ptr [__imp__GetModuleFileNameW@12]
+  00412DB8: 85 C0              test        eax,eax
+  00412DBA: 74 E3              je          00412D9F
+  00412DBC: 8B 55 C0           mov         edx,dword ptr [ebp-40h]
+  00412DBF: B9 4D 5A 00 00     mov         ecx,5A4Dh
+  00412DC4: 66 39 0A           cmp         word ptr [edx],cx
+  00412DC7: 75 D6              jne         00412D9F
+  00412DC9: 8B 42 3C           mov         eax,dword ptr [edx+3Ch]
+  00412DCC: 85 C0              test        eax,eax
+  00412DCE: 7E CF              jle         00412D9F
+  00412DD0: 03 C2              add         eax,edx
+  00412DD2: 81 38 50 45 00 00  cmp         dword ptr [eax],4550h
+  00412DD8: 75 C5              jne         00412D9F
+  00412DDA: 0F B7 48 06        movzx       ecx,word ptr [eax+6]
+  00412DDE: 53                 push        ebx
+  00412DDF: 57                 push        edi
+  00412DE0: 0F B7 78 14        movzx       edi,word ptr [eax+14h]
+  00412DE4: 8D 44 07 24        lea         eax,[edi+eax+24h]
+  00412DE8: 2B F2              sub         esi,edx
+  00412DEA: 33 FF              xor         edi,edi
+  00412DEC: 33 DB              xor         ebx,ebx
+  00412DEE: 85 C9              test        ecx,ecx
+  00412DF0: 74 17              je          00412E09
+  00412DF2: 8B 10              mov         edx,dword ptr [eax]
+  00412DF4: 3B F2              cmp         esi,edx
+  00412DF6: 72 09              jb          00412E01
+  00412DF8: 8B FE              mov         edi,esi
+  00412DFA: 2B FA              sub         edi,edx
+  00412DFC: 3B 70 FC           cmp         esi,dword ptr [eax-4]
+  00412DFF: 72 08              jb          00412E09
+  00412E01: 43                 inc         ebx
+  00412E02: 83 C0 28           add         eax,28h
+  00412E05: 3B D9              cmp         ebx,ecx
+  00412E07: 72 E9              jb          00412DF2
+  00412E09: 3B D9              cmp         ebx,ecx
+  00412E0B: 74 5B              je          00412E68
+  00412E0D: 43                 inc         ebx
+  00412E0E: 80 3D 8C 71 41 00  cmp         byte ptr ds:[41718Ch],0
+            00
+  00412E15: 75 20              jne         00412E37
+  00412E17: 83 3D 88 71 41 00  cmp         dword ptr ds:[417188h],0
+            00
+  00412E1E: 75 48              jne         00412E68
+  00412E20: E8 BB 02 00 00     call        004130E0
+  00412E25: A3 88 71 41 00     mov         dword ptr ds:[00417188h],eax
+  00412E2A: 85 C0              test        eax,eax
+  00412E2C: 74 3A              je          00412E68
+  00412E2E: C6 05 8C 71 41 00  mov         byte ptr ds:[41718Ch],1
+            01
+  00412E35: EB 05              jmp         00412E3C
+  00412E37: A1 88 71 41 00     mov         eax,dword ptr ds:[00417188h]
+  00412E3C: 68 04 62 41 00     push        offset ??_C@_0BB@KCIACLNC@PDBOpenValidate5?$AA@
+  00412E41: 50                 push        eax
+  00412E42: FF 15 3C 82 41 00  call        dword ptr [__imp__GetProcAddress@8]
+  00412E48: 33 F6              xor         esi,esi
+  00412E4A: 3B C6              cmp         eax,esi
+  00412E4C: 74 1A              je          00412E68
+  00412E4E: 8D 55 F0           lea         edx,[ebp-10h]
+  00412E51: 52                 push        edx
+  00412E52: 8B 55 18           mov         edx,dword ptr [ebp+18h]
+  00412E55: 56                 push        esi
+  00412E56: 56                 push        esi
+  00412E57: 8D 4D D8           lea         ecx,[ebp-28h]
+  00412E5A: 51                 push        ecx
+  00412E5B: 56                 push        esi
+  00412E5C: 56                 push        esi
+  00412E5D: 56                 push        esi
+  00412E5E: 52                 push        edx
+  00412E5F: FF D0              call        eax
+  00412E61: 83 C4 20           add         esp,20h
+  00412E64: 85 C0              test        eax,eax
+  00412E66: 75 09              jne         00412E71
+  00412E68: 5F                 pop         edi
+  00412E69: 5B                 pop         ebx
+  00412E6A: 33 C0              xor         eax,eax
+  00412E6C: 5E                 pop         esi
+  00412E6D: 8B E5              mov         esp,ebp
+  00412E6F: 5D                 pop         ebp
+  00412E70: C3                 ret
+  00412E71: 8B 4D F0           mov         ecx,dword ptr [ebp-10h]
+  00412E74: 8B 01              mov         eax,dword ptr [ecx]
+  00412E76: 8B 10              mov         edx,dword ptr [eax]
+  00412E78: 89 75 E4           mov         dword ptr [ebp-1Ch],esi
+  00412E7B: FF D2              call        edx
+  00412E7D: 3D B5 A5 31 01     cmp         eax,131A5B5h
+  00412E82: 0F 85 8C 01 00 00  jne         00413014
+  00412E88: 8B 4D F0           mov         ecx,dword ptr [ebp-10h]
+  00412E8B: 8B 01              mov         eax,dword ptr [ecx]
+  00412E8D: 8B 40 1C           mov         eax,dword ptr [eax+1Ch]
+  00412E90: 8D 55 E8           lea         edx,[ebp-18h]
+  00412E93: 52                 push        edx
+  00412E94: 68 00 62 41 00     push        offset ??_C@_01KDCPPGHE@r?$AA@
+  00412E99: 56                 push        esi
+  00412E9A: FF D0              call        eax
+  00412E9C: 85 C0              test        eax,eax
+  00412E9E: 0F 84 70 01 00 00  je          00413014
+  00412EA4: 8B 4D E8           mov         ecx,dword ptr [ebp-18h]
+  00412EA7: 8B 11              mov         edx,dword ptr [ecx]
+  00412EA9: 8B 52 20           mov         edx,dword ptr [edx+20h]
+  00412EAC: 56                 push        esi
+  00412EAD: 56                 push        esi
+  00412EAE: 56                 push        esi
+  00412EAF: 8D 45 F4           lea         eax,[ebp-0Ch]
+  00412EB2: 50                 push        eax
+  00412EB3: 57                 push        edi
+  00412EB4: 53                 push        ebx
+  00412EB5: FF D2              call        edx
+  00412EB7: 85 C0              test        eax,eax
+  00412EB9: 0F 84 4B 01 00 00  je          0041300A
+  00412EBF: 8B 4D F4           mov         ecx,dword ptr [ebp-0Ch]
+  00412EC2: 89 75 FC           mov         dword ptr [ebp-4],esi
+  00412EC5: 8B 01              mov         eax,dword ptr [ecx]
+  00412EC7: 8B 40 68           mov         eax,dword ptr [eax+68h]
+  00412ECA: 8D 55 FC           lea         edx,[ebp-4]
+  00412ECD: 52                 push        edx
+  00412ECE: FF D0              call        eax
+  00412ED0: 84 C0              test        al,al
+  00412ED2: 0F 84 28 01 00 00  je          00413000
+  00412ED8: 8B 4D FC           mov         ecx,dword ptr [ebp-4]
+  00412EDB: 3B CE              cmp         ecx,esi
+  00412EDD: 0F 84 1D 01 00 00  je          00413000
+  00412EE3: 8B 11              mov         edx,dword ptr [ecx]
+  00412EE5: 8B 42 08           mov         eax,dword ptr [edx+8]
+  00412EE8: FF D0              call        eax
+  00412EEA: 85 C0              test        eax,eax
+  00412EEC: 0F 84 F5 00 00 00  je          00412FE7
+  00412EF2: 8B 4D FC           mov         ecx,dword ptr [ebp-4]
+  00412EF5: 8B 11              mov         edx,dword ptr [ecx]
+  00412EF7: 8B 52 0C           mov         edx,dword ptr [edx+0Ch]
+  00412EFA: 6A 00              push        0
+  00412EFC: 8D 45 F8           lea         eax,[ebp-8]
+  00412EFF: 50                 push        eax
+  00412F00: 8D 45 E0           lea         eax,[ebp-20h]
+  00412F03: 50                 push        eax
+  00412F04: 8D 45 08           lea         eax,[ebp+8]
+  00412F07: 50                 push        eax
+  00412F08: 8D 45 EC           lea         eax,[ebp-14h]
+  00412F0B: 50                 push        eax
+  00412F0C: 6A 00              push        0
+  00412F0E: FF D2              call        edx
+  00412F10: 84 C0              test        al,al
+  00412F12: 0F 84 DF 00 00 00  je          00412FF7
+  00412F18: 0F B7 45 08        movzx       eax,word ptr [ebp+8]
+  00412F1C: 3B C3              cmp         eax,ebx
+  00412F1E: 75 0E              jne         00412F2E
+  00412F20: 8B 45 EC           mov         eax,dword ptr [ebp-14h]
+  00412F23: 3B C7              cmp         eax,edi
+  00412F25: 77 07              ja          00412F2E
+  00412F27: 03 45 E0           add         eax,dword ptr [ebp-20h]
+  00412F2A: 3B F8              cmp         edi,eax
+  00412F2C: 72 13              jb          00412F41
+  00412F2E: 8B 4D FC           mov         ecx,dword ptr [ebp-4]
+  00412F31: 8B 11              mov         edx,dword ptr [ecx]
+  00412F33: 8B 42 08           mov         eax,dword ptr [edx+8]
+  00412F36: FF D0              call        eax
+  00412F38: 85 C0              test        eax,eax
+  00412F3A: 75 B6              jne         00412EF2
+  00412F3C: E9 A6 00 00 00     jmp         00412FE7
+  00412F41: 8B 45 F8           mov         eax,dword ptr [ebp-8]
+  00412F44: 85 C0              test        eax,eax
+  00412F46: 0F 84 AB 00 00 00  je          00412FF7
+  00412F4C: 3D FF FF FF 1F     cmp         eax,1FFFFFFFh
+  00412F51: 0F 83 A0 00 00 00  jae         00412FF7
+  00412F57: 8D 0C C5 00 00 00  lea         ecx,[eax*8]
+            00
+  00412F5E: 51                 push        ecx
+  00412F5F: 6A 00              push        0
+  00412F61: FF 15 10 82 41 00  call        dword ptr [__imp__GetProcessHeap@0]
+  00412F67: 50                 push        eax
+  00412F68: FF 15 14 82 41 00  call        dword ptr [__imp__HeapAlloc@12]
+  00412F6E: 8B F0              mov         esi,eax
+  00412F70: 85 F6              test        esi,esi
+  00412F72: 0F 84 7F 00 00 00  je          00412FF7
+  00412F78: 8B 4D FC           mov         ecx,dword ptr [ebp-4]
+  00412F7B: 8B 11              mov         edx,dword ptr [ecx]
+  00412F7D: 8B 52 0C           mov         edx,dword ptr [edx+0Ch]
+  00412F80: 56                 push        esi
+  00412F81: 8D 45 F8           lea         eax,[ebp-8]
+  00412F84: 50                 push        eax
+  00412F85: 6A 00              push        0
+  00412F87: 6A 00              push        0
+  00412F89: 6A 00              push        0
+  00412F8B: 8D 45 DC           lea         eax,[ebp-24h]
+  00412F8E: 50                 push        eax
+  00412F8F: FF D2              call        edx
+  00412F91: 84 C0              test        al,al
+  00412F93: 74 52              je          00412FE7
+  00412F95: 2B 7D EC           sub         edi,dword ptr [ebp-14h]
+  00412F98: 3B 3E              cmp         edi,dword ptr [esi]
+  00412F9A: 72 4B              jb          00412FE7
+  00412F9C: 8B 4D F8           mov         ecx,dword ptr [ebp-8]
+  00412F9F: B8 01 00 00 00     mov         eax,1
+  00412FA4: 3B C8              cmp         ecx,eax
+  00412FA6: 76 0A              jbe         00412FB2
+  00412FA8: 3B 3C C6           cmp         edi,dword ptr [esi+eax*8]
+  00412FAB: 72 05              jb          00412FB2
+  00412FAD: 40                 inc         eax
+  00412FAE: 3B C1              cmp         eax,ecx
+  00412FB0: 72 F6              jb          00412FA8
+  00412FB2: 8B 44 C6 FC        mov         eax,dword ptr [esi+eax*8-4]
+  00412FB6: 8B 4D 14           mov         ecx,dword ptr [ebp+14h]
+  00412FB9: 6A 00              push        0
+  00412FBB: 25 FF FF FF 00     and         eax,0FFFFFFh
+  00412FC0: 89 01              mov         dword ptr [ecx],eax
+  00412FC2: 8B 4D F4           mov         ecx,dword ptr [ebp-0Ch]
+  00412FC5: 8B 11              mov         edx,dword ptr [ecx]
+  00412FC7: 8B 52 70           mov         edx,dword ptr [edx+70h]
+  00412FCA: 6A 00              push        0
+  00412FCC: 6A 00              push        0
+  00412FCE: 8D 45 10           lea         eax,[ebp+10h]
+  00412FD1: 50                 push        eax
+  00412FD2: 8B 45 0C           mov         eax,dword ptr [ebp+0Ch]
+  00412FD5: 50                 push        eax
+  00412FD6: 8B 45 DC           mov         eax,dword ptr [ebp-24h]
+  00412FD9: 50                 push        eax
+  00412FDA: FF D2              call        edx
+  00412FDC: 84 C0              test        al,al
+  00412FDE: 74 07              je          00412FE7
+  00412FE0: C7 45 E4 01 00 00  mov         dword ptr [ebp-1Ch],1
+            00
+  00412FE7: 56                 push        esi
+  00412FE8: 6A 00              push        0
+  00412FEA: FF 15 10 82 41 00  call        dword ptr [__imp__GetProcessHeap@0]
+  00412FF0: 50                 push        eax
+  00412FF1: FF 15 18 82 41 00  call        dword ptr [__imp__HeapFree@12]
+  00412FF7: 8B 4D FC           mov         ecx,dword ptr [ebp-4]
+  00412FFA: 8B 01              mov         eax,dword ptr [ecx]
+  00412FFC: 8B 10              mov         edx,dword ptr [eax]
+  00412FFE: FF D2              call        edx
+  00413000: 8B 4D F4           mov         ecx,dword ptr [ebp-0Ch]
+  00413003: 8B 01              mov         eax,dword ptr [ecx]
+  00413005: 8B 50 40           mov         edx,dword ptr [eax+40h]
+  00413008: FF D2              call        edx
+  0041300A: 8B 4D E8           mov         ecx,dword ptr [ebp-18h]
+  0041300D: 8B 01              mov         eax,dword ptr [ecx]
+  0041300F: 8B 50 38           mov         edx,dword ptr [eax+38h]
+  00413012: FF D2              call        edx
+  00413014: 8B 4D F0           mov         ecx,dword ptr [ebp-10h]
+  00413017: 8B 01              mov         eax,dword ptr [ecx]
+  00413019: 8B 50 28           mov         edx,dword ptr [eax+28h]
+  0041301C: FF D2              call        edx
+  0041301E: 8B 45 E4           mov         eax,dword ptr [ebp-1Ch]
+  00413021: 5F                 pop         edi
+  00413022: 5B                 pop         ebx
+  00413023: 5E                 pop         esi
+  00413024: 8B E5              mov         esp,ebp
+  00413026: 5D                 pop         ebp
+  00413027: C3                 ret
+  00413028: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413038: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413048: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413058: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413068: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413078: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413088: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413098: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004130A8: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004130B8: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004130C8: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004130D8: CC CC CC CC CC CC CC CC                          лллллллл
+  004130E0: 8B FF              mov         edi,edi
+  004130E2: 55                 push        ebp
+  004130E3: 8B EC              mov         ebp,esp
+  004130E5: 81 EC 14 04 00 00  sub         esp,414h
+  004130EB: A1 2C 70 41 00     mov         eax,dword ptr [___security_cookie]
+  004130F0: 33 C5              xor         eax,ebp
+  004130F2: 89 45 FC           mov         dword ptr [ebp-4],eax
+  004130F5: 80 3D 8D 71 41 00  cmp         byte ptr ds:[41718Dh],0
+            00
+  004130FC: 74 10              je          0041310E
+  004130FE: 33 C0              xor         eax,eax
+  00413100: 8B 4D FC           mov         ecx,dword ptr [ebp-4]
+  00413103: 33 CD              xor         ecx,ebp
+  00413105: E8 0F DF FF FF     call        @ILT+20(@__security_check_cookie@4)
+  0041310A: 8B E5              mov         esp,ebp
+  0041310C: 5D                 pop         ebp
+  0041310D: C3                 ret
+  0041310E: C6 05 8D 71 41 00  mov         byte ptr ds:[41718Dh],1
+            01
+  00413115: E8 F6 00 00 00     call        00413210
+  0041311A: 85 C0              test        eax,eax
+  0041311C: 0F 85 A0 00 00 00  jne         004131C2
+  00413122: 56                 push        esi
+  00413123: 57                 push        edi
+  00413124: 68 D8 61 41 00     push        4161D8h
+  00413129: FF 15 04 82 41 00  call        dword ptr [__imp__GetModuleHandleW@4]
+  0041312F: 8B 3D 38 82 41 00  mov         edi,dword ptr [__imp__LoadLibraryW@4]
+  00413135: 8B 35 0C 82 41 00  mov         esi,dword ptr [__imp__GetModuleFileNameW@12]
+  0041313B: 85 C0              test        eax,eax
+  0041313D: 74 3F              je          0041317E
+  0041313F: 68 04 01 00 00     push        104h
+  00413144: 8D 8D F4 FD FF FF  lea         ecx,[ebp-20Ch]
+  0041314A: 51                 push        ecx
+  0041314B: 50                 push        eax
+  0041314C: FF D6              call        esi
+  0041314E: 85 C0              test        eax,eax
+  00413150: 74 2C              je          0041317E
+  00413152: 68 04 01 00 00     push        104h
+  00413157: 8D 95 EC FB FF FF  lea         edx,[ebp-414h]
+  0041315D: 52                 push        edx
+  0041315E: 8D 85 F4 FD FF FF  lea         eax,[ebp-20Ch]
+  00413164: 50                 push        eax
+  00413165: E8 D6 02 00 00     call        00413440
+  0041316A: 83 C4 0C           add         esp,0Ch
+  0041316D: 85 C0              test        eax,eax
+  0041316F: 74 0D              je          0041317E
+  00413171: 8D 8D EC FB FF FF  lea         ecx,[ebp-414h]
+  00413177: 51                 push        ecx
+  00413178: FF D7              call        edi
+  0041317A: 85 C0              test        eax,eax
+  0041317C: 75 42              jne         004131C0
+  0041317E: 68 04 01 00 00     push        104h
+  00413183: 8D 95 F4 FD FF FF  lea         edx,[ebp-20Ch]
+  00413189: 52                 push        edx
+  0041318A: 6A 00              push        0
+  0041318C: FF D6              call        esi
+  0041318E: 85 C0              test        eax,eax
+  00413190: 74 2C              je          004131BE
+  00413192: 68 04 01 00 00     push        104h
+  00413197: 8D 85 EC FB FF FF  lea         eax,[ebp-414h]
+  0041319D: 50                 push        eax
+  0041319E: 8D 8D F4 FD FF FF  lea         ecx,[ebp-20Ch]
+  004131A4: 51                 push        ecx
+  004131A5: E8 96 02 00 00     call        00413440
+  004131AA: 83 C4 0C           add         esp,0Ch
+  004131AD: 85 C0              test        eax,eax
+  004131AF: 74 0D              je          004131BE
+  004131B1: 8D 95 EC FB FF FF  lea         edx,[ebp-414h]
+  004131B7: 52                 push        edx
+  004131B8: FF D7              call        edi
+  004131BA: 85 C0              test        eax,eax
+  004131BC: 75 02              jne         004131C0
+  004131BE: 33 C0              xor         eax,eax
+  004131C0: 5F                 pop         edi
+  004131C1: 5E                 pop         esi
+  004131C2: 8B 4D FC           mov         ecx,dword ptr [ebp-4]
+  004131C5: 33 CD              xor         ecx,ebp
+  004131C7: E8 4D DE FF FF     call        @ILT+20(@__security_check_cookie@4)
+  004131CC: 8B E5              mov         esp,ebp
+  004131CE: 5D                 pop         ebp
+  004131CF: C3                 ret
+  004131D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004131E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004131F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413200: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413210: 8B FF              mov         edi,edi
+  00413212: 55                 push        ebp
+  00413213: 8B EC              mov         ebp,esp
+  00413215: 81 EC 1C 02 00 00  sub         esp,21Ch
+  0041321B: A1 2C 70 41 00     mov         eax,dword ptr [___security_cookie]
+  00413220: 33 C5              xor         eax,ebp
+  00413222: 89 45 FC           mov         dword ptr [ebp-4],eax
+  00413225: 56                 push        esi
+  00413226: 68 F4 62 41 00     push        offset ??_C@_1BK@GAEMIDIL@?$AAA?$AAD?$AAV?$AAA?$AAP?$AAI?$AA3?$AA2?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@
+  0041322B: FF 15 38 82 41 00  call        dword ptr [__imp__LoadLibraryW@4]
+  00413231: 8B F0              mov         esi,eax
+  00413233: 85 F6              test        esi,esi
+  00413235: 75 0F              jne         00413246
+  00413237: 5E                 pop         esi
+  00413238: 8B 4D FC           mov         ecx,dword ptr [ebp-4]
+  0041323B: 33 CD              xor         ecx,ebp
+  0041323D: E8 D7 DD FF FF     call        @ILT+20(@__security_check_cookie@4)
+  00413242: 8B E5              mov         esp,ebp
+  00413244: 5D                 pop         ebp
+  00413245: C3                 ret
+  00413246: 57                 push        edi
+  00413247: 8B 3D 3C 82 41 00  mov         edi,dword ptr [__imp__GetProcAddress@8]
+  0041324D: 68 E4 62 41 00     push        offset ??_C@_0O@COHOBMLB@RegOpenKeyExW?$AA@
+  00413252: 56                 push        esi
+  00413253: FF D7              call        edi
+  00413255: 89 85 E8 FD FF FF  mov         dword ptr [ebp-218h],eax
+  0041325B: 85 C0              test        eax,eax
+  0041325D: 75 10              jne         0041326F
+  0041325F: 5F                 pop         edi
+  00413260: 5E                 pop         esi
+  00413261: 8B 4D FC           mov         ecx,dword ptr [ebp-4]
+  00413264: 33 CD              xor         ecx,ebp
+  00413266: E8 AE DD FF FF     call        @ILT+20(@__security_check_cookie@4)
+  0041326B: 8B E5              mov         esp,ebp
+  0041326D: 5D                 pop         ebp
+  0041326E: C3                 ret
+  0041326F: 53                 push        ebx
+  00413270: 68 D0 62 41 00     push        offset ??_C@_0BB@GLNAEDBD@RegQueryValueExW?$AA@
+  00413275: 56                 push        esi
+  00413276: FF D7              call        edi
+  00413278: 8B D8              mov         ebx,eax
+  0041327A: 85 DB              test        ebx,ebx
+  0041327C: 74 34              je          004132B2
+  0041327E: 68 C0 62 41 00     push        offset ??_C@_0M@HLOHPNFA@RegCloseKey?$AA@
+  00413283: 56                 push        esi
+  00413284: FF D7              call        edi
+  00413286: 8B F8              mov         edi,eax
+  00413288: 85 FF              test        edi,edi
+  0041328A: 74 26              je          004132B2
+  0041328C: 8D 85 EC FD FF FF  lea         eax,[ebp-214h]
+  00413292: 50                 push        eax
+  00413293: 6A 01              push        1
+  00413295: 6A 00              push        0
+  00413297: 68 50 62 41 00     push        offset ??_C@_1FM@DNCABAP@?$AAS?$AAO?$AAF?$AAT?$AAW?$AAA?$AAR?$AAE?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAV?$AAi?$AAs?$AAu?$AAa?$AAl?$AAS?$AAt?$AAu?$AAd?$AAi?$AAo?$AA?2@
+  0041329C: 68 02 00 00 80     push        80000002h
+  004132A1: FF 95 E8 FD FF FF  call        dword ptr [ebp-218h]
+  004132A7: 85 C0              test        eax,eax
+  004132A9: 74 1A              je          004132C5
+  004132AB: 56                 push        esi
+  004132AC: FF 15 00 82 41 00  call        dword ptr [__imp__FreeLibrary@4]
+  004132B2: 5B                 pop         ebx
+  004132B3: 5F                 pop         edi
+  004132B4: 33 C0              xor         eax,eax
+  004132B6: 5E                 pop         esi
+  004132B7: 8B 4D FC           mov         ecx,dword ptr [ebp-4]
+  004132BA: 33 CD              xor         ecx,ebp
+  004132BC: E8 58 DD FF FF     call        @ILT+20(@__security_check_cookie@4)
+  004132C1: 8B E5              mov         esp,ebp
+  004132C3: 5D                 pop         ebp
+  004132C4: C3                 ret
+  004132C5: 8D 8D F0 FD FF FF  lea         ecx,[ebp-210h]
+  004132CB: 51                 push        ecx
+  004132CC: 8B 8D EC FD FF FF  mov         ecx,dword ptr [ebp-214h]
+  004132D2: 8D 95 F4 FD FF FF  lea         edx,[ebp-20Ch]
+  004132D8: 52                 push        edx
+  004132D9: 8D 85 E4 FD FF FF  lea         eax,[ebp-21Ch]
+  004132DF: 50                 push        eax
+  004132E0: 6A 00              push        0
+  004132E2: 68 18 62 41 00     push        offset ??_C@_1CK@HHHCOJPD@?$AAE?$AAn?$AAv?$AAi?$AAr?$AAo?$AAn?$AAm?$AAe?$AAn?$AAt?$AAD?$AAi?$AAr?$AAe?$AAc?$AAt?$AAo?$AAr?$AAy?$AA?$AA@
+  004132E7: 51                 push        ecx
+  004132E8: C7 85 F0 FD FF FF  mov         dword ptr [ebp-210h],208h
+            08 02 00 00
+  004132F2: FF D3              call        ebx
+  004132F4: 8B 95 EC FD FF FF  mov         edx,dword ptr [ebp-214h]
+  004132FA: 52                 push        edx
+  004132FB: 8B D8              mov         ebx,eax
+  004132FD: FF D7              call        edi
+  004132FF: 56                 push        esi
+  00413300: FF 15 00 82 41 00  call        dword ptr [__imp__FreeLibrary@4]
+  00413306: 85 DB              test        ebx,ebx
+  00413308: 75 A8              jne         004132B2
+  0041330A: 83 BD E4 FD FF FF  cmp         dword ptr [ebp-21Ch],1
+            01
+  00413311: 75 9F              jne         004132B2
+  00413313: 8B 85 F0 FD FF FF  mov         eax,dword ptr [ebp-210h]
+  00413319: A8 01              test        al,1
+  0041331B: 75 95              jne         004132B2
+  0041331D: D1 E8              shr         eax,1
+  0041331F: 83 F8 02           cmp         eax,2
+  00413322: 72 8E              jb          004132B2
+  00413324: 48                 dec         eax
+  00413325: 66 39 9C 45 F4 FD  cmp         word ptr [ebp+eax*2-20Ch],bx
+            FF FF
+  0041332D: 75 83              jne         004132B2
+  0041332F: 66 83 BC 45 F2 FD  cmp         word ptr [ebp+eax*2-20Eh],5Ch
+            FF FF 5C
+  00413338: 74 0E              je          00413348
+  0041333A: B9 5C 00 00 00     mov         ecx,5Ch
+  0041333F: 66 89 8C 45 F4 FD  mov         word ptr [ebp+eax*2-20Ch],cx
+            FF FF
+  00413347: 40                 inc         eax
+  00413348: 83 CA FF           or          edx,0FFFFFFFFh
+  0041334B: 2B D0              sub         edx,eax
+  0041334D: 83 FA 0E           cmp         edx,0Eh
+  00413350: 0F 82 5C FF FF FF  jb          004132B2
+  00413356: 8D 48 0D           lea         ecx,[eax+0Dh]
+  00413359: 81 F9 04 01 00 00  cmp         ecx,104h
+  0041335F: 0F 87 4D FF FF FF  ja          004132B2
+  00413365: 8B 15 BC 61 41 00  mov         edx,dword ptr ds:[4161BCh]
+  0041336B: 8B 0D C0 61 41 00  mov         ecx,dword ptr ds:[4161C0h]
+  00413371: 8D 84 45 F4 FD FF  lea         eax,[ebp+eax*2-20Ch]
+            FF
+  00413378: 89 10              mov         dword ptr [eax],edx
+  0041337A: 8B 15 C4 61 41 00  mov         edx,dword ptr ds:[4161C4h]
+  00413380: 89 48 04           mov         dword ptr [eax+4],ecx
+  00413383: 8B 0D C8 61 41 00  mov         ecx,dword ptr ds:[4161C8h]
+  00413389: 89 50 08           mov         dword ptr [eax+8],edx
+  0041338C: 8B 15 CC 61 41 00  mov         edx,dword ptr ds:[4161CCh]
+  00413392: 89 48 0C           mov         dword ptr [eax+0Ch],ecx
+  00413395: 8B 0D D0 61 41 00  mov         ecx,dword ptr ds:[4161D0h]
+  0041339B: 89 50 10           mov         dword ptr [eax+10h],edx
+  0041339E: 66 8B 15 D4 61 41  mov         dx,word ptr ds:[4161D4h]
+            00
+  004133A5: 89 48 14           mov         dword ptr [eax+14h],ecx
+  004133A8: 66 89 50 18        mov         word ptr [eax+18h],dx
+  004133AC: 8D 85 F4 FD FF FF  lea         eax,[ebp-20Ch]
+  004133B2: 50                 push        eax
+  004133B3: FF 15 38 82 41 00  call        dword ptr [__imp__LoadLibraryW@4]
+  004133B9: 8B 4D FC           mov         ecx,dword ptr [ebp-4]
+  004133BC: 5B                 pop         ebx
+  004133BD: 5F                 pop         edi
+  004133BE: 33 CD              xor         ecx,ebp
+  004133C0: 5E                 pop         esi
+  004133C1: E8 53 DC FF FF     call        @ILT+20(@__security_check_cookie@4)
+  004133C6: 8B E5              mov         esp,ebp
+  004133C8: 5D                 pop         ebp
+  004133C9: C3                 ret
+  004133CA: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004133DA: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004133EA: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004133FA: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  0041340A: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  0041341A: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  0041342A: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  0041343A: CC CC CC CC CC CC                                лллллл
+  00413440: 8B FF              mov         edi,edi
+  00413442: 55                 push        ebp
+  00413443: 8B EC              mov         ebp,esp
+  00413445: 81 EC 0C 06 00 00  sub         esp,60Ch
+  0041344B: A1 2C 70 41 00     mov         eax,dword ptr [___security_cookie]
+  00413450: 33 C5              xor         eax,ebp
+  00413452: 89 45 FC           mov         dword ptr [ebp-4],eax
+  00413455: 8B 45 08           mov         eax,dword ptr [ebp+8]
+  00413458: 56                 push        esi
+  00413459: 8B 75 0C           mov         esi,dword ptr [ebp+0Ch]
+  0041345C: 68 00 01 00 00     push        100h
+  00413461: 8D 8D F4 FD FF FF  lea         ecx,[ebp-20Ch]
+  00413467: 51                 push        ecx
+  00413468: 68 00 01 00 00     push        100h
+  0041346D: 8D 95 F4 FB FF FF  lea         edx,[ebp-40Ch]
+  00413473: 52                 push        edx
+  00413474: 68 00 01 00 00     push        100h
+  00413479: 8D 8D F4 F9 FF FF  lea         ecx,[ebp-60Ch]
+  0041347F: 51                 push        ecx
+  00413480: 6A 03              push        3
+  00413482: 8D 55 F4           lea         edx,[ebp-0Ch]
+  00413485: 52                 push        edx
+  00413486: 50                 push        eax
+  00413487: E8 B0 DB FF FF     call        @ILT+55(__wsplitpath_s)
+  0041348C: 83 C4 24           add         esp,24h
+  0041348F: 85 C0              test        eax,eax
+  00413491: 74 11              je          004134A4
+  00413493: 33 C0              xor         eax,eax
+  00413495: 5E                 pop         esi
+  00413496: 8B 4D FC           mov         ecx,dword ptr [ebp-4]
+  00413499: 33 CD              xor         ecx,ebp
+  0041349B: E8 79 DB FF FF     call        @ILT+20(@__security_check_cookie@4)
+  004134A0: 8B E5              mov         esp,ebp
+  004134A2: 5D                 pop         ebp
+  004134A3: C3                 ret
+  004134A4: 68 20 63 41 00     push        416320h
+  004134A9: 8D 85 F4 FB FF FF  lea         eax,[ebp-40Ch]
+  004134AF: 6A 09              push        9
+  004134B1: 50                 push        eax
+  004134B2: E8 29 DD FF FF     call        @ILT+475(_wcscpy_s)
+  004134B7: 83 C4 0C           add         esp,0Ch
+  004134BA: 85 C0              test        eax,eax
+  004134BC: 75 D5              jne         00413493
+  004134BE: 68 14 63 41 00     push        416314h
+  004134C3: 8D 8D F4 FD FF FF  lea         ecx,[ebp-20Ch]
+  004134C9: 6A 04              push        4
+  004134CB: 51                 push        ecx
+  004134CC: E8 0F DD FF FF     call        @ILT+475(_wcscpy_s)
+  004134D1: 83 C4 0C           add         esp,0Ch
+  004134D4: 85 C0              test        eax,eax
+  004134D6: 75 BB              jne         00413493
+  004134D8: 8D 95 F4 FD FF FF  lea         edx,[ebp-20Ch]
+  004134DE: 52                 push        edx
+  004134DF: 8D 85 F4 FB FF FF  lea         eax,[ebp-40Ch]
+  004134E5: 50                 push        eax
+  004134E6: 8B 45 10           mov         eax,dword ptr [ebp+10h]
+  004134E9: 8D 8D F4 F9 FF FF  lea         ecx,[ebp-60Ch]
+  004134EF: 51                 push        ecx
+  004134F0: 8D 55 F4           lea         edx,[ebp-0Ch]
+  004134F3: 52                 push        edx
+  004134F4: 50                 push        eax
+  004134F5: 56                 push        esi
+  004134F6: E8 6D DC FF FF     call        @ILT+355(__wmakepath_s)
+  004134FB: 8B 4D FC           mov         ecx,dword ptr [ebp-4]
+  004134FE: 83 C4 18           add         esp,18h
+  00413501: F7 D8              neg         eax
+  00413503: 1B C0              sbb         eax,eax
+  00413505: 33 CD              xor         ecx,ebp
+  00413507: 40                 inc         eax
+  00413508: 5E                 pop         esi
+  00413509: E8 0B DB FF FF     call        @ILT+20(@__security_check_cookie@4)
+  0041350E: 8B E5              mov         esp,ebp
+  00413510: 5D                 pop         ebp
+  00413511: C3                 ret
+  00413512: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413522: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413532: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413542: CC CC CC CC CC CC CC CC CC CC CC CC CC CC        лллллллллллллл
+@__security_check_cookie@4:
+  00413550: 3B 0D 2C 70 41 00  cmp         ecx,dword ptr [___security_cookie]
+  00413556: 75 02              jne         0041355A
+  00413558: F3 C3              rep ret
+  0041355A: E9 32 DB FF FF     jmp         @ILT+140(___report_gsfailure)
+  0041355F: CC CC CC                                         ллл
+?terminate@@YAXXZ:
+  00413562: FF 25 D4 82 41 00  jmp         dword ptr [__imp_?terminate@@YAXXZ]
+__controlfp_s:
+  00413568: FF 25 D0 82 41 00  jmp         dword ptr [__imp___controlfp_s]
+__invoke_watson:
+  0041356E: FF 25 CC 82 41 00  jmp         dword ptr [__imp___invoke_watson]
+__unlock:
+  00413574: FF 25 C8 82 41 00  jmp         dword ptr [__imp___unlock]
+___dllonexit:
+  0041357A: FF 25 C4 82 41 00  jmp         dword ptr [__imp____dllonexit]
+__lock:
+  00413580: FF 25 C0 82 41 00  jmp         dword ptr [__imp___lock]
+__except_handler4_common:
+  00413586: FF 25 AC 82 41 00  jmp         dword ptr [__imp___except_handler4_common]
+__wmakepath_s:
+  0041358C: FF 25 24 83 41 00  jmp         dword ptr [__imp___wmakepath_s]
+_wcscpy_s:
+  00413592: FF 25 B4 82 41 00  jmp         dword ptr [__imp__wcscpy_s]
+__wsplitpath_s:
+  00413598: FF 25 B8 82 41 00  jmp         dword ptr [__imp___wsplitpath_s]
+  0041359E: CC CC                                            лл
+___report_gsfailure:
+  004135A0: 8B FF              mov         edi,edi
+  004135A2: 55                 push        ebp
+  004135A3: 8B EC              mov         ebp,esp
+  004135A5: 81 EC 28 03 00 00  sub         esp,328h
+  004135AB: A3 98 72 41 00     mov         dword ptr ds:[00417298h],eax
+  004135B0: 89 0D 94 72 41 00  mov         dword ptr ds:[417294h],ecx
+  004135B6: 89 15 90 72 41 00  mov         dword ptr ds:[417290h],edx
+  004135BC: 89 1D 8C 72 41 00  mov         dword ptr ds:[41728Ch],ebx
+  004135C2: 89 35 88 72 41 00  mov         dword ptr ds:[417288h],esi
+  004135C8: 89 3D 84 72 41 00  mov         dword ptr ds:[417284h],edi
+  004135CE: 66 8C 15 B0 72 41  mov         word ptr ds:[4172B0h],ss
+            00
+  004135D5: 66 8C 0D A4 72 41  mov         word ptr ds:[4172A4h],cs
+            00
+  004135DC: 66 8C 1D 80 72 41  mov         word ptr ds:[417280h],ds
+            00
+  004135E3: 66 8C 05 7C 72 41  mov         word ptr ds:[41727Ch],es
+            00
+  004135EA: 66 8C 25 78 72 41  mov         word ptr ds:[417278h],fs
+            00
+  004135F1: 66 8C 2D 74 72 41  mov         word ptr ds:[417274h],gs
+            00
+  004135F8: 9C                 pushfd
+  004135F9: 8F 05 A8 72 41 00  pop         dword ptr ds:[4172A8h]
+  004135FF: 8B 45 00           mov         eax,dword ptr [ebp]
+  00413602: A3 9C 72 41 00     mov         dword ptr ds:[0041729Ch],eax
+  00413607: 8B 45 04           mov         eax,dword ptr [ebp+4]
+  0041360A: A3 A0 72 41 00     mov         dword ptr ds:[004172A0h],eax
+  0041360F: 8D 45 08           lea         eax,[ebp+8]
+  00413612: A3 AC 72 41 00     mov         dword ptr ds:[004172ACh],eax
+  00413617: 8B 85 E0 FC FF FF  mov         eax,dword ptr [ebp-320h]
+  0041361D: C7 05 E8 71 41 00  mov         dword ptr ds:[4171E8h],10001h
+            01 00 01 00
+  00413627: A1 A0 72 41 00     mov         eax,dword ptr ds:[004172A0h]
+  0041362C: A3 9C 71 41 00     mov         dword ptr ds:[0041719Ch],eax
+  00413631: C7 05 90 71 41 00  mov         dword ptr ds:[417190h],0C0000409h
+            09 04 00 C0
+  0041363B: C7 05 94 71 41 00  mov         dword ptr ds:[417194h],1
+            01 00 00 00
+  00413645: 8B 0D 2C 70 41 00  mov         ecx,dword ptr [___security_cookie]
+  0041364B: 89 8D D8 FC FF FF  mov         dword ptr [ebp-328h],ecx
+  00413651: 8B 15 30 70 41 00  mov         edx,dword ptr [___security_cookie_complement]
+  00413657: 89 95 DC FC FF FF  mov         dword ptr [ebp-324h],edx
+  0041365D: FF 15 4C 82 41 00  call        dword ptr [__imp__IsDebuggerPresent@0]
+  00413663: A3 E0 71 41 00     mov         dword ptr ds:[004171E0h],eax
+  00413668: 6A 01              push        1
+  0041366A: E8 6D DA FF FF     call        @ILT+215(__crt_debugger_hook)
+  0041366F: 83 C4 04           add         esp,4
+  00413672: 6A 00              push        0
+  00413674: FF 15 34 82 41 00  call        dword ptr [__imp__SetUnhandledExceptionFilter@4]
+  0041367A: 68 38 63 41 00     push        416338h
+  0041367F: FF 15 F8 81 41 00  call        dword ptr [__imp__UnhandledExceptionFilter@4]
+  00413685: 83 3D E0 71 41 00  cmp         dword ptr ds:[4171E0h],0
+            00
+  0041368C: 75 0A              jne         00413698
+  0041368E: 6A 01              push        1
+  00413690: E8 47 DA FF FF     call        @ILT+215(__crt_debugger_hook)
+  00413695: 83 C4 04           add         esp,4
+  00413698: 68 09 04 00 C0     push        0C0000409h
+  0041369D: FF 15 FC 81 41 00  call        dword ptr [__imp__GetCurrentProcess@0]
+  004136A3: 50                 push        eax
+  004136A4: FF 15 68 82 41 00  call        dword ptr [__imp__TerminateProcess@8]
+  004136AA: 8B E5              mov         esp,ebp
+  004136AC: 5D                 pop         ebp
+  004136AD: C3                 ret
+  004136AE: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004136BE: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004136CE: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004136DE: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004136EE: CC CC CC CC                                      лллл
+__crt_debugger_hook:
+  004136F2: FF 25 BC 82 41 00  jmp         dword ptr [__imp___crt_debugger_hook]
+_EncodePointer@4:
+  004136F8: FF 25 64 82 41 00  jmp         dword ptr [__imp__EncodePointer@4]
+_InterlockedExchange@8:
+  004136FE: FF 25 60 82 41 00  jmp         dword ptr [__imp__InterlockedExchange@8]
+_Sleep@4:
+  00413704: FF 25 5C 82 41 00  jmp         dword ptr [__imp__Sleep@4]
+_InterlockedCompareExchange@12:
+  0041370A: FF 25 58 82 41 00  jmp         dword ptr [__imp__InterlockedCompareExchange@12]
+_HeapSetInformation@16:
+  00413710: FF 25 54 82 41 00  jmp         dword ptr [__imp__HeapSetInformation@16]
+_WideCharToMultiByte@32:
+  00413716: FF 25 50 82 41 00  jmp         dword ptr [__imp__WideCharToMultiByte@32]
+_IsDebuggerPresent@0:
+  0041371C: FF 25 4C 82 41 00  jmp         dword ptr [__imp__IsDebuggerPresent@0]
+_MultiByteToWideChar@24:
+  00413722: FF 25 48 82 41 00  jmp         dword ptr [__imp__MultiByteToWideChar@24]
+_RaiseException@16:
+  00413728: FF 25 44 82 41 00  jmp         dword ptr [__imp__RaiseException@16]
+_lstrlenA@4:
+  0041372E: FF 25 40 82 41 00  jmp         dword ptr [__imp__lstrlenA@4]
+_GetProcAddress@8:
+  00413734: FF 25 3C 82 41 00  jmp         dword ptr [__imp__GetProcAddress@8]
+_LoadLibraryW@4:
+  0041373A: FF 25 38 82 41 00  jmp         dword ptr [__imp__LoadLibraryW@4]
+_SetUnhandledExceptionFilter@4:
+  00413740: FF 25 34 82 41 00  jmp         dword ptr [__imp__SetUnhandledExceptionFilter@4]
+_DecodePointer@4:
+  00413746: FF 25 30 82 41 00  jmp         dword ptr [__imp__DecodePointer@4]
+_QueryPerformanceCounter@4:
+  0041374C: FF 25 2C 82 41 00  jmp         dword ptr [__imp__QueryPerformanceCounter@4]
+_GetTickCount@0:
+  00413752: FF 25 28 82 41 00  jmp         dword ptr [__imp__GetTickCount@0]
+_GetCurrentThreadId@0:
+  00413758: FF 25 24 82 41 00  jmp         dword ptr [__imp__GetCurrentThreadId@0]
+_GetCurrentProcessId@0:
+  0041375E: FF 25 20 82 41 00  jmp         dword ptr [__imp__GetCurrentProcessId@0]
+_GetSystemTimeAsFileTime@4:
+  00413764: FF 25 1C 82 41 00  jmp         dword ptr [__imp__GetSystemTimeAsFileTime@4]
+_HeapFree@12:
+  0041376A: FF 25 18 82 41 00  jmp         dword ptr [__imp__HeapFree@12]
+_HeapAlloc@12:
+  00413770: FF 25 14 82 41 00  jmp         dword ptr [__imp__HeapAlloc@12]
+_GetProcessHeap@0:
+  00413776: FF 25 10 82 41 00  jmp         dword ptr [__imp__GetProcessHeap@0]
+_GetModuleFileNameW@12:
+  0041377C: FF 25 0C 82 41 00  jmp         dword ptr [__imp__GetModuleFileNameW@12]
+_VirtualQuery@12:
+  00413782: FF 25 08 82 41 00  jmp         dword ptr [__imp__VirtualQuery@12]
+_GetModuleHandleW@4:
+  00413788: FF 25 04 82 41 00  jmp         dword ptr [__imp__GetModuleHandleW@4]
+_FreeLibrary@4:
+  0041378E: FF 25 00 82 41 00  jmp         dword ptr [__imp__FreeLibrary@4]
+_TerminateProcess@8:
+  00413794: FF 25 68 82 41 00  jmp         dword ptr [__imp__TerminateProcess@8]
+_GetCurrentProcess@0:
+  0041379A: FF 25 FC 81 41 00  jmp         dword ptr [__imp__GetCurrentProcess@0]
+_UnhandledExceptionFilter@4:
+  004137A0: FF 25 F8 81 41 00  jmp         dword ptr [__imp__UnhandledExceptionFilter@4]
+  004137A6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004137B6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004137C6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004137D6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004137E6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004137F6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413806: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413816: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413826: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413836: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413846: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413856: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413866: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413876: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413886: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413896: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004138A6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004138B6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004138C6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004138D6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004138E6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004138F6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413906: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413916: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413926: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413936: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413946: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413956: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413966: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413976: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413986: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413996: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004139A6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004139B6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004139C6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004139D6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004139E6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004139F6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413A06: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413A16: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413A26: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413A36: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413A46: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413A56: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413A66: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413A76: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413A86: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413A96: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413AA6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413AB6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413AC6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413AD6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413AE6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413AF6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413B06: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413B16: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413B26: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413B36: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413B46: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413B56: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413B66: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413B76: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413B86: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413B96: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413BA6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413BB6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413BC6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413BD6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413BE6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413BF6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413C06: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413C16: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413C26: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413C36: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413C46: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413C56: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413C66: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413C76: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413C86: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413C96: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413CA6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413CB6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413CC6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413CD6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413CE6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413CF6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413D06: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413D16: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413D26: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413D36: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413D46: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413D56: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413D66: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413D76: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413D86: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413D96: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413DA6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413DB6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413DC6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413DD6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413DE6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413DF6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413E06: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413E16: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413E26: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413E36: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413E46: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413E56: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413E66: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413E76: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413E86: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413E96: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413EA6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413EB6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413EC6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413ED6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413EE6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413EF6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413F06: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413F16: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413F26: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413F36: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413F46: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413F56: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413F66: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413F76: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413F86: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413F96: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413FA6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413FB6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413FC6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413FD6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413FE6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00413FF6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414006: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414016: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414026: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414036: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414046: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414056: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414066: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414076: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414086: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414096: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004140A6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004140B6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004140C6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004140D6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004140E6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004140F6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414106: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414116: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414126: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414136: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414146: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414156: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414166: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414176: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414186: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414196: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004141A6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004141B6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004141C6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004141D6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004141E6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004141F6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414206: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414216: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414226: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414236: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414246: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414256: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414266: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414276: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414286: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414296: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004142A6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004142B6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004142C6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004142D6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004142E6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004142F6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414306: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414316: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414326: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414336: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414346: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414356: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414366: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414376: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414386: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414396: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004143A6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004143B6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004143C6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004143D6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004143E6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004143F6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414406: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414416: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414426: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414436: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414446: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414456: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414466: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414476: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414486: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414496: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004144A6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004144B6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004144C6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004144D6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004144E6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004144F6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414506: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414516: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414526: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414536: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414546: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414556: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414566: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414576: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414586: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414596: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004145A6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004145B6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004145C6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004145D6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004145E6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004145F6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414606: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414616: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414626: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414636: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414646: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414656: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414666: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414676: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414686: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  00414696: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004146A6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004146B6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004146C6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004146D6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004146E6: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  004146F6: CC CC CC CC CC CC CC CC CC CC CC 00 00 00 00 00  ллллллллллл.....
+
+  Summary
+
+        1000 .data
+        1000 .idata
+        2000 .rdata
+        1000 .reloc
+        1000 .rsrc
+        4000 .text
+       10000 .textbss

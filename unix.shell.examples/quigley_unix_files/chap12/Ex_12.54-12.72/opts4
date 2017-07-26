@@ -1,0 +1,15 @@
+#!/bin/ksh
+# Program opts4
+# Using getopts -- Fourth try --
+alias USAGE='print "usage: opts4 [-x] filename " >&2'
+while getopts :x: arguments 
+do
+case $arguments in
+     x) print "$OPTARG is the name of the argument ";;
+     :) print "Please enter an argument after the -x option" >&2
+	   	USAGE ;;
+    \?) print "$OPTARG is not a valid option." >&2
+	   	USAGE;;
+esac
+print "$OPTIND" # The number of the next argument to be processed
+done

@@ -1,0 +1,22 @@
+#!/bin/tcsh -f
+# Scriptname: filecheck
+# Usage: filecheck filename
+alias Usage 'echo "    Usage: $0 filename\!*" ; exit 1'
+alias Error 'echo "    Error: \!* "; exit 2'
+set file=$1
+if ( $#argv == 0 ) then
+   Usage
+endif
+if ( ! -e $file ) then
+	Error "$file does not exist"
+endif
+
+if ( -d $file ) then
+   echo "$file is a directory"
+else if (-f $file) then 
+   if ( -rx $file ) then      # nested if construct
+      echo "You have read and execute permission on $file"
+   endif
+else
+   print "$file is neither a plain file nor a directory."
+endif

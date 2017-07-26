@@ -1,0 +1,44 @@
+     31710:	
+     31710:	file=libdl.so.2 [0];  needed by ./driverApp [0]
+     31710:	file=libdl.so.2 [0];  generating link map
+     31710:	  dynamic: 0xb7726ec0  base: 0xb7723000   size: 0x00004078
+     31710:	    entry: 0xb7723a60  phdr: 0xb7723034  phnum:          9
+     31710:	
+     31710:	
+     31710:	file=libdemo1.so [0];  needed by ./driverApp [0]
+     31710:	file=libdemo1.so [0];  generating link map
+     31710:	  dynamic: 0xb7721f20  base: 0xb7720000   size: 0x00002014
+     31710:	    entry: 0xb77203a0  phdr: 0xb7720034  phnum:          7
+     31710:	
+     31710:	
+     31710:	file=libc.so.6 [0];  needed by ./driverApp [0]
+     31710:	file=libc.so.6 [0];  generating link map
+     31710:	  dynamic: 0xb771ad7c  base: 0xb7575000   size: 0x001a9adc
+     31710:	    entry: 0xb758e630  phdr: 0xb7575034  phnum:         10
+     31710:	
+     31710:	
+     31710:	calling init: /lib/i386-linux-gnu/libc.so.6
+     31710:	
+     31710:	
+     31710:	calling init: ../sharedLib1/libdemo1.so
+     31710:	
+     31710:	
+     31710:	calling init: /lib/i386-linux-gnu/libdl.so.2
+     31710:	
+     31710:	
+     31710:	initialize program: ./driverApp
+     31710:	
+     31710:	
+     31710:	transferring control: ./driverApp
+     31710:	
+     31710:	
+     31710:	file=libdemo2.so [0];  dynamically loaded by ./driverApp [0]
+     31710:	file=libdemo2.so [0];  generating link map
+     31710:	  dynamic: 0xb7737f20  base: 0xb7736000   size: 0x00002014
+     31710:	    entry: 0xb77363a0  phdr: 0xb7736034  phnum:          7
+     31710:	
+     31710:	
+     31710:	calling init: ../sharedLib2/libdemo2.so
+     31710:	
+     31710:	opening file=../sharedLib2/libdemo2.so [0]; direct_opencount=1
+     31710:	

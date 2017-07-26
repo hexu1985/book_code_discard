@@ -1,0 +1,13 @@
+#!/bin/ksh
+# Program opts3
+# Using getopts -- Third try --
+while getopts :d options
+do
+	case $options in
+	d) print -R "-d is the ON switch";;
+	+d) print -R "+d is the OFF switch";;
+	\?) print $OPTARG is not a valid option;;
+	esac
+done
+# Need the -R option with print or the shell tries to use -d as a
+# print option

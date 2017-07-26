@@ -1,0 +1,8 @@
+#!/bin/ksh
+# Scriptname: are_you_ok2
+print "Are you ok (y/n) ?"
+read answer
+if [[ "$answer" = [Yy]* ]]          # New-style test
+then
+     print "Glad to hear it."
+fi	

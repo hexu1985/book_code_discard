@@ -1,0 +1,5 @@
+#!/bin/ksh
+for name in $*     # or for name in $@
+do
+	echo Hi $name 
+done

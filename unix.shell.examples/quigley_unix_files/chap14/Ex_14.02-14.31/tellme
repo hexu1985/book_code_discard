@@ -1,0 +1,27 @@
+#!/bin/bash
+# Scriptname: tellme
+# Using the old-style test command
+
+echo -n "How old are you? "
+read age
+if [ $age -lt 0 -o $age -gt 120 ]
+then
+	echo  "Welcome to our planet! "
+	exit 1   
+fi
+if  [ $age -ge 0 -a $age -le 12 ]  
+then
+	echo "A child is a garden of verses"
+elif [ $age -ge 12 -a $age -le 19 ]
+then
+	echo "Rebel without a cause"
+elif [ $age -ge 20 -a  $age -le 29 ]
+then   
+	echo "You got the world by the tail!!"
+elif [ $age -ge  30 -a  $age -le 39 ]
+then
+	echo "Thirty something..."
+
+else
+	echo "Sorry I asked"
+fi

@@ -1,0 +1,6 @@
+#!/bin/bash
+# Scriptname: greet
+for name in $*        # same as for name in $@
+do
+	echo Hi $name  
+done

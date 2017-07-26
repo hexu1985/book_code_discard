@@ -1,0 +1,327 @@
+
+libsimple.so:     file format elf32-i386
+
+
+Disassembly of section .init:
+
+00000444 <_init>:
+ 444:	53                   	push   ebx
+ 445:	83 ec 08             	sub    esp,0x8
+ 448:	e8 00 00 00 00       	call   44d <_init+0x9>
+ 44d:	5b                   	pop    ebx
+ 44e:	81 c3 a7 1b 00 00    	add    ebx,0x1ba7
+ 454:	8b 83 f8 ff ff ff    	mov    eax,DWORD PTR [ebx-0x8]
+ 45a:	85 c0                	test   eax,eax
+ 45c:	74 05                	je     463 <_init+0x1f>
+ 45e:	e8 4d 00 00 00       	call   4b0 <__gmon_start__@plt>
+ 463:	e8 d8 00 00 00       	call   540 <frame_dummy>
+ 468:	e8 93 02 00 00       	call   700 <__do_global_ctors_aux>
+ 46d:	83 c4 08             	add    esp,0x8
+ 470:	5b                   	pop    ebx
+ 471:	c3                   	ret    
+
+Disassembly of section .plt:
+
+00000480 <printf@plt-0x10>:
+ 480:	ff b3 04 00 00 00    	push   DWORD PTR [ebx+0x4]
+ 486:	ff a3 08 00 00 00    	jmp    DWORD PTR [ebx+0x8]
+ 48c:	00 00                	add    BYTE PTR [eax],al
+	...
+
+00000490 <printf@plt>:
+ 490:	ff a3 0c 00 00 00    	jmp    DWORD PTR [ebx+0xc]
+ 496:	68 00 00 00 00       	push   0x0
+ 49b:	e9 e0 ff ff ff       	jmp    480 <_init+0x3c>
+
+000004a0 <__cxa_finalize@plt>:
+ 4a0:	ff a3 10 00 00 00    	jmp    DWORD PTR [ebx+0x10]
+ 4a6:	68 08 00 00 00       	push   0x8
+ 4ab:	e9 d0 ff ff ff       	jmp    480 <_init+0x3c>
+
+000004b0 <__gmon_start__@plt>:
+ 4b0:	ff a3 14 00 00 00    	jmp    DWORD PTR [ebx+0x14]
+ 4b6:	68 10 00 00 00       	push   0x10
+ 4bb:	e9 c0 ff ff ff       	jmp    480 <_init+0x3c>
+
+Disassembly of section .text:
+
+000004c0 <__do_global_dtors_aux>:
+ 4c0:	55                   	push   ebp
+ 4c1:	89 e5                	mov    ebp,esp
+ 4c3:	56                   	push   esi
+ 4c4:	53                   	push   ebx
+ 4c5:	e8 ad 00 00 00       	call   577 <__i686.get_pc_thunk.bx>
+ 4ca:	81 c3 2a 1b 00 00    	add    ebx,0x1b2a
+ 4d0:	83 ec 10             	sub    esp,0x10
+ 4d3:	80 bb 1c 00 00 00 00 	cmp    BYTE PTR [ebx+0x1c],0x0
+ 4da:	75 5d                	jne    539 <__do_global_dtors_aux+0x79>
+ 4dc:	8b 83 f4 ff ff ff    	mov    eax,DWORD PTR [ebx-0xc]
+ 4e2:	85 c0                	test   eax,eax
+ 4e4:	74 0e                	je     4f4 <__do_global_dtors_aux+0x34>
+ 4e6:	8b 83 18 00 00 00    	mov    eax,DWORD PTR [ebx+0x18]
+ 4ec:	89 04 24             	mov    DWORD PTR [esp],eax
+ 4ef:	e8 ac ff ff ff       	call   4a0 <__cxa_finalize@plt>
+ 4f4:	8b 83 20 00 00 00    	mov    eax,DWORD PTR [ebx+0x20]
+ 4fa:	8d b3 1c ff ff ff    	lea    esi,[ebx-0xe4]
+ 500:	8d 93 18 ff ff ff    	lea    edx,[ebx-0xe8]
+ 506:	29 d6                	sub    esi,edx
+ 508:	c1 fe 02             	sar    esi,0x2
+ 50b:	83 ee 01             	sub    esi,0x1
+ 50e:	39 f0                	cmp    eax,esi
+ 510:	73 20                	jae    532 <__do_global_dtors_aux+0x72>
+ 512:	8d b6 00 00 00 00    	lea    esi,[esi+0x0]
+ 518:	83 c0 01             	add    eax,0x1
+ 51b:	89 83 20 00 00 00    	mov    DWORD PTR [ebx+0x20],eax
+ 521:	ff 94 83 18 ff ff ff 	call   DWORD PTR [ebx+eax*4-0xe8]
+ 528:	8b 83 20 00 00 00    	mov    eax,DWORD PTR [ebx+0x20]
+ 52e:	39 f0                	cmp    eax,esi
+ 530:	72 e6                	jb     518 <__do_global_dtors_aux+0x58>
+ 532:	c6 83 1c 00 00 00 01 	mov    BYTE PTR [ebx+0x1c],0x1
+ 539:	83 c4 10             	add    esp,0x10
+ 53c:	5b                   	pop    ebx
+ 53d:	5e                   	pop    esi
+ 53e:	5d                   	pop    ebp
+ 53f:	c3                   	ret    
+
+00000540 <frame_dummy>:
+ 540:	55                   	push   ebp
+ 541:	89 e5                	mov    ebp,esp
+ 543:	53                   	push   ebx
+ 544:	e8 2e 00 00 00       	call   577 <__i686.get_pc_thunk.bx>
+ 549:	81 c3 ab 1a 00 00    	add    ebx,0x1aab
+ 54f:	83 ec 14             	sub    esp,0x14
+ 552:	8b 93 20 ff ff ff    	mov    edx,DWORD PTR [ebx-0xe0]
+ 558:	85 d2                	test   edx,edx
+ 55a:	74 15                	je     571 <frame_dummy+0x31>
+ 55c:	8b 83 fc ff ff ff    	mov    eax,DWORD PTR [ebx-0x4]
+ 562:	85 c0                	test   eax,eax
+ 564:	74 0b                	je     571 <frame_dummy+0x31>
+ 566:	8d 93 20 ff ff ff    	lea    edx,[ebx-0xe0]
+ 56c:	89 14 24             	mov    DWORD PTR [esp],edx
+ 56f:	ff d0                	call   eax
+ 571:	83 c4 14             	add    esp,0x14
+ 574:	5b                   	pop    ebx
+ 575:	5d                   	pop    ebp
+ 576:	c3                   	ret    
+
+00000577 <__i686.get_pc_thunk.bx>:
+ 577:	8b 1c 24             	mov    ebx,DWORD PTR [esp]
+ 57a:	c3                   	ret    
+ 57b:	90                   	nop
+
+0000057c <first_function@LIBSIMPLE_1.0>:
+#include <stdio.h>
+#include "simple.h"
+
+__asm__(".symver first_function_1_0,first_function@LIBSIMPLE_1.0");
+int first_function_1_0(int x)
+{
+ 57c:	55                   	push   ebp
+ 57d:	89 e5                	mov    ebp,esp
+ 57f:	53                   	push   ebx
+ 580:	83 ec 14             	sub    esp,0x14
+ 583:	e8 ef ff ff ff       	call   577 <__i686.get_pc_thunk.bx>
+ 588:	81 c3 6c 1a 00 00    	add    ebx,0x1a6c
+    printf(" lib: %s\n", __FUNCTION__);
+ 58e:	8d 83 5e e7 ff ff    	lea    eax,[ebx-0x18a2]
+ 594:	8d 93 cc e7 ff ff    	lea    edx,[ebx-0x1834]
+ 59a:	89 54 24 04          	mov    DWORD PTR [esp+0x4],edx
+ 59e:	89 04 24             	mov    DWORD PTR [esp],eax
+ 5a1:	e8 ea fe ff ff       	call   490 <printf@plt>
+    return (x+1);
+ 5a6:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+ 5a9:	83 c0 01             	add    eax,0x1
+}
+ 5ac:	83 c4 14             	add    esp,0x14
+ 5af:	5b                   	pop    ebx
+ 5b0:	5d                   	pop    ebp
+ 5b1:	c3                   	ret    
+
+000005b2 <first_function@LIBSIMPLE_2.0>:
+
+__asm__(".symver first_function_2_0,first_function@LIBSIMPLE_2.0");
+int first_function_2_0(int x)
+{
+ 5b2:	55                   	push   ebp
+ 5b3:	89 e5                	mov    ebp,esp
+ 5b5:	53                   	push   ebx
+ 5b6:	83 ec 14             	sub    esp,0x14
+ 5b9:	e8 b9 ff ff ff       	call   577 <__i686.get_pc_thunk.bx>
+ 5be:	81 c3 36 1a 00 00    	add    ebx,0x1a36
+    printf(" lib: %s\n", __FUNCTION__);
+ 5c4:	8d 83 5e e7 ff ff    	lea    eax,[ebx-0x18a2]
+ 5ca:	8d 93 b9 e7 ff ff    	lea    edx,[ebx-0x1847]
+ 5d0:	89 54 24 04          	mov    DWORD PTR [esp+0x4],edx
+ 5d4:	89 04 24             	mov    DWORD PTR [esp],eax
+ 5d7:	e8 b4 fe ff ff       	call   490 <printf@plt>
+    return 1000*(x+1);
+ 5dc:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+ 5df:	83 c0 01             	add    eax,0x1
+ 5e2:	69 c0 e8 03 00 00    	imul   eax,eax,0x3e8
+}
+ 5e8:	83 c4 14             	add    esp,0x14
+ 5eb:	5b                   	pop    ebx
+ 5ec:	5d                   	pop    ebp
+ 5ed:	c3                   	ret    
+
+000005ee <first_function@@LIBSIMPLE_3.0>:
+
+__asm__(".symver first_function_3_0,first_function@@LIBSIMPLE_3.0");
+int first_function_3_0(int x, int normfactor)
+{
+ 5ee:	55                   	push   ebp
+ 5ef:	89 e5                	mov    ebp,esp
+ 5f1:	53                   	push   ebx
+ 5f2:	83 ec 14             	sub    esp,0x14
+ 5f5:	e8 7d ff ff ff       	call   577 <__i686.get_pc_thunk.bx>
+ 5fa:	81 c3 fa 19 00 00    	add    ebx,0x19fa
+    printf(" lib: %s\n", __FUNCTION__);
+ 600:	8d 83 5e e7 ff ff    	lea    eax,[ebx-0x18a2]
+ 606:	8d 93 a6 e7 ff ff    	lea    edx,[ebx-0x185a]
+ 60c:	89 54 24 04          	mov    DWORD PTR [esp+0x4],edx
+ 610:	89 04 24             	mov    DWORD PTR [esp],eax
+ 613:	e8 78 fe ff ff       	call   490 <printf@plt>
+    return normfactor*(x+1);
+ 618:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+ 61b:	83 c0 01             	add    eax,0x1
+ 61e:	0f af 45 0c          	imul   eax,DWORD PTR [ebp+0xc]
+}
+ 622:	83 c4 14             	add    esp,0x14
+ 625:	5b                   	pop    ebx
+ 626:	5d                   	pop    ebp
+ 627:	c3                   	ret    
+
+00000628 <second_function>:
+
+int second_function(int x)
+{
+ 628:	55                   	push   ebp
+ 629:	89 e5                	mov    ebp,esp
+ 62b:	53                   	push   ebx
+ 62c:	83 ec 14             	sub    esp,0x14
+ 62f:	e8 43 ff ff ff       	call   577 <__i686.get_pc_thunk.bx>
+ 634:	81 c3 c0 19 00 00    	add    ebx,0x19c0
+    printf(" lib: %s\n", __FUNCTION__);
+ 63a:	8d 83 5e e7 ff ff    	lea    eax,[ebx-0x18a2]
+ 640:	8d 93 96 e7 ff ff    	lea    edx,[ebx-0x186a]
+ 646:	89 54 24 04          	mov    DWORD PTR [esp+0x4],edx
+ 64a:	89 04 24             	mov    DWORD PTR [esp],eax
+ 64d:	e8 3e fe ff ff       	call   490 <printf@plt>
+    return (x+2);
+ 652:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+ 655:	83 c0 02             	add    eax,0x2
+}
+ 658:	83 c4 14             	add    esp,0x14
+ 65b:	5b                   	pop    ebx
+ 65c:	5d                   	pop    ebp
+ 65d:	c3                   	ret    
+
+0000065e <third_function>:
+
+int third_function(int x)
+{
+ 65e:	55                   	push   ebp
+ 65f:	89 e5                	mov    ebp,esp
+ 661:	53                   	push   ebx
+ 662:	83 ec 14             	sub    esp,0x14
+ 665:	e8 0d ff ff ff       	call   577 <__i686.get_pc_thunk.bx>
+ 66a:	81 c3 8a 19 00 00    	add    ebx,0x198a
+    printf(" lib: %s\n", __FUNCTION__);
+ 670:	8d 83 5e e7 ff ff    	lea    eax,[ebx-0x18a2]
+ 676:	8d 93 87 e7 ff ff    	lea    edx,[ebx-0x1879]
+ 67c:	89 54 24 04          	mov    DWORD PTR [esp+0x4],edx
+ 680:	89 04 24             	mov    DWORD PTR [esp],eax
+ 683:	e8 08 fe ff ff       	call   490 <printf@plt>
+    return (x+3);
+ 688:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+ 68b:	83 c0 03             	add    eax,0x3
+}
+ 68e:	83 c4 14             	add    esp,0x14
+ 691:	5b                   	pop    ebx
+ 692:	5d                   	pop    ebp
+ 693:	c3                   	ret    
+
+00000694 <fourth_function>:
+
+int fourth_function(int x)
+{
+ 694:	55                   	push   ebp
+ 695:	89 e5                	mov    ebp,esp
+ 697:	53                   	push   ebx
+ 698:	83 ec 14             	sub    esp,0x14
+ 69b:	e8 d7 fe ff ff       	call   577 <__i686.get_pc_thunk.bx>
+ 6a0:	81 c3 54 19 00 00    	add    ebx,0x1954
+    printf(" lib: %s\n", __FUNCTION__);
+ 6a6:	8d 83 5e e7 ff ff    	lea    eax,[ebx-0x18a2]
+ 6ac:	8d 93 77 e7 ff ff    	lea    edx,[ebx-0x1889]
+ 6b2:	89 54 24 04          	mov    DWORD PTR [esp+0x4],edx
+ 6b6:	89 04 24             	mov    DWORD PTR [esp],eax
+ 6b9:	e8 d2 fd ff ff       	call   490 <printf@plt>
+    return (x+4);
+ 6be:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+ 6c1:	83 c0 04             	add    eax,0x4
+}
+ 6c4:	83 c4 14             	add    esp,0x14
+ 6c7:	5b                   	pop    ebx
+ 6c8:	5d                   	pop    ebp
+ 6c9:	c3                   	ret    
+
+000006ca <fifth_function>:
+
+int fifth_function(int x)
+{
+ 6ca:	55                   	push   ebp
+ 6cb:	89 e5                	mov    ebp,esp
+ 6cd:	53                   	push   ebx
+ 6ce:	83 ec 14             	sub    esp,0x14
+ 6d1:	e8 a1 fe ff ff       	call   577 <__i686.get_pc_thunk.bx>
+ 6d6:	81 c3 1e 19 00 00    	add    ebx,0x191e
+    printf(" lib: %s\n", __FUNCTION__);
+ 6dc:	8d 83 5e e7 ff ff    	lea    eax,[ebx-0x18a2]
+ 6e2:	8d 93 68 e7 ff ff    	lea    edx,[ebx-0x1898]
+ 6e8:	89 54 24 04          	mov    DWORD PTR [esp+0x4],edx
+ 6ec:	89 04 24             	mov    DWORD PTR [esp],eax
+ 6ef:	e8 9c fd ff ff       	call   490 <printf@plt>
+    return (x+5);
+ 6f4:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+ 6f7:	83 c0 05             	add    eax,0x5
+}
+ 6fa:	83 c4 14             	add    esp,0x14
+ 6fd:	5b                   	pop    ebx
+ 6fe:	5d                   	pop    ebp
+ 6ff:	c3                   	ret    
+
+00000700 <__do_global_ctors_aux>:
+ 700:	55                   	push   ebp
+ 701:	89 e5                	mov    ebp,esp
+ 703:	56                   	push   esi
+ 704:	53                   	push   ebx
+ 705:	e8 6d fe ff ff       	call   577 <__i686.get_pc_thunk.bx>
+ 70a:	81 c3 ea 18 00 00    	add    ebx,0x18ea
+ 710:	8b 83 10 ff ff ff    	mov    eax,DWORD PTR [ebx-0xf0]
+ 716:	83 f8 ff             	cmp    eax,0xffffffff
+ 719:	74 19                	je     734 <__do_global_ctors_aux+0x34>
+ 71b:	8d b3 10 ff ff ff    	lea    esi,[ebx-0xf0]
+ 721:	8d b4 26 00 00 00 00 	lea    esi,[esi+eiz*1+0x0]
+ 728:	83 ee 04             	sub    esi,0x4
+ 72b:	ff d0                	call   eax
+ 72d:	8b 06                	mov    eax,DWORD PTR [esi]
+ 72f:	83 f8 ff             	cmp    eax,0xffffffff
+ 732:	75 f4                	jne    728 <__do_global_ctors_aux+0x28>
+ 734:	5b                   	pop    ebx
+ 735:	5e                   	pop    esi
+ 736:	5d                   	pop    ebp
+ 737:	c3                   	ret    
+
+Disassembly of section .fini:
+
+00000738 <_fini>:
+ 738:	53                   	push   ebx
+ 739:	83 ec 08             	sub    esp,0x8
+ 73c:	e8 00 00 00 00       	call   741 <_fini+0x9>
+ 741:	5b                   	pop    ebx
+ 742:	81 c3 b3 18 00 00    	add    ebx,0x18b3
+ 748:	e8 73 fd ff ff       	call   4c0 <__do_global_dtors_aux>
+ 74d:	83 c4 08             	add    esp,0x8
+ 750:	5b                   	pop    ebx
+ 751:	c3                   	ret    

@@ -1,0 +1,4 @@
+LIBRARY VERSIONEDDLL
+
+EXPORTS
+   DllGetVersion   @1

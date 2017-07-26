@@ -1,0 +1,5 @@
+LIBRARY DLL_LINKEDWITHORIGINALVERSION
+
+EXPORTS
+    shlib_original_function @1
+  

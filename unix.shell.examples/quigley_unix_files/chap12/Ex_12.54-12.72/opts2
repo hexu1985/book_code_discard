@@ -1,0 +1,11 @@
+#!/bin/ksh
+# Program opts2
+# Using getopts -- Second try --
+while getopts :xy options
+do
+     case $options in
+     x) print "you entered -x as an option";;
+     y) print "you entered -y as an option";;
+     \?) print $OPTARG is not a valid option 1>&2;;
+     esac
+done

@@ -1,0 +1,280 @@
+
+libshlib.so:     file format elf32-i386
+
+
+Disassembly of section .init:
+
+00000428 <_init>:
+ 428:	53                   	push   ebx
+ 429:	83 ec 08             	sub    esp,0x8
+ 42c:	e8 00 00 00 00       	call   431 <_init+0x9>
+ 431:	5b                   	pop    ebx
+ 432:	81 c3 c3 1b 00 00    	add    ebx,0x1bc3
+ 438:	8b 83 f8 ff ff ff    	mov    eax,DWORD PTR [ebx-0x8]
+ 43e:	85 c0                	test   eax,eax
+ 440:	74 05                	je     447 <_init+0x1f>
+ 442:	e8 39 00 00 00       	call   480 <__gmon_start__@plt>
+ 447:	e8 c4 00 00 00       	call   510 <frame_dummy>
+ 44c:	e8 df 01 00 00       	call   630 <__do_global_ctors_aux>
+ 451:	83 c4 08             	add    esp,0x8
+ 454:	5b                   	pop    ebx
+ 455:	c3                   	ret    
+
+Disassembly of section .plt:
+
+00000460 <__cxa_finalize@plt-0x10>:
+ 460:	ff b3 04 00 00 00    	push   DWORD PTR [ebx+0x4]
+ 466:	ff a3 08 00 00 00    	jmp    DWORD PTR [ebx+0x8]
+ 46c:	00 00                	add    BYTE PTR [eax],al
+	...
+
+00000470 <__cxa_finalize@plt>:
+ 470:	ff a3 0c 00 00 00    	jmp    DWORD PTR [ebx+0xc]
+ 476:	68 00 00 00 00       	push   0x0
+ 47b:	e9 e0 ff ff ff       	jmp    460 <_init+0x38>
+
+00000480 <__gmon_start__@plt>:
+ 480:	ff a3 10 00 00 00    	jmp    DWORD PTR [ebx+0x10]
+ 486:	68 08 00 00 00       	push   0x8
+ 48b:	e9 d0 ff ff ff       	jmp    460 <_init+0x38>
+
+Disassembly of section .text:
+
+00000490 <__do_global_dtors_aux>:
+ 490:	55                   	push   ebp
+ 491:	89 e5                	mov    ebp,esp
+ 493:	56                   	push   esi
+ 494:	53                   	push   ebx
+ 495:	e8 ad 00 00 00       	call   547 <__i686.get_pc_thunk.bx>
+ 49a:	81 c3 5a 1b 00 00    	add    ebx,0x1b5a
+ 4a0:	83 ec 10             	sub    esp,0x10
+ 4a3:	80 bb 20 00 00 00 00 	cmp    BYTE PTR [ebx+0x20],0x0
+ 4aa:	75 5d                	jne    509 <__do_global_dtors_aux+0x79>
+ 4ac:	8b 83 f4 ff ff ff    	mov    eax,DWORD PTR [ebx-0xc]
+ 4b2:	85 c0                	test   eax,eax
+ 4b4:	74 0e                	je     4c4 <__do_global_dtors_aux+0x34>
+ 4b6:	8b 83 14 00 00 00    	mov    eax,DWORD PTR [ebx+0x14]
+ 4bc:	89 04 24             	mov    DWORD PTR [esp],eax
+ 4bf:	e8 ac ff ff ff       	call   470 <__cxa_finalize@plt>
+ 4c4:	8b 83 24 00 00 00    	mov    eax,DWORD PTR [ebx+0x24]
+ 4ca:	8d b3 1c ff ff ff    	lea    esi,[ebx-0xe4]
+ 4d0:	8d 93 18 ff ff ff    	lea    edx,[ebx-0xe8]
+ 4d6:	29 d6                	sub    esi,edx
+ 4d8:	c1 fe 02             	sar    esi,0x2
+ 4db:	83 ee 01             	sub    esi,0x1
+ 4de:	39 f0                	cmp    eax,esi
+ 4e0:	73 20                	jae    502 <__do_global_dtors_aux+0x72>
+ 4e2:	8d b6 00 00 00 00    	lea    esi,[esi+0x0]
+ 4e8:	83 c0 01             	add    eax,0x1
+ 4eb:	89 83 24 00 00 00    	mov    DWORD PTR [ebx+0x24],eax
+ 4f1:	ff 94 83 18 ff ff ff 	call   DWORD PTR [ebx+eax*4-0xe8]
+ 4f8:	8b 83 24 00 00 00    	mov    eax,DWORD PTR [ebx+0x24]
+ 4fe:	39 f0                	cmp    eax,esi
+ 500:	72 e6                	jb     4e8 <__do_global_dtors_aux+0x58>
+ 502:	c6 83 20 00 00 00 01 	mov    BYTE PTR [ebx+0x20],0x1
+ 509:	83 c4 10             	add    esp,0x10
+ 50c:	5b                   	pop    ebx
+ 50d:	5e                   	pop    esi
+ 50e:	5d                   	pop    ebp
+ 50f:	c3                   	ret    
+
+00000510 <frame_dummy>:
+ 510:	55                   	push   ebp
+ 511:	89 e5                	mov    ebp,esp
+ 513:	53                   	push   ebx
+ 514:	e8 2e 00 00 00       	call   547 <__i686.get_pc_thunk.bx>
+ 519:	81 c3 db 1a 00 00    	add    ebx,0x1adb
+ 51f:	83 ec 14             	sub    esp,0x14
+ 522:	8b 93 20 ff ff ff    	mov    edx,DWORD PTR [ebx-0xe0]
+ 528:	85 d2                	test   edx,edx
+ 52a:	74 15                	je     541 <frame_dummy+0x31>
+ 52c:	8b 83 fc ff ff ff    	mov    eax,DWORD PTR [ebx-0x4]
+ 532:	85 c0                	test   eax,eax
+ 534:	74 0b                	je     541 <frame_dummy+0x31>
+ 536:	8d 93 20 ff ff ff    	lea    edx,[ebx-0xe0]
+ 53c:	89 14 24             	mov    DWORD PTR [esp],edx
+ 53f:	ff d0                	call   eax
+ 541:	83 c4 14             	add    esp,0x14
+ 544:	5b                   	pop    ebx
+ 545:	5d                   	pop    ebp
+ 546:	c3                   	ret    
+
+00000547 <__i686.get_pc_thunk.bx>:
+ 547:	8b 1c 24             	mov    ebx,DWORD PTR [esp]
+ 54a:	c3                   	ret    
+ 54b:	90                   	nop
+
+0000054c <shlib_static_function>:
+
+int        nShlibNonStaticVariable     = 2;
+static int nshlibStaticVariable 		  = 3;
+
+static int shlib_static_function(int x, int y)
+{
+ 54c:	55                   	push   ebp
+ 54d:	89 e5                	mov    ebp,esp
+ 54f:	83 ec 10             	sub    esp,0x10
+	int retValue = x + y;
+ 552:	8b 45 0c             	mov    eax,DWORD PTR [ebp+0xc]
+ 555:	8b 55 08             	mov    edx,DWORD PTR [ebp+0x8]
+ 558:	01 d0                	add    eax,edx
+ 55a:	89 45 fc             	mov    DWORD PTR [ebp-0x4],eax
+	retValue    *= nshlibStaticVariable;
+ 55d:	a1 10 20 00 00       	mov    eax,ds:0x2010
+ 562:	8b 55 fc             	mov    edx,DWORD PTR [ebp-0x4]
+ 565:	0f af c2             	imul   eax,edx
+ 568:	89 45 fc             	mov    DWORD PTR [ebp-0x4],eax
+	return retValue;
+ 56b:	8b 45 fc             	mov    eax,DWORD PTR [ebp-0x4]
+}
+ 56e:	c9                   	leave  
+ 56f:	c3                   	ret    
+
+00000570 <shlib_nonstatic_hidden_function>:
+
+int DO_NOT_EXPORT shlib_nonstatic_hidden_function(int x, int y)
+{
+ 570:	55                   	push   ebp
+ 571:	89 e5                	mov    ebp,esp
+ 573:	83 ec 18             	sub    esp,0x18
+	int result = shlib_static_function(x, y);
+ 576:	8b 45 0c             	mov    eax,DWORD PTR [ebp+0xc]
+ 579:	89 44 24 04          	mov    DWORD PTR [esp+0x4],eax
+ 57d:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+ 580:	89 04 24             	mov    DWORD PTR [esp],eax
+ 583:	e8 c4 ff ff ff       	call   54c <shlib_static_function>
+ 588:	89 45 fc             	mov    DWORD PTR [ebp-0x4],eax
+	return result;
+ 58b:	8b 45 fc             	mov    eax,DWORD PTR [ebp-0x4]
+}
+ 58e:	c9                   	leave  
+ 58f:	c3                   	ret    
+
+00000590 <shlib_nonstatic_exported_function>:
+
+int shlib_nonstatic_exported_function(int x, int y)
+{
+ 590:	55                   	push   ebp
+ 591:	89 e5                	mov    ebp,esp
+ 593:	83 ec 18             	sub    esp,0x18
+	int result = 2*shlib_static_function(x, y);
+ 596:	8b 45 0c             	mov    eax,DWORD PTR [ebp+0xc]
+ 599:	89 44 24 04          	mov    DWORD PTR [esp+0x4],eax
+ 59d:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+ 5a0:	89 04 24             	mov    DWORD PTR [esp],eax
+ 5a3:	e8 a4 ff ff ff       	call   54c <shlib_static_function>
+ 5a8:	01 c0                	add    eax,eax
+ 5aa:	89 45 fc             	mov    DWORD PTR [ebp-0x4],eax
+	// causes problem when compiled on 64-bit OS
+	// Compiler flag -mcmodel=large fixes the problem
+	result    *= nShlibNonStaticVariable; 
+ 5ad:	a1 00 00 00 00       	mov    eax,ds:0x0
+ 5b2:	8b 55 fc             	mov    edx,DWORD PTR [ebp-0x4]
+ 5b5:	0f af c2             	imul   eax,edx
+ 5b8:	89 45 fc             	mov    DWORD PTR [ebp-0x4],eax
+	return result;
+ 5bb:	8b 45 fc             	mov    eax,DWORD PTR [ebp-0x4]
+}
+ 5be:	c9                   	leave  
+ 5bf:	c3                   	ret    
+
+000005c0 <shlib_abi_initialize>:
+
+int shlib_abi_initialize(int x, int y)
+{
+ 5c0:	55                   	push   ebp
+ 5c1:	89 e5                	mov    ebp,esp
+ 5c3:	83 ec 18             	sub    esp,0x18
+	int first = shlib_nonstatic_hidden_function(x, y);
+ 5c6:	8b 45 0c             	mov    eax,DWORD PTR [ebp+0xc]
+ 5c9:	89 44 24 04          	mov    DWORD PTR [esp+0x4],eax
+ 5cd:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+ 5d0:	89 04 24             	mov    DWORD PTR [esp],eax
+ 5d3:	e8 98 ff ff ff       	call   570 <shlib_nonstatic_hidden_function>
+ 5d8:	89 45 f8             	mov    DWORD PTR [ebp-0x8],eax
+	int second = shlib_nonstatic_exported_function(x, y);
+ 5db:	8b 45 0c             	mov    eax,DWORD PTR [ebp+0xc]
+ 5de:	89 44 24 04          	mov    DWORD PTR [esp+0x4],eax
+ 5e2:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+ 5e5:	89 04 24             	mov    DWORD PTR [esp],eax
+ 5e8:	e8 fc ff ff ff       	call   5e9 <shlib_abi_initialize+0x29>
+ 5ed:	89 45 fc             	mov    DWORD PTR [ebp-0x4],eax
+	nShlibExportedVariable = first + second;
+ 5f0:	8b 45 fc             	mov    eax,DWORD PTR [ebp-0x4]
+ 5f3:	8b 55 f8             	mov    edx,DWORD PTR [ebp-0x8]
+ 5f6:	01 d0                	add    eax,edx
+ 5f8:	a3 00 00 00 00       	mov    ds:0x0,eax
+	return 0;
+ 5fd:	b8 00 00 00 00       	mov    eax,0x0
+}
+ 602:	c9                   	leave  
+ 603:	c3                   	ret    
+
+00000604 <shlib_abi_uninitialize>:
+
+int shlib_abi_uninitialize(void)
+{
+ 604:	55                   	push   ebp
+ 605:	89 e5                	mov    ebp,esp
+	return 0;
+ 607:	b8 00 00 00 00       	mov    eax,0x0
+}
+ 60c:	5d                   	pop    ebp
+ 60d:	c3                   	ret    
+
+0000060e <shlib_abi_reinitialize>:
+
+int shlib_abi_reinitialize(int x, int y)
+{
+ 60e:	55                   	push   ebp
+ 60f:	89 e5                	mov    ebp,esp
+ 611:	83 ec 08             	sub    esp,0x8
+	shlib_abi_uninitialize();
+ 614:	e8 fc ff ff ff       	call   615 <shlib_abi_reinitialize+0x7>
+	return shlib_abi_initialize(x, y);
+ 619:	8b 45 0c             	mov    eax,DWORD PTR [ebp+0xc]
+ 61c:	89 44 24 04          	mov    DWORD PTR [esp+0x4],eax
+ 620:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+ 623:	89 04 24             	mov    DWORD PTR [esp],eax
+ 626:	e8 fc ff ff ff       	call   627 <shlib_abi_reinitialize+0x19>
+}
+ 62b:	c9                   	leave  
+ 62c:	c3                   	ret    
+ 62d:	90                   	nop
+ 62e:	90                   	nop
+ 62f:	90                   	nop
+
+00000630 <__do_global_ctors_aux>:
+ 630:	55                   	push   ebp
+ 631:	89 e5                	mov    ebp,esp
+ 633:	56                   	push   esi
+ 634:	53                   	push   ebx
+ 635:	e8 0d ff ff ff       	call   547 <__i686.get_pc_thunk.bx>
+ 63a:	81 c3 ba 19 00 00    	add    ebx,0x19ba
+ 640:	8b 83 10 ff ff ff    	mov    eax,DWORD PTR [ebx-0xf0]
+ 646:	83 f8 ff             	cmp    eax,0xffffffff
+ 649:	74 19                	je     664 <__do_global_ctors_aux+0x34>
+ 64b:	8d b3 10 ff ff ff    	lea    esi,[ebx-0xf0]
+ 651:	8d b4 26 00 00 00 00 	lea    esi,[esi+eiz*1+0x0]
+ 658:	83 ee 04             	sub    esi,0x4
+ 65b:	ff d0                	call   eax
+ 65d:	8b 06                	mov    eax,DWORD PTR [esi]
+ 65f:	83 f8 ff             	cmp    eax,0xffffffff
+ 662:	75 f4                	jne    658 <__do_global_ctors_aux+0x28>
+ 664:	5b                   	pop    ebx
+ 665:	5e                   	pop    esi
+ 666:	5d                   	pop    ebp
+ 667:	c3                   	ret    
+
+Disassembly of section .fini:
+
+00000668 <_fini>:
+ 668:	53                   	push   ebx
+ 669:	83 ec 08             	sub    esp,0x8
+ 66c:	e8 00 00 00 00       	call   671 <_fini+0x9>
+ 671:	5b                   	pop    ebx
+ 672:	81 c3 83 19 00 00    	add    ebx,0x1983
+ 678:	e8 13 fe ff ff       	call   490 <__do_global_dtors_aux>
+ 67d:	83 c4 08             	add    esp,0x8
+ 680:	5b                   	pop    ebx
+ 681:	c3                   	ret    

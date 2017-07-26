@@ -1,0 +1,2 @@
+在pro文件加一行
+QT += core gui widgets
