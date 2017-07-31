@@ -66,5 +66,6 @@ UDPecho(const char *host, const char *service)
 			errexit("recv failed: error %d\n",
 					GetLastError());
 		fputs(buf, stdout);
+        fflush(stdout);
 	}
 }

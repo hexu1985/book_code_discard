@@ -70,6 +70,7 @@ TCPecho(const char *host, const char *service)
 					GetLastError());
 		}
 		fputs(buf, stdout);
+        fflush(stdout);
 	}
 	closesocket(s);
 }
