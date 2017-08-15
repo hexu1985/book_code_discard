@@ -14,7 +14,7 @@ OTHER = superd
 DEFS = #-D_BSD_SOURCE
 CFLAGS = -W -pedantic -ansi -g ${DEFS} ${INCLUDE}
 
-LIBS = -lwsock32
+LIBS = -lwsock32 -lws2_32
 
 HDR =
 CSRC = TCPecho.c TCPdtc.c TCPtecho.c UDPecho.c UDPtime.c
