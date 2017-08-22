@@ -121,17 +121,16 @@ void Node::mouseDoubleClickEvent(QGraphicsSceneMouseEvent *event)
 QVariant Node::itemChange(GraphicsItemChange change,
                           const QVariant &value)
 {
-    if (change == ItemPositionHasChanged) {
-        foreach (Link *link, myLinks)
-            link->trackNodes();
-    }
+    foreach (Link *link, myLinks)
+        link->trackNodes();
     return QGraphicsItem::itemChange(change, value);
 }
 
 QRectF Node::outlineRect() const
 {
     const int Padding = 8;
-    QFontMetricsF metrics = static_cast<QFontMetricsF>(qApp->font());
+    //QFontMetricsF metrics = qApp->font();
+    QFontMetricsF metrics(qApp->font());
     QRectF rect = metrics.boundingRect(myText);
     rect.adjust(-Padding, -Padding, +Padding, +Padding);
     rect.translate(-rect.center());
