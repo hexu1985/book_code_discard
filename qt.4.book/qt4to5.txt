@@ -1,2 +1,3 @@
-在pro文件加一行
+1) 在pro文件加一行
 QT += core gui widgets
+2) 修改源文件将#include <QtGui>替换成#include <QtWidgets>
