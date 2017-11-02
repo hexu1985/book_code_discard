@@ -19,10 +19,10 @@ int main ()
         cout.imbue(locG);
         cout << showbase;
         // use double as monetary value (use local symbol)
-        mpG.put (cout, false, cout, ’ ’, 12345.678);
+        mpG.put (cout, false, cout, ' ', 12345.678);
         cout << endl;
         // use string as monetary value (use international symbol)
-        mpG.put (cout, true, cout, ’ ’, "12345.678");
+        mpG.put (cout, true, cout, ' ', "12345.678");
         cout << endl;
     }
     catch (const std::exception& e) {
