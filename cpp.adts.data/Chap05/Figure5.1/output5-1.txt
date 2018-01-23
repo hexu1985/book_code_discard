@@ -1,0 +1,4 @@
+
+--> There were 10 values
+    ranging from 44 to 100
+    and their average is 77.5

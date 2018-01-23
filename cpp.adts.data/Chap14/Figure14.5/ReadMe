@@ -1,0 +1,2 @@
+NOTE:  The push() function in LStack.h must be declared to be virtual
+for the program in Figure 14.5 to work correctly.
