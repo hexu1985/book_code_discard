@@ -1,16 +1,9 @@
 #include <iostream>
+#include "common.h"
 
 using namespace std;
 
 static const int N = 10;
-
-void print(int *id, int n, int p, int q)
-{
-    cout << p << " " << q << "    ";
-    for (int i = 0; i < N; i++)
-        cout << id[i] << " ";
-    cout << endl;
-}
 
 int main()
 {
@@ -21,13 +14,15 @@ int main()
     while (cin >> p >> q) { 
         int t = id[p];
         if (t == id[q]) {
-            print(id, N, p, q);
+            cout << p << " " << q << "    ";
+            print(id, N);
             continue;
         }
         for (i = 0; i < N; i++)
             if (id[i] == t) id[i] = id[q];
 
-        print(id, N, p, q);
+        cout << p << " " << q << "    ";
+        print(id, N);
     }
 }
 

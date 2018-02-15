@@ -1,4 +1,5 @@
 #include <iostream>
+#include "common.h"
 
 using namespace std;
 
@@ -17,9 +18,7 @@ int main()
             if (id[i] == t) id[i] = id[q];
 
         cout << p << " " << q << "    ";
-        for (i = 0; i < N; i++)
-            cout << id[i] << " ";
-        cout << endl;
+        print(id, N);
     }
 }
 
