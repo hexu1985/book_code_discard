@@ -27,7 +27,7 @@
 
 IplImage* doPyrDown(
   IplImage* in,
-  int       filter = IPL_GAUSSIAN_5x5)
+  int       filter = CV_GAUSSIAN_5x5/* IPL_GAUSSIAN_5x5 */)
 {
 
     // Best to make sure input image is divisible by two.
