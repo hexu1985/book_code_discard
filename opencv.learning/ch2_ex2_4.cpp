@@ -48,7 +48,7 @@ void example2_4( IplImage* image )
     // Do the smoothing
     //
     cvSmooth( image, out, CV_GAUSSIAN, 5,5 );
-    cvSmooth( out, out, CV_GAUSSIAN, 5, 5);
+//    cvSmooth( out, out, CV_GAUSSIAN, 5, 5);
     
     // Show the smoothed image in the output window
     //
@@ -69,8 +69,8 @@ void example2_4( IplImage* image )
 int main( int argc, char** argv )
 {
   IplImage* img = cvLoadImage( argv[1] );
-  cvNamedWindow("Example1", CV_WINDOW_AUTOSIZE );
-  cvShowImage("Example1", img );
+//  cvNamedWindow("Example1", CV_WINDOW_AUTOSIZE );
+//  cvShowImage("Example1", img );
   example2_4( img );
 //  cvWaitKey(0);
   cvReleaseImage( &img );
