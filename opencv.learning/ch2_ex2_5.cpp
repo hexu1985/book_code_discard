@@ -46,7 +46,7 @@ IplImage* doPyrDown(
 int main( int argc, char** argv )
 {
   IplImage* img = cvLoadImage( argv[1] );
-  IplImage* img2 = cvCreateImage( cvSize( img->width/2,img->height/2 ), img->depth, img->nChannels);
+  IplImage* img2; // = cvCreateImage( cvSize( img->width/2,img->height/2 ), img->depth, img->nChannels);
   cvNamedWindow("Example1", CV_WINDOW_AUTOSIZE );
   cvNamedWindow("Example2", CV_WINDOW_AUTOSIZE );
   cvShowImage("Example1", img );
