@@ -26,41 +26,36 @@
 
 using namespace cv;
 
-void example2_4( Mat &image )
+Mat doPyrDown(
+  Mat in,
+  int       filter = CV_GAUSSIAN_5x5/* IPL_GAUSSIAN_5x5 */)
 {
-    // Create some windows to show the input
-    // and output images in.
-    //
-    namedWindow( "Example2_4-in", CV_WINDOW_AUTOSIZE );
-    namedWindow( "Example2_4-out", CV_WINDOW_AUTOSIZE );
-    
-    // Create a window to show our input image
-    //
-    imshow( "Example2_4-in", image );
-    
-    // Create an image to hold the smoothed output
-    //
-    Mat out( image.size(), CV_8UC3 );
 
-    // Do the smoothing
+    Size in_size = in.size();
+    // Best to make sure input image is divisible by two.
     //
-    GaussianBlur( image, out, Size(5,5), 0 );
+    assert( in_size.width%2 == 0 && in_size.height%2 == 0 );
 
-    // Show the smoothed image in the output window
-    //
-    imshow( "Example2_4-out", out );
-    
-    // Wait for the user to hit a key, then clean up the windows
-    //
-    waitKey( 0 ); 
-    destroyWindow("Example2_4-in" );
-    destroyWindow("Example2_4-out" );
-    
-}
+    Mat out = Mat( 
+        Size( in_size.width/2, in_size.height/2 ),
+        in.type()
+    );
+    pyrDown( in, out );
+    return( out );
+};
 
 int main( int argc, char** argv )
 {
   Mat img = imread( argv[1] );
-  example2_4( img );
-}
+  Mat img2; // = cvCreateImage( cvSize( img->width/2,img->height/2 ), img->depth, img->nChannels);
+  namedWindow( "Example1", CV_WINDOW_AUTOSIZE );
+  namedWindow( "Example2", CV_WINDOW_AUTOSIZE );
+  imshow( "Example1", img );
+  img2 = doPyrDown( img );
+  imshow( "Example2", img2 );
 
+  waitKey( 0 );
+
+  destroyWindow("Example1");
+  destroyWindow("Example2");
+}
