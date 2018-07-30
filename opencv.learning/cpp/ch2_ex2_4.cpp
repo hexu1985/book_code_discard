@@ -26,15 +26,41 @@
 
 using namespace cv;
 
-int main( int argc, char** argv ) { 
-    namedWindow( "Example2", CV_WINDOW_AUTOSIZE );
-    VideoCapture capture( argv[1] );
+void example2_4(Mat &image )
+{
+    // Create some windows to show the input
+    // and output images in.
+    //
+    namedWindow( "Example2_4-in", CV_WINDOW_AUTOSIZE );
+    namedWindow( "Example2_4-out", CV_WINDOW_AUTOSIZE );
+    
+    // Create a window to show our input image
+    //
+    imshow( "Example2_4-in", image );
+    
+    // Create an image to hold the smoothed output
+    //
+    Mat out( image.size(), CV_8UC3 );
 
-    Mat frame;
-    while(capture.read(frame)) {
-        imshow( "Example2", frame );
-        char c = waitKey(33);
-        if( c == 27 ) break;
-    }
-    destroyWindow( "Example2" );
+    // Do the smoothing
+    //
+    GaussianBlur( image, out, Size(5,5), 0 );
+
+    // Show the smoothed image in the output window
+    //
+    imshow( "Example2_4-out", out );
+    
+    // Wait for the user to hit a key, then clean up the windows
+    //
+    waitKey( 0 ); 
+    destroyWindow("Example2_4-in" );
+    destroyWindow("Example2_4-out" );
+    
 }
+
+int main( int argc, char** argv )
+{
+  Mat img = imread( argv[1] );
+  example2_4( img );
+}
+
