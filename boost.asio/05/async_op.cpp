@@ -3,8 +3,9 @@
 #include <stdio.h>
 #endif
 
-
+#include <fstream>
 #include <string>
+#include <iostream>
 #include <boost/thread.hpp>
 #include <boost/bind.hpp>
 #include <boost/asio.hpp>
@@ -81,6 +82,7 @@ private:
 };
 
 size_t checksum = 0;
+#ifdef WIN32
 boost::system::error_code compute_file_checksum(std::string file_name) {
     HANDLE file = ::CreateFile(file_name.c_str(), GENERIC_READ, 0, 0, 
         OPEN_ALWAYS, FILE_ATTRIBUTE_NORMAL | FILE_FLAG_OVERLAPPED, 0);
@@ -98,6 +100,21 @@ boost::system::error_code compute_file_checksum(std::string file_name) {
     }
     return boost::system::error_code(0, boost::system::generic_category());
 }
+#else
+boost::system::error_code compute_file_checksum(std::string file_name) {
+    std::ifstream file(file_name);
+    long buff[1024];
+    checksum = 0;
+    size_t bytes = 0;
+    while ( (bytes = file.readsome((char *) buff, sizeof(buff))) > 0) {
+        bytes /= sizeof(long);
+        for ( size_t i = 0; i < bytes; ++i)
+            checksum += buff[i];
+    }
+    return boost::system::error_code(0, boost::system::generic_category());
+}
+#endif
+
 void on_checksum(std::string file_name, boost::system::error_code) {
     std::cout << "checksum for " << file_name << "=" << checksum << std::endl;
 }

@@ -3,8 +3,7 @@
 #include <stdio.h>
 #endif
 
-
-
+#include <iostream>
 #include <boost/thread.hpp>
 #include <boost/bind.hpp>
 #include <boost/asio.hpp>
