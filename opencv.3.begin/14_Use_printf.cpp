@@ -8,10 +8,11 @@
 //		2014年12月 Revised by @浅墨_毛星云
 //------------------------------------------------------------------------------------------------
 
+#include <stdio.h>
 #include <opencv2/opencv.hpp>
 using namespace cv;
 
-void main( )
+int main( )
 {
 	int a=66,b=68;
 	printf("\n\t%d %d\n",a,b);//输出十进制整型

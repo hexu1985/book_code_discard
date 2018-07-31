@@ -206,9 +206,9 @@ int main( int argc, const char** argv )
 					cvtColor( backproj, image, COLOR_GRAY2BGR );
 
 				//此句代码的OpenCV3版为：
-				ellipse( image, trackBox, Scalar(0,0,255), 3, LINE_AA );
+				//ellipse( image, trackBox, Scalar(0,0,255), 3, LINE_AA );
 				//此句代码的OpenCV2版为：
-				//ellipse( image, trackBox, Scalar(0,0,255), 3, CV_AA );
+				ellipse( image, trackBox, Scalar(0,0,255), 3, CV_AA );
 
 			}
 		}
